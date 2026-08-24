@@ -1,0 +1,247 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "_id_",
+      "display": "ID",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "_sort_",
+      "display": "排序",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10",
+      "type": "string",
+      "name": "_name_",
+      "display": "名称",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x18",
+      "type": "long",
+      "name": "_flag_",
+      "display": "标志位",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x20",
+      "type": "bool",
+      "name": "_new_",
+      "display": "新发现",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x21",
+      "type": "bool",
+      "name": "_read_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "img_",
+      "display": "图片",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "remakeTargetFoodType_",
+      "display": "改良书类型",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x30",
+      "type": "int[]",
+      "name": "param_",
+      "display": "属性",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x34",
+      "type": "int[]",
+      "name": "addParam_",
+      "display": "额外属性",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "shopMoney_",
+      "display": "商店金额",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "cost_",
+      "display": "成本",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "rankCost_",
+      "display": "rankCost",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "sellMoney_",
+      "display": "出售金钱",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "sellPoint_",
+      "display": "出售点数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x4C",
+      "type": "string",
+      "name": "explain_",
+      "display": "说明",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "initHave_",
+      "display": "初始拥有",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "search_",
+      "display": "search",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "state_",
+      "display": "已发现",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "shopStock_",
+      "display": "商店库存",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "level_",
+      "display": "等级",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "exp_",
+      "display": "经验值",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x68",
+      "type": "int[]",
+      "name": "stock_",
+      "display": "库存",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x6C",
+      "type": "int[]",
+      "name": "addStock_",
+      "display": "addStock",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x70",
+      "type": "bool[]",
+      "name": "isFindRank_",
+      "display": "已发现等级",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x74",
+      "type": "bool",
+      "name": "new_",
+      "display": "新发现",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x75",
+      "type": "bool",
+      "name": "shopNew_",
+      "display": "商店新标记",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    }
+  ]
+}

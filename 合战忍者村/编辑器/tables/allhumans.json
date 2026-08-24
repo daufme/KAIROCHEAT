@@ -1,0 +1,16 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": ["0x10B6278", "0x5C", "0x0", "0xB0", "0x10"],
+  "mode": "array",
+  "category": {
+    "field": "type_",
+	"names": {
+      "0": "村民",
+	  "1": "旅行者",
+	  "2": "动物"
+    }
+  },
+  "id_field": "characterIndex_",
+  "fields_file": "Human_fields.json"
+}

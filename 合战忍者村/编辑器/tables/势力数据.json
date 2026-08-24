@@ -1,0 +1,19 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": ["0x10B6278", "0x5C", "0x0", "0x114"],
+  "mode": "array",
+    "category": {
+    "field": "type_",
+	"names": {
+		"0":"初始村庄",
+		"1":"大名",
+		"2":"动物",
+		"3":"演习场",
+		"4":"独立势力",
+		"5":"德川"
+    }
+  },
+  "id_field": "name_",
+  "fields_file": "LordData_fields.json"
+}

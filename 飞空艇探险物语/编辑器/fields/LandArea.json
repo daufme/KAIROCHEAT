@@ -1,0 +1,144 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x18",
+      "type": "string",
+      "name": "tag_",
+      "display": "标签",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "iconU_",
+      "display": "iconU",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "iconV_",
+      "display": "iconV",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "bool",
+      "name": "firstOpen_",
+      "display": "firstOpen",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "useStamina_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "length_",
+      "display": "length",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "enemyLv_",
+      "display": "敌人等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "enemyInterval_",
+      "display": "enemyInterval",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int[]",
+      "name": "enemyAppearNum_",
+      "display": "敌人数出现数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int[][]",
+      "name": "enemyTable_",
+      "display": "敌人表",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "arriveEvent_",
+      "display": "到达事件",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "bossGroup_",
+      "display": "Boss组",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int[]",
+      "name": "tableAdd_",
+      "display": "tableAdd",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "clearEvent_",
+      "display": "清除事件",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "XInt",
+      "name": "questScore_",
+      "display": "任务分数",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "state_",
+      "display": "状态",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "deathNum_",
+      "display": "死亡数",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "bool",
+      "name": "isBossRevenge_",
+      "display": "Boss复仇开启",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "untilBossRevengeCount_",
+      "display": "untilBossRevengeCount",
+      "hidden": false
+    }
+  ]
+}

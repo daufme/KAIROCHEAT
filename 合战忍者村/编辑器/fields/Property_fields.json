@@ -1,0 +1,32 @@
+{
+  "fields": [
+    {
+      "offset": "0x0C",
+      "type": "Property[]",
+      "name": "pros",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x10",
+      "type": "int[]",
+      "name": "ints",
+      "display": "整型",
+      "hidden": false
+    },
+    {
+      "offset": "0x14",
+      "type": "long[]",
+      "name": "lngs",
+      "display": "长整型",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "type": "string[]",
+      "name": "strs",
+      "display": "字符串",
+      "hidden": false
+    }
+  ]
+}

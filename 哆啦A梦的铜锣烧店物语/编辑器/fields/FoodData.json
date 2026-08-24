@@ -1,0 +1,274 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "_id_",
+      "display": "ID",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "_sort_",
+      "display": "sort",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10",
+      "type": "string",
+      "name": "_name_",
+      "display": "名称",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x18",
+      "type": "long",
+      "name": "_flag_",
+      "display": "标志位",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x20",
+      "type": "bool",
+      "name": "_new_",
+      "display": "新发现",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x21",
+      "type": "bool",
+      "name": "_read_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "img_",
+      "display": "图片",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x2C",
+      "type": "int[]",
+      "name": "recipe_",
+      "display": "配方",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "recipeCnt_",
+      "display": "材料数量",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x34",
+      "type": "int[]",
+      "name": "hashTag_",
+      "display": "hashTag",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x3C",
+      "type": "int[]",
+      "name": "param_",
+      "display": "param",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "money_",
+      "display": "money",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x44",
+      "type": "int[]",
+      "name": "priceCalculationParams_",
+      "display": "价格计算参数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "additionalPrice_",
+      "display": "额外价格",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "search_",
+      "display": "search",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "giftShopConditionSalesNum_",
+      "display": "",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "minRequiredSalesNumForRemake_",
+      "display": "",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "maxRequiredSalesNumForRemake_",
+      "display": "",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "fork_",
+      "display": "fork",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x60",
+      "type": "string",
+      "name": "explain_",
+      "display": "说明",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "specialEffectValue_",
+      "display": "特殊效果值",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "state_",
+      "display": "状态",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x6C",
+      "type": "bool",
+      "name": "isExist_",
+      "display": "已发现",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x70",
+      "type": "int[]",
+      "name": "paramRecord_",
+      "display": "属性记录",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x74",
+      "type": "bool",
+      "name": "isSpecial_",
+      "display": "推荐",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x75",
+      "type": "bool",
+      "name": "isAlreadyExpo_",
+      "display": "已展览",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x76",
+      "type": "bool",
+      "name": "isFindRecipe_",
+      "display": "找到配方",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x77",
+      "type": "bool",
+      "name": "canSetToGiftShop_",
+      "display": "可设置为礼品",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x78",
+      "type": "int",
+      "name": "specialEffect_",
+      "display": "特殊效果",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    }
+  ]
+}

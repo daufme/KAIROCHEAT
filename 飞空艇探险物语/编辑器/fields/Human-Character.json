@@ -1,0 +1,316 @@
+﻿{
+  "fields": [
+    {
+      "offset": [
+        "0xD8",
+        "0x08"
+      ],
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x0C"
+      ],
+      "type": "bool",
+      "name": "isEnemy_",
+      "display": "是否敌方",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x10"
+      ],
+      "type": "int",
+      "name": "modelId_",
+      "display": "modelId",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x14"
+      ],
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x18"
+      ],
+      "type": "bool",
+      "name": "lock_",
+      "display": "lock",
+      "hidden": true
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x1C",
+        "0x8"
+      ],
+      "type": "XInt",
+      "name": "lv_",
+      "display": "等级",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x1C",
+        "0x18"
+      ],
+      "type": "XLong",
+      "name": "exp_",
+      "display": "经验",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x20"
+      ],
+      "type": "int",
+      "name": "battleHP_",
+      "display": "战斗HP",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x24"
+      ],
+      "type": "float",
+      "name": "battleSP_",
+      "display": "战斗SP",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x28"
+      ],
+      "type": "int",
+      "name": "battleAura_",
+      "display": "战斗爆气",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x2C"
+      ],
+      "type": "int",
+      "name": "workPow_",
+      "display": "劳动",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x30"
+      ],
+      "type": "Human",
+      "name": "human_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x34"
+      ],
+      "type": "int",
+      "name": "racialLv_",
+      "display": "领导力",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x38"
+      ],
+      "type": "int",
+      "name": "skyVehicleId_",
+      "display": "小型艇ID",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x3C"
+      ],
+      "type": "SkyVehicle",
+      "name": "skyVehicle_",
+      "display": "小型艇对象",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x40"
+      ],
+      "type": "int",
+      "name": "skyVehicleRideSeat_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x44"
+      ],
+      "type": "bool",
+      "name": "rideSkyVehicleMap_",
+      "display": "是否乘坐小型艇",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x48"
+      ],
+      "type": "int",
+      "name": "jobID_",
+      "display": "当前职业ID",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x4C"
+      ],
+      "type": "int",
+      "name": "birthJobID_",
+      "display": "初始职业ID",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x50"
+      ],
+      "type": "int",
+      "name": "gender_",
+      "display": "性别",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x54"
+      ],
+      "type": "int",
+      "name": "uniqueAbility_",
+      "display": "固有技能",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x58"
+      ],
+      "type": "List<int>",
+      "name": "ability_",
+      "display": "技能列表",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x5C"
+      ],
+      "type": "int[]",
+      "name": "equip_",
+      "display": "装备",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x60"
+      ],
+      "type": "int[]",
+      "name": "param_",
+      "display": "基础属性",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x64"
+      ],
+      "type": "int[]",
+      "name": "addParam_",
+      "display": "额外属性",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x68"
+      ],
+      "type": "List<int>",
+      "name": "masterJob_",
+      "display": "精通职业列表",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x6C"
+      ],
+      "type": "int",
+      "name": "assistSkillID_",
+      "display": "辅助技能ID",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x70"
+      ],
+      "type": "int",
+      "name": "jobMasterAllCount_",
+      "display": "精通数",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x74"
+      ],
+      "type": "int",
+      "name": "namedId_",
+      "display": "namedId",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x78"
+      ],
+      "type": "bool",
+      "name": "prisonLock_",
+      "display": "prisonLock",
+      "hidden": true
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x7C"
+      ],
+      "type": "int",
+      "name": "frameSkyVehicleTmp_",
+      "display": "",
+      "hidden": true
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+﻿{
+  "fields": [
+    {
+      "offset": [
+        "0x08",
+        "0x10"
+      ],
+      "type": "string",
+      "name": "_name_",
+      "display": "名称",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "money_",
+      "display": "价格",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10",
+      "type": "int",
+      "name": "appealBonusPrice_",
+      "display": "价格加成",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "sponserBonusPrice_",
+      "display": "sponserBonusPrice",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x18",
+      "type": "bool",
+      "name": "skill_",
+      "display": "skill",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x1C",
+      "type": "int[]",
+      "name": "mateRank_",
+      "display": "mateRank",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x20",
+      "type": "int[]",
+      "name": "param_",
+      "display": "属性",
+      "hidden": false,
+      "function": null,
+      "index_labels": [
+        "美味",
+        "气场惊人！",
+        "人气",
+        "高级感"
+      ]
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "finishStaffCharaId_",
+      "display": "完成角色ID",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "totalSalesNumInShowcase_",
+      "display": "陈列柜总销售量",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "salesNumTodayInShowcase_",
+      "display": "今日陈列柜销售量",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "totalSalesNumAtGiftShop_",
+      "display": "礼品店总销售量",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "salesNumTodayAtGiftShop_",
+      "display": "今日礼品店销售量",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "salesGauge_",
+      "display": "salesGauge",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "remainingRemakeNum_",
+      "display": "remainingRemakeNum",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "remakedNum_",
+      "display": "remakedNum",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x44",
+      "type": "int[]",
+      "name": "remakeParam_",
+      "display": "改良属性",
+      "hidden": false,
+      "function": null,
+      "index_labels": [
+        "美味",
+        "气场惊人！",
+        "人气",
+        "高级感"
+      ]
+    },
+    {
+      "offset": "0x48",
+      "type": "int[]",
+      "name": "decoIds_",
+      "display": "装饰属性",
+      "hidden": false,
+      "function": null,
+      "index_labels": [
+        "美味",
+        "气场惊人！",
+        "人气",
+        "高级感"
+      ]
+    }
+  ]
+}

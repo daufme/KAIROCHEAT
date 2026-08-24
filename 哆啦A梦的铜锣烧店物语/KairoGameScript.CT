@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"hook"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>14</ID>
+          <Description>"冻结时间"</Description>
+          <LastState Activated="1"/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+GameAssembly.dll+176A48:
+db 90 90 90 90 90
+db 90 90 90 90 90
+ 
+ 
+[DISABLE]
+GameAssembly.dll+176A48:
+movups [esi+edi+10],xmm0
+movups [esi+edi+20],xmm1
+pop edi
+pop esi
+mov esp,ebp
+pop ebp
+ret
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"不付零用钱"</Description>
+          <LastState Activated="1"/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+GameAssembly.dll+7DC42D:
+pop edi
+pop esi
+lea eax,[0]
+nop
+
+ 
+ 
+[DISABLE]
+GameAssembly.dll+7DC42D:
+add eax,[edx+ecx*4+10]
+pop edi
+pop esi
+lea eax,[eax+eax*4]
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>31</ID>
+          <Description>"不付维护费"</Description>
+          <LastState Activated="1"/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+GameAssembly.dll+8CF134:
+mov eax,0
+nop
+
+ 
+ 
+[DISABLE]
+GameAssembly.dll+8CF134:
+mov eax,[eax+00000080]
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>32</ID>
+          <Description>"假装高帧率（限制速度）"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem:
+pushad
+push 00
+call GameAssembly.dll+13B1340
+add esp,4
+mov ebx, [esi+60]
+mov ecx, [esi+64]
+add ebx, #49
+adc ecx, 0
+cmp edx, ecx
+ja Normal
+jb return
+cmp eax, ebx
+ja Normal
+
+return:
+popad
+mov eax,1
+pop esi
+pop ebp
+ret
+
+jng returnhere
+Normal:
+popad
+originalcode:
+nop
+nop
+push 00
+push esi
+call GameAssembly.dll+1352080
+add esp,08
+test al,al
+je originalcode
+
+exit:
+jmp returnhere
+
+"GameAssembly.dll"+134F56E:
+jmp newmem
+GameAssembly.dll+134F57F:
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+dealloc(newmem)
+"GameAssembly.dll"+134F56E:
+nop
+nop
+push 00
+push esi
+call GameAssembly.dll+1352080
+add esp,08
+test al,al
+je GameAssembly.dll+134F570
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>33</ID>
+          <Description>"设置目标帧率（可调）"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+"GameAssembly.dll"+1146216:
+nop
+nop
+mov [esi+00000080],#120
+push 00
+push esi
+ 
+[DISABLE]
+"GameAssembly.dll"+1146216:
+mov eax,[esi+000000EC]
+push 00
+push esi
+mov [esi+00000080],eax
+
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"脚本"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>7</ID>
+          <Description>"增加所有设施"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+alloc(mycode,1024)
+mycode:
+mov eax,[GameAssembly.dll+19E7AF8]
+mov eax,[eax+10]
+mov eax,[eax+5C]
+mov eax,[eax]
+mov edi,[eax+C]
+lea eax,[eax+10]
+
+loop:
+mov ebx,[eax]
+cmp ebx,0
+je next
+and [ebx+18],FFDFFFFF
+//and [ebx+18],FFFFFFEF
+pushad
+push 00
+push [ebx+10]
+push 0
+push 0
+push [ebx+114]
+push ebx
+call GameAssembly.dll+7E3110
+add esp,18
+popad
+
+next:
+add eax,4
+dec edi
+jne loop
+end:
+ret
+createthread(mycode)
+ 
+[DISABLE]
+dealloc(mycode)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>18</ID>
+          <Description>"增加所有材料"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+alloc(mycode,1024)
+mycode:
+mov eax,[GameAssembly.dll+19E8158]
+mov eax,[eax+10]
+mov eax,[eax+5C]
+mov eax,[eax]
+mov edi,[eax+C]
+lea eax,[eax+10]
+
+loop:
+mov ebx,[eax]
+cmp ebx,0
+je next
+
+pushad
+
+push 00
+push 1 //数量
+push 0 //改良书的等级0-8，其他材料都是0
+push ebx
+call GameAssembly.dll+7EC550
+add esp,10
+
+popad
+
+next:
+add eax,4
+dec edi
+jne loop
+end:
+ret
+createthread(mycode)
+ 
+[DISABLE]
+dealloc(mycode)
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [esi+00000594],eax</Description>
+      <AddressString>GameAssembly.dll+7BAFB2</AddressString>
+      <Before>
+        <Byte>2B</Byte>
+        <Byte>45</Byte>
+        <Byte>08</Byte>
+        <Byte>33</Byte>
+        <Byte>FF</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>86</Byte>
+        <Byte>94</Byte>
+        <Byte>05</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>C7</Byte>
+        <Byte>45</Byte>
+        <Byte>08</Byte>
+        <Byte>10</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>

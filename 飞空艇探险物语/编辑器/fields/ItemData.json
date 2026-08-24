@@ -1,0 +1,207 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x10",
+      "type": "XInt",
+      "name": "num_",
+      "display": "数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "bool",
+      "name": "lineup_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x24",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "firstGet_",
+      "display": "firstGet",
+      "hidden": true
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "sortID_",
+      "display": "sortID",
+      "hidden": true
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "iconU_",
+      "display": "iconU",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "iconV_",
+      "display": "iconV",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "dropRank_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "shopType_",
+      "display": "商店类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "bool",
+      "name": "shopFirst_",
+      "display": "新获得",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "shopLv_",
+      "display": "商店等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "citySkillTag_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "shopPrice_",
+      "display": "购买价格",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "shopSellPrice_",
+      "display": "出售价格",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "exp_",
+      "display": "经验值",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "battleType_",
+      "display": "战斗类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "battleValue_",
+      "display": "战斗数值",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "battleTime_",
+      "display": "战斗时间",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "battleEnchant_",
+      "display": "战斗附魔",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int",
+      "name": "equipType_",
+      "display": "强化装备部位",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "cityType_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "skyVehicleType_",
+      "display": "小型艇类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x78",
+      "type": "int",
+      "name": "otherType_",
+      "display": "otherType",
+      "hidden": true
+    },
+    {
+      "offset": "0x7C",
+      "type": "int",
+      "name": "saleCityType_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x80",
+      "type": "int",
+      "name": "saleCityExp_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x84",
+      "type": "int",
+      "name": "explainId_",
+      "display": "explainId",
+      "hidden": true
+    },
+    {
+      "offset": "0x88",
+      "type": "int[][]",
+      "name": "addParam_",
+      "display": "附加参数",
+      "hidden": true
+    },
+    {
+      "offset": "0x8C",
+      "type": "string",
+      "name": "txt_",
+      "display": "文本",
+      "hidden": false
+    }
+  ]
+}

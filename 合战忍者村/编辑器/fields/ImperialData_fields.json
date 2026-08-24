@@ -1,0 +1,46 @@
+{
+  "fields": [
+    {
+      "offset": "0x14",
+      "name": "level_",
+      "type": "int",
+      "display": "等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "name": "bonusItem_",
+      "type": "int",
+      "display": "奖励物品ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "name": "bonusItemNum_",
+      "type": "int",
+      "display": "奖励物品数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "name": "joinCharacters_",
+      "type": "int[][]",
+      "display": "加入角色列表",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "name": "battleScript_",
+      "type": "int[][]",
+      "display": "战斗脚本",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "name": "winScript_",
+      "type": "int[][]",
+      "display": "胜利脚本",
+      "hidden": false
+    }
+  ]
+}

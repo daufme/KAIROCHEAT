@@ -1,0 +1,256 @@
+{
+  "fields": [
+    {
+      "offset": "0x1C",
+      "type": "string",
+      "name": "tag_",
+      "display": "标签",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "xlsEva_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "xls_appearImageValue_",
+      "display": "外观图片",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "spProcType_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "type_present_",
+      "display": "礼物类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "type_paramUp_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int[]",
+      "name": "xls_presentParamRate_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int[]",
+      "name": "presentParam_",
+      "display": "增加属性",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int[]",
+      "name": "iconParam_",
+      "display": "图标",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "iconBackId_",
+      "display": "图标背景ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "magicIndex_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "rank_shop_",
+      "display": "商店等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "rank_quest_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int[]",
+      "name": "xls_tenantItemRate_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int[]",
+      "name": "tenantItemUp_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "int[]",
+      "name": "xls_mpotValueRate_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int[]",
+      "name": "mpotValue_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "presentValue_old_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "init_haveNum_",
+      "display": "初始持有数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int",
+      "name": "init_restNum_",
+      "display": "初始剩余数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int[]",
+      "name": "priceInfo_",
+      "display": "价格信息",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "stockMax_",
+      "display": "最大库存",
+      "hidden": false
+    },
+    {
+      "offset": "0x78",
+      "type": "int",
+      "name": "recoverValue_",
+      "display": "恢复值",
+      "hidden": false
+    },
+    {
+      "offset": "0x7C",
+      "type": "int",
+      "name": "addExp_",
+      "display": "增加经验值",
+      "hidden": false
+    },
+    {
+      "offset": "0x80",
+      "type": "int",
+      "name": "older_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x84",
+      "type": "string",
+      "name": "explain_",
+      "display": "说明",
+      "hidden": false
+    },
+    {
+      "offset": "0x88",
+      "type": "int[][]",
+      "name": "attributeParam_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x8C",
+      "type": "int",
+      "name": "xls_reputationBonusIndex_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x90",
+      "type": "int",
+      "name": "questFindFlag_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x94",
+      "type": "int",
+      "name": "presentAllType_",
+      "display": "全部类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x98",
+      "type": "int[]",
+      "name": "paramI_",
+      "display": "FLAG/持有数量/商店库存",
+      "hidden": false
+    },
+    {
+      "offset": "0x9C",
+      "type": "Vector<int[]>",
+      "name": "elementList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xA0",
+      "type": "int[]",
+      "name": "workAry_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xA4",
+      "type": "int",
+      "name": "value1_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xA8",
+      "type": "Vector<int[]>",
+      "name": "checkDataList",
+      "display": "",
+      "hidden": false
+    }
+  ]
+}

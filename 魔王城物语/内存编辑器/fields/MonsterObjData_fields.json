@@ -1,0 +1,165 @@
+{
+  "fields": [
+    {
+      "offset": "0x1C",
+      "type": "int[]",
+      "name": "paramI_",
+      "display": "参数",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "string[]",
+      "name": "paramS_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int[]",
+      "name": "param_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "Vector<int[]>",
+      "name": "chargeStatusList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "Vector<int>",
+      "name": "deffenceStatusList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "bool[]",
+      "name": "magicLearn_",
+      "display": "已学魔法标记",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "bool[]",
+      "name": "magicBattle_",
+      "display": "战斗可用魔法标记",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "Vector<int[]>",
+      "name": "tenantBonusList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "Vector<int>",
+      "name": "useFavorItemDataList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "Vector<int[]>",
+      "name": "satisfyBonusList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "workValue1_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "workValue2_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "workValue3_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "workValue4_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "workValue5_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "workValue6_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "bool",
+      "name": "work_eventFlag_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int[][]",
+      "name": "jobAddEParam",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "unionNewMonsterDataId_cache_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "unionNewMonsterDataLv_cache_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "Character2",
+      "name": "work_mapChara",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x70",
+      "type": "bool[]",
+      "name": "isGetParamCache_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int[]",
+      "name": "getParamCache_",
+      "display": "",
+      "hidden": false
+    }
+  ]
+}

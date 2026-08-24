@@ -1,0 +1,21 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": ["0xDC04A0", "0x5C", "0x0", "0x34"],
+  "mode": "array",
+  "category": {
+    "field": "type_",
+    "names": {
+      "0": "剑",
+      "1": "杖",
+      "2": "斧",
+      "3": "枪",
+      "4": "打击/盾",
+      "5": "枪",
+      "6": "弓",
+      "7": "头/防/饰"
+    }
+  },
+  "id_field": "name_",
+  "fields_file": "EquipData.json"
+}

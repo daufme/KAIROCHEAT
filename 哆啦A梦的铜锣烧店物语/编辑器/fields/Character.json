@@ -1,0 +1,694 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "_id_",
+      "display": "ID",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "_sort_",
+      "display": "sort",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10",
+      "type": "string",
+      "name": "_name_",
+      "display": "名称",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x18",
+      "type": "long",
+      "name": "_flag_",
+      "display": "标志位",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x20",
+      "type": "bool",
+      "name": "_new_",
+      "display": "新发现",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x21",
+      "type": "bool",
+      "name": "_read_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x28",
+      "type": "string",
+      "name": "specialName_",
+      "display": "特殊名称",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "town_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x34",
+      "type": "int[]",
+      "name": "group_",
+      "display": "group",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x38",
+      "type": "int[]",
+      "name": "body_",
+      "display": "body",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "talk_",
+      "display": "talk",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "story_",
+      "display": "故事",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x44",
+      "type": "int[]",
+      "name": "hand_",
+      "display": "hand",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x48",
+      "type": "int[]",
+      "name": "nose_",
+      "display": "nose",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x4C",
+      "type": "int[]",
+      "name": "initStatus_",
+      "display": "初始属性",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "initMoney_",
+      "display": "初始金钱",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "food_",
+      "display": "食物",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x58",
+      "type": "int[]",
+      "name": "wishedFoodIds_",
+      "display": "期望食物",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x5C",
+      "type": "int[]",
+      "name": "wishedFacilityIds_",
+      "display": "期望设施",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "taste_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "favoriteGenre_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "item_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x6C",
+      "type": "ScriptData",
+      "name": "present1_",
+      "display": "礼物1",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x70",
+      "type": "ScriptData",
+      "name": "present2_",
+      "display": "礼物2",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x74",
+      "type": "ScriptData",
+      "name": "present3_",
+      "display": "礼物3",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x78",
+      "type": "int",
+      "name": "maxSatisfactionGaugeValue",
+      "display": "满意度槽",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x7C",
+      "type": "int[]",
+      "name": "satisfactionFoodDifficultyRange_",
+      "display": "satisfactionFood\nDifficultyRange",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x80",
+      "type": "int[]",
+      "name": "satisfactionAppealDifficultyRange_",
+      "display": "satisfactionAppeal\nDifficultyRange",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x84",
+      "type": "ScriptData",
+      "name": "findEvent_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x88",
+      "type": "int",
+      "name": "paramType_",
+      "display": "paramType",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x8C",
+      "type": "int",
+      "name": "offerTag_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x90",
+      "type": "string",
+      "name": "comment_",
+      "display": "注释",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x94",
+      "type": "string",
+      "name": "tasting_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x98",
+      "type": "int",
+      "name": "work_",
+      "display": "工作",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x9C",
+      "type": "int[]",
+      "name": "fuki_",
+      "display": "fuki",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xA0",
+      "type": "int[]",
+      "name": "shareTableConditionPriorityCharaIds_",
+      "display": "拼桌优先角色",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xA4",
+      "type": "int",
+      "name": "shareTableConditionGender_",
+      "display": "拼桌条件性别",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xA8",
+      "type": "int",
+      "name": "shareTableConditionOtherWork_",
+      "display": "拼桌条件其他工作",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xAC",
+      "type": "int",
+      "name": "shareTableConditionOtherGender_",
+      "display": "拼桌条件其他性别",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xB0",
+      "type": "Human",
+      "name": "human_",
+      "display": "human",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xB4",
+      "type": "int",
+      "name": "findNo_",
+      "display": "findNo",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xB8",
+      "type": "int",
+      "name": "passerNo_",
+      "display": "passerNo",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xBC",
+      "type": "int",
+      "name": "energy_",
+      "display": "体力",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xC0",
+      "type": "int",
+      "name": "maxEnergy_",
+      "display": "最大体力",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xC4",
+      "type": "int",
+      "name": "healFrame_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xC8",
+      "type": "int",
+      "name": "condition_",
+      "display": "精神状态",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xCC",
+      "type": "int",
+      "name": "heartPoint_",
+      "display": "heartPoint",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xD0",
+      "type": "bool",
+      "name": "isFly_",
+      "display": "飞行",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xD4",
+      "type": "int",
+      "name": "state_",
+      "display": "状态",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xD8",
+      "type": "int[]",
+      "name": "status_",
+      "display": "店员属性",
+      "hidden": false,
+      "function": null,
+      "index_labels": [
+        "探索",
+        "技术"
+      ]
+    },
+    {
+      "offset": "0xDC",
+      "type": "int",
+      "name": "topExp_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xE0",
+      "type": "bool[]",
+      "name": "preOpen_",
+      "display": "preOpen",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xE4",
+      "type": "bool[]",
+      "name": "skills_",
+      "display": "skills",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xE8",
+      "type": "int",
+      "name": "totalVisitorsNum_",
+      "display": "总到访数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xEC",
+      "type": "int",
+      "name": "visitorsNumToday_",
+      "display": "今日到访数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xF0",
+      "type": "ItemInventory",
+      "name": "itemInventory_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xF4",
+      "type": "List<ItemData>",
+      "name": "receivedItems_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xF8",
+      "type": "int",
+      "name": "paramEXP_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xFC",
+      "type": "int",
+      "name": "offerTime_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x100",
+      "type": "bool",
+      "name": "isOffer_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x104",
+      "type": "int",
+      "name": "satisfaction_",
+      "display": "最近的满意度",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x108",
+      "type": "int",
+      "name": "appetiteLevel_",
+      "display": "食欲等级",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": [
+        "0x10C",
+        "0x8"
+      ],
+      "type": "int",
+      "name": "shopLikeLevel_",
+      "display": "对店好感度",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x110",
+      "type": "TastingHistory",
+      "name": "tastingHistory_",
+      "display": "品鉴历史",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x114",
+      "type": "History",
+      "name": "history_",
+      "display": "历史",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x118",
+      "type": "int",
+      "name": "awardedMedalsNum_",
+      "display": "已获勋章数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x11C",
+      "type": "Character.RuntimeFlag",
+      "name": "runtimeFlag_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x120",
+      "type": "int",
+      "name": "remainingTimeToAppearAsCustomer_",
+      "display": "remainingTimeToAppearAsCustomer",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x124",
+      "type": "List<FoodData>",
+      "name": "wishedFoods_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x128",
+      "type": "List<ChipModel>",
+      "name": "wishedFacilities_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x12C",
+      "type": "List<FoodData>",
+      "name": "wishCameTrueFoods_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x130",
+      "type": "List<ChipModel>",
+      "name": "wishCameTrueFacilities_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x134",
+      "type": "int",
+      "name": "finishCount_",
+      "display": "完成次数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x138",
+      "type": "int",
+      "name": "helpLevel_",
+      "display": "帮手等级",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x13C",
+      "type": "int",
+      "name": "helpExp_",
+      "display": "帮助经验",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    }
+  ]
+}

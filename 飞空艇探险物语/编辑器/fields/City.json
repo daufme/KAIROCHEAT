@@ -1,0 +1,382 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x18",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "bool",
+      "name": "isIsland_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "iconU_",
+      "display": "iconU",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "iconV_",
+      "display": "iconV",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int[][]",
+      "name": "enemyTable_",
+      "display": "敌人表",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "enemyLv_",
+      "display": "敌人等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "enemyIntervalMaxDef_",
+      "display": "敌人间隔最大默认",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "enemyAppearMaxDef_",
+      "display": "敌人出现最大默认",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "string",
+      "name": "courseName_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x3C",
+      "type": "int[]",
+      "name": "courseIds_",
+      "display": "courseIds",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int[]",
+      "name": "hideDevelopCost_",
+      "display": "开发费用",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "knowType_",
+      "display": "知识类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "safetyInit_",
+      "display": "安全初始值",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "safetyMax_",
+      "display": "安全最大值",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "skyMapFlyChipId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "arriveEvent_",
+      "display": "到达事件",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "wharfMapIndex_",
+      "display": "wharfMapIndex",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "int[]",
+      "name": "wharfHide_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "cityTrend_",
+      "display": "cityTrend",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int[]",
+      "name": "wharfBuildArea_",
+      "display": "wharfBuildArea",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "cityReward_",
+      "display": "cityReward",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int",
+      "name": "cityExpRatio_",
+      "display": "cityExpRatio",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int[][][]",
+      "name": "skillList_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x74",
+      "type": "int[]",
+      "name": "travelerIds_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x78",
+      "type": "int[]",
+      "name": "merchantIds_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x7C",
+      "type": "int",
+      "name": "bgmId_",
+      "display": "BGM ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x80",
+      "type": "List<MaterialData>",
+      "name": "cityMaterial_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x84",
+      "type": "int",
+      "name": "mapLv_",
+      "display": "地图等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x88",
+      "type": "bool",
+      "name": "isArraive_",
+      "display": "是否到达",
+      "hidden": false
+    },
+    {
+      "offset": "0x8C",
+      "type": "int",
+      "name": "cityRewardPoint_",
+      "display": "城市奖励点数",
+      "hidden": false
+    },
+    {
+      "offset": "0x90",
+      "type": "List<Common.GetEvent.Obj>",
+      "name": "cityRewardList_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x94",
+      "type": "List<int>",
+      "name": "populationLv_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x98",
+      "type": "LvupObject[]",
+      "name": "lvo_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x9C",
+      "type": "int[]",
+      "name": "CalLvMaxTmp_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xA0",
+      "type": "int",
+      "name": "defeatCount_",
+      "display": "击败计数",
+      "hidden": false
+    },
+    {
+      "offset": "0xA4",
+      "type": "XInt",
+      "name": "merchantTime_",
+      "display": "商人时间",
+      "hidden": false
+    },
+    {
+      "offset": "0xB4",
+      "type": "City.CourseBoss",
+      "name": "courseBoss_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xB8",
+      "type": "bool[]",
+      "name": "findJob_",
+      "display": "findJob",
+      "hidden": false
+    },
+    {
+      "offset": "0xBC",
+      "type": "int",
+      "name": "merchantShipInCount",
+      "display": "商人船进港计数",
+      "hidden": false
+    },
+    {
+      "offset": "0xC0",
+      "type": "List<Character>",
+      "name": "barStock_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xC4",
+      "type": "VehiclePassenger",
+      "name": "vehicle_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xC8",
+      "type": "int[]",
+      "name": "vehicleState_",
+      "display": "vehicleState",
+      "hidden": false
+    },
+    {
+      "offset": "0xCC",
+      "type": "City.WharfCollect",
+      "name": "wharfCollect_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xD0",
+      "type": "HideSearch",
+      "name": "hideSearch_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xD4",
+      "type": "List<HideDevelop>",
+      "name": "hideDevelop_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xD8",
+      "type": "Player.BuildShipInfo",
+      "name": "buildShipInfo_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xDC",
+      "type": "bool",
+      "name": "passengerEnable_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xE0",
+      "type": "List<City.SkillGet>",
+      "name": "skillGets_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xE4",
+      "type": "int",
+      "name": "prisonMedalCount_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xE8",
+      "type": "int",
+      "name": "addPower_",
+      "display": "addPower",
+      "hidden": false
+    },
+    {
+      "offset": "0xEC",
+      "type": "int",
+      "name": "safety_",
+      "display": "安全值",
+      "hidden": false
+    },
+    {
+      "offset": "0xF0",
+      "type": "XInt",
+      "name": "safetyTime_",
+      "display": "安全时间",
+      "hidden": false
+    },
+    {
+      "offset": "0x100",
+      "type": "XInt",
+      "name": "patrolTime_",
+      "display": "巡逻时间",
+      "hidden": false
+    },
+    {
+      "offset": "0x110",
+      "type": "int[]",
+      "name": "GetCourseTmp_",
+      "display": "",
+      "hidden": true
+    }
+  ]
+}

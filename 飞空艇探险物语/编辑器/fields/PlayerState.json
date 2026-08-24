@@ -1,0 +1,41 @@
+﻿{
+  "fields": [
+    {
+      "offset": [
+        "0x8",
+        "0x8"
+      ],
+      "type": "int[]",
+      "name": "exp_",
+      "display": "知识经验条",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0x8",
+        "0xC"
+      ],
+      "type": "int[]",
+      "name": "lv_",
+      "display": "知识",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0x8",
+        "0x10"
+      ],
+      "type": "int",
+      "name": "maxLv",
+      "display": "知识上限",
+      "hidden": false
+    },
+    {
+      "offset": "0xC",
+      "type": "int[]",
+      "name": "itemMax_",
+      "display": "物品上限",
+      "hidden": false
+    }
+  ]
+}

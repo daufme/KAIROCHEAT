@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"指针"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>25</ID>
+          <Description>"解锁设施"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>GameAssembly.dll+158BCB8</Address>
+          <Offsets>
+            <Offset>10+1*0</Offset>
+            <Offset>EC</Offset>
+            <Offset>0</Offset>
+            <Offset>5C</Offset>
+          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>24</ID>
+              <Description>"设施数量"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>GameAssembly.dll+158BCB8</Address>
+              <Offsets>
+                <Offset>10+4*0</Offset>
+                <Offset>E8</Offset>
+                <Offset>0</Offset>
+                <Offset>5C</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>28</ID>
+          <Description>"解锁商品"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>GameAssembly.dll+158BCB8</Address>
+          <Offsets>
+            <Offset>10+1* 0</Offset>
+            <Offset>108</Offset>
+            <Offset>0</Offset>
+            <Offset>5C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>26</ID>
+          <Description>"解锁货架类型（17种）"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>GameAssembly.dll+158BCB8</Address>
+          <Offsets>
+            <Offset>10+1*0</Offset>
+            <Offset>F4</Offset>
+            <Offset>0</Offset>
+            <Offset>5C</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"脚本"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>23</ID>
+          <Description>"解锁全部设施"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+alloc(mycode,1024)
+mycode:
+mov esi,[GameAssembly.dll+158BCB8]
+mov esi,[esi+5C]
+mov esi,[esi] //this
+
+mov eax,[GameAssembly.dll+1588E98]
+mov eax,[eax+10]
+mov eax,[eax+5C]
+mov eax,[eax]
+mov edi,[eax+C]
+lea eax,[eax+10]
+
+loop:
+mov ebx,[eax]
+cmp ebx,0
+je next
+cmp [ebx+4C],4
+je next
+
+mov ebx,[ebx+8]
+
+mov ecx,[esi+EC]
+lea ecx,[ecx+10+ebx*1]
+mov byte ptr [ecx],1
+
+mov ecx,[esi+E8]
+lea ecx,[ecx+10+ebx*4]
+mov [ecx],#99
+
+next:
+add eax,4
+dec edi
+jne loop
+end:
+ret
+createthread(mycode)
+ 
+[DISABLE]
+dealloc(mycode)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"解锁全部商品"</Description>
+          <LastState Activated="1"/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+alloc(mycode,1024)
+mycode:
+mov esi,[GameAssembly.dll+158BCB8]
+mov esi,[esi+5C]
+mov esi,[esi] //this
+
+mov eax,[GameAssembly.dll+157F950]
+mov eax,[eax+5C]
+mov eax,[eax]
+mov eax,[eax+9C]
+mov edi,[eax+C]
+lea eax,[eax+10]
+
+loop:
+mov ebx,[eax]
+cmp ebx,0
+je next
+cmp [ebx+4C],4
+je next
+
+mov ebx,[ebx+8]
+
+mov ecx,[esi+108]
+lea ecx,[ecx+10+ebx*1]
+mov byte ptr [ecx],1
+
+next:
+add eax,4
+dec edi
+jne loop
+end:
+ret
+createthread(mycode)
+ 
+[DISABLE]
+dealloc(mycode)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>13</ID>
+          <Description>"加钱"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+alloc(mycode,1024)
+mycode:
+mov ecx,[GameAssembly.dll+157C074]
+mov ecx,[ecx+5C]
+mov ecx,[ecx]
+push 00
+push 01
+mov eax,#1000
+cdq
+push edx
+push eax
+push ecx
+call GameAssembly.dll+4D4D10
+add esp,14
+
+ret
+createthread(mycode)
+ 
+[DISABLE]
+dealloc(mycode)
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

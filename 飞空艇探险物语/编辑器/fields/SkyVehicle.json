@@ -1,0 +1,113 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x10",
+      "type": "int",
+      "name": "forceID_",
+      "display": "forceID",
+      "hidden": false
+    },
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "modelId_",
+      "display": "modelId",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "type": "string",
+      "name": "name_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x1C",
+      "type": "int",
+      "name": "rank_",
+      "display": "级别",
+      "hidden": false
+    },
+    {
+      "offset": [ "0x20", "0x8" ],
+      "type": "XInt",
+      "name": "lv_",
+      "display": "等级",
+      "hidden": false
+    },
+    {
+      "offset": [ "0x20", "0x18" ],
+      "type": "XLong",
+      "name": "exp_",
+      "display": "经验",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "battleHP_",
+      "display": "战斗HP",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0x28",
+        "0x10",
+        "0x14"
+      ],
+      "type": "string",
+      "name": "crew_",
+      "display": "乘员",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "Crew",
+      "name": "assistCrew_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x30",
+      "type": "int[]",
+      "name": "equip_",
+      "display": "装备",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int[]",
+      "name": "param_",
+      "display": "属性",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int[]",
+      "name": "addParam_",
+      "display": "附加属性",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "hangerX_",
+      "display": "机库X",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "hangerY_",
+      "display": "机库Y",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "short",
+      "name": "hangerLevel_",
+      "display": "hangerLevel",
+      "hidden": true
+    }
+  ]
+}

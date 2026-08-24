@@ -1,0 +1,22 @@
+﻿{
+  "fields": [
+    {
+      "offset": [
+        8
+      ],
+      "type": "int",
+      "name": "lv_",
+      "display": "等级",
+      "hidden": false
+    },
+    {
+      "offset": [
+        16
+      ],
+      "type": "long",
+      "name": "exp_",
+      "display": "当前等级经验",
+      "hidden": false
+    }
+  ]
+}

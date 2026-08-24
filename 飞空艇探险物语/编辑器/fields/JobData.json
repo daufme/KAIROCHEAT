@@ -1,0 +1,193 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x10",
+      "type": "string",
+      "name": "name_",
+      "display": "职业名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "rankGroup_",
+      "display": "等级组",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "type": "bool",
+      "name": "firstFind_",
+      "display": "新发现",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "int",
+      "name": "citySkillTag_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x20",
+      "type": "int[][]",
+      "name": "jobChange_",
+      "display": "需要知识",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "jobChangeMasterNum_",
+      "display": "需要精通数",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int[][]",
+      "name": "imgList_",
+      "display": "图像",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "sampleWeapon_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "actSpeed_",
+      "display": "actSpeed",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "getExp_",
+      "display": "经验",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int[][]",
+      "name": "param_",
+      "display": "升级增加属性",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int[]",
+      "name": "weight_",
+      "display": "重量",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "sbyte[]",
+      "name": "weaponAffinity_",
+      "display": "武器契合度",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int[]",
+      "name": "abilitySortTag_",
+      "display": "abilitySortTag",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int[]",
+      "name": "abilityTag_",
+      "display": "abilityTag",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "commandId_",
+      "display": "commandId",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "masterLv_",
+      "display": "等级上限",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int[]",
+      "name": "masterBonus_",
+      "display": "精通奖励",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "string",
+      "name": "explain_",
+      "display": "说明",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "bedRoom_",
+      "display": "寝室效果ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "bedParamValue_",
+      "display": "床位数值",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int[][]",
+      "name": "bedAreaEffect_",
+      "display": "床位区域效果",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "sbyte[]",
+      "name": "exFlag_",
+      "display": "exFlag",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "bool",
+      "name": "barFirst_",
+      "display": "barFirst",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "barRatio_",
+      "display": "barRatio",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "barCost_",
+      "display": "barCost",
+      "hidden": false
+    },
+    {
+      "offset": "0x78",
+      "type": "bool",
+      "name": "changeEnable_",
+      "display": "可以转职",
+      "hidden": false
+    }
+  ]
+}

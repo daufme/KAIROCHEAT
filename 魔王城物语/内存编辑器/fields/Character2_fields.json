@@ -1,0 +1,1180 @@
+{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "charaDataId_",
+      "display": "角色数据ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "objType_",
+      "display": "对象类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x10",
+      "type": "int",
+      "name": "objSize_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "animeIndex_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "type": "int",
+      "name": "direct_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "int",
+      "name": "seb_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "sebCnt_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "Vector",
+      "name": "script_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x28",
+      "type": "Vector3D",
+      "name": "pos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x2C",
+      "type": "Vector3D",
+      "name": "drawPos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x30",
+      "type": "Vector3D",
+      "name": "shadowPos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x34",
+      "type": "Vector3D",
+      "name": "goalPos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x38",
+      "type": "Vector3D",
+      "name": "goalPos2_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x3C",
+      "type": "Vector3D",
+      "name": "old_pos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x40",
+      "type": "Vector3D",
+      "name": "v_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x44",
+      "type": "int[]",
+      "name": "address_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int[]",
+      "name": "address2_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int[]",
+      "name": "old_address_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int[]",
+      "name": "screen_pos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x54",
+      "type": "int[]",
+      "name": "old_screen_pos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x58",
+      "type": "int[]",
+      "name": "screenShadow_pos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x5C",
+      "type": "int[]",
+      "name": "old_screenShadow_pos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x60",
+      "type": "bool",
+      "name": "chargeMiss_",
+      "display": "攻击未命中",
+      "hidden": true
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "chargeLoopNum_",
+      "display": "攻击循环次数",
+      "hidden": true
+    },
+    {
+      "offset": "0x68",
+      "type": "Vector<int>",
+      "name": "chargeSebList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "Character2",
+      "name": "friendMonster_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x70",
+      "type": "Group",
+      "name": "group_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "flag_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x78",
+      "type": "int",
+      "name": "state_",
+      "display": "状态",
+      "hidden": false
+    },
+    {
+      "offset": "0x7C",
+      "type": "int",
+      "name": "stateCnt_",
+      "display": "状态计数",
+      "hidden": false
+    },
+    {
+      "offset": "0x80",
+      "type": "int",
+      "name": "stateStep_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x84",
+      "type": "int",
+      "name": "beforeMoveState_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x88",
+      "type": "Vector<int[]>",
+      "name": "routeData_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x8C",
+      "type": "int",
+      "name": "routeIndex_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x90",
+      "type": "int[]",
+      "name": "usePlaceNum_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x94",
+      "type": "int",
+      "name": "lastUseTenantUID_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x98",
+      "type": "int",
+      "name": "cntUseTenant_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x9C",
+      "type": "int",
+      "name": "cntInTownWalk_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xA0",
+      "type": "int",
+      "name": "cntOutWalk_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xA4",
+      "type": "int",
+      "name": "haveObj_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xA8",
+      "type": "int[]",
+      "name": "useTenant_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xAC",
+      "type": "int",
+      "name": "nonGravityCnt_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xB0",
+      "type": "Character2",
+      "name": "rescueChara_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xB4",
+      "type": "Character2",
+      "name": "monsterBoss_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xB8",
+      "type": "int",
+      "name": "monsterAct_actionType_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xBC",
+      "type": "int",
+      "name": "dungeonProgress_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xC0",
+      "type": "int",
+      "name": "dungeonProgressPri_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xC4",
+      "type": "int",
+      "name": "dungeonProgressRate_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xC8",
+      "type": "int",
+      "name": "dungeonChargeNum_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xCC",
+      "type": "int",
+      "name": "dungeonState_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xD0",
+      "type": "int",
+      "name": "dungeonStateCnt_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xD4",
+      "type": "int",
+      "name": "dungeonWait_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xD8",
+      "type": "int",
+      "name": "moveStopCnt_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xDC",
+      "type": "int",
+      "name": "gender_",
+      "display": "性别",
+      "hidden": false
+    },
+    {
+      "offset": "0xE0",
+      "type": "int",
+      "name": "jobDataId_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xE4",
+      "type": "int",
+      "name": "weaponDataId_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xE8",
+      "type": "int",
+      "name": "weaponIdNext_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xEC",
+      "type": "int",
+      "name": "armourIdNext_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xF0",
+      "type": "int",
+      "name": "accessoryIdNext_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xF4",
+      "type": "bool",
+      "name": "chargeRoll_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xF8",
+      "type": "int",
+      "name": "data_nockBackDamage_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xFC",
+      "type": "bool",
+      "name": "isRecoverChara_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x100",
+      "type": "int[]",
+      "name": "powerBar_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x104",
+      "type": "int",
+      "name": "effD_damage_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x108",
+      "type": "int",
+      "name": "effD_hitNum_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x10C",
+      "type": "int",
+      "name": "effD_hitCnt_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x110",
+      "type": "int",
+      "name": "effD_motionCnt_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x114",
+      "type": "bool",
+      "name": "effD_miss_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x118",
+      "type": "int",
+      "name": "actNum_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x11C",
+      "type": "int",
+      "name": "cancelMoveAreaCnt_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x120",
+      "type": "Vector3D",
+      "name": "monsterChargePos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x124",
+      "type": "int",
+      "name": "lastChargeFrame_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x128",
+      "type": "int",
+      "name": "damageCnt",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x12C",
+      "type": "bool",
+      "name": "isInTown_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x130",
+      "type": "int",
+      "name": "monsterActPolicy_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x134",
+      "type": "int[]",
+      "name": "paramI_",
+      "display": "整数参数",
+      "hidden": false
+    },
+    {
+      "offset": "0x138",
+      "type": "float[]",
+      "name": "paramF_",
+      "display": "浮点参数",
+      "hidden": false
+    },
+    {
+      "offset": "0x13C",
+      "type": "string[]",
+      "name": "paramS_",
+      "display": "字符串参数",
+      "hidden": false
+    },
+    {
+      "offset": "0x140",
+      "type": "Vector<int[]>",
+      "name": "statusEffectList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x144",
+      "type": "Vector<int[]>",
+      "name": "statusUpList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x148",
+      "type": "Tenant",
+      "name": "monsterFarm_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x14C",
+      "type": "Vector<Tenant>",
+      "name": "goTenantList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x150",
+      "type": "int[]",
+      "name": "charaImgInfo_",
+      "display": "角色图片信息",
+      "hidden": false
+    },
+    {
+      "offset": "0x154",
+      "type": "int[][][]",
+      "name": "mapchipRoadInfo_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x158",
+      "type": "Vector<Mapchip>",
+      "name": "branchMapchipList_here_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x15C",
+      "type": "Vector<Mapchip>",
+      "name": "branchMapchipList_total_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x160",
+      "type": "Vector<Mapchip>",
+      "name": "branchMapchipList_save_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x164",
+      "type": "BattleArea",
+      "name": "battleArea_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x168",
+      "type": "BattleArea",
+      "name": "goBattleArea_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x16C",
+      "type": "Tenant",
+      "name": "tresureReserve_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x170",
+      "type": "Tenant",
+      "name": "tenantReserve_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x174",
+      "type": "Vector<int[]>",
+      "name": "battlePositionAddressList_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x178",
+      "type": "Vector3D",
+      "name": "battlePositionGoalPos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x17C",
+      "type": "CharacterObjData",
+      "name": "charaObjData_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x180",
+      "type": "MonsterObjData",
+      "name": "monsterObjData_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x184",
+      "type": "Vector3D",
+      "name": "aroundChargePos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x188",
+      "type": "Vector<int>",
+      "name": "aroundChargeHitList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x18C",
+      "type": "Vector<Vector3D>",
+      "name": "moveDemonGatePosList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x190",
+      "type": "Vector<string>",
+      "name": "decideLogList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x194",
+      "type": "Vector<string>",
+      "name": "updateLogList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x198",
+      "type": "Vector<int[]>",
+      "name": "tresureInfoList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x19C",
+      "type": "Vector<int>",
+      "name": "saveMoveIndexList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1A0",
+      "type": "Vector<int[]>",
+      "name": "saveMoveAddress2List_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1A4",
+      "type": "TalkPlaceObj",
+      "name": "talkPlaceObj_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x1A8",
+      "type": "Character2",
+      "name": "talkPlaceTarget_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x1AC",
+      "type": "Vector<int>",
+      "name": "useTenantIdList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1B0",
+      "type": "Vector<int[]>",
+      "name": "enemyPickUpList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1B4",
+      "type": "Character2",
+      "name": "nearEnemy_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x1B8",
+      "type": "float",
+      "name": "nearEnemyDis_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1BC",
+      "type": "bool[]",
+      "name": "isInMoveArea",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C0",
+      "type": "int",
+      "name": "entrance_time_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C4",
+      "type": "int",
+      "name": "goHomeStopCnt_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C8",
+      "type": "int",
+      "name": "goHomeStopCnt2_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1CC",
+      "type": "int",
+      "name": "goHomeStopCnt3_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1D0",
+      "type": "int",
+      "name": "isInMoveAreaFalseCnt_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1D4",
+      "type": "int[]",
+      "name": "directBox_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1D8",
+      "type": "int[]",
+      "name": "draw_param",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1DC",
+      "type": "int[]",
+      "name": "camera_pos",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1E0",
+      "type": "int",
+      "name": "insertScriptIndex_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1E4",
+      "type": "int",
+      "name": "actInfo_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1E8",
+      "type": "int",
+      "name": "workValue1_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1EC",
+      "type": "int",
+      "name": "workValue2_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1F0",
+      "type": "float",
+      "name": "temp_dis",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1F4",
+      "type": "bool",
+      "name": "dungeonFrontChara",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1F5",
+      "type": "bool",
+      "name": "dungeonFrontChara_old",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1F6",
+      "type": "bool",
+      "name": "dungeonFrontChara_caughtUpFukidashi_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1F8",
+      "type": "int[]",
+      "name": "effect_pos",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1FC",
+      "type": "int",
+      "name": "searchItem_notCheckCnt_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x200",
+      "type": "int",
+      "name": "deserializeFinal_friendMonsterId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x204",
+      "type": "int",
+      "name": "deserializeFinal_groupId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x208",
+      "type": "int",
+      "name": "deserializeFinal_rescueCharaId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x20C",
+      "type": "int",
+      "name": "deserializeFinal_monsterBossId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x210",
+      "type": "int",
+      "name": "deserializeFinal_monsterFarmId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x214",
+      "type": "Vector<int>",
+      "name": "deserializeFinal_goTenantIdList_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x218",
+      "type": "int",
+      "name": "deserializeFinal_battleAreaId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x21C",
+      "type": "int",
+      "name": "deserializeFinal_goBattleAreaId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x220",
+      "type": "int",
+      "name": "deserializeFinal_tresureReserveId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x224",
+      "type": "int",
+      "name": "deserializeFinal_tenantReserveId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x228",
+      "type": "int",
+      "name": "deserializeFinal_charaObjDataId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x22C",
+      "type": "int",
+      "name": "deserializeFinal_monsterObjDataId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x230",
+      "type": "int",
+      "name": "deserializeFinal_talkPlace_objId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x234",
+      "type": "int[]",
+      "name": "deserializeFinal_talkPlace_charaId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x238",
+      "type": "int[]",
+      "name": "moveDirectBox",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x23C",
+      "type": "int[]",
+      "name": "direct_dis_free",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x240",
+      "type": "Vector3D",
+      "name": "work_pos1",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x244",
+      "type": "Vector3D",
+      "name": "work_pos2",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x248",
+      "type": "Vector3D",
+      "name": "work_pos3",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x24C",
+      "type": "Vector<object[]>",
+      "name": "work_usePosCharaList",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x250",
+      "type": "Vector3D[]",
+      "name": "work_usePosAry",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x254",
+      "type": "int",
+      "name": "notBattleStartReason",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x258",
+      "type": "Character2",
+      "name": "cache_nearEnemy_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x25C",
+      "type": "Vector",
+      "name": "walkAreaList",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x260",
+      "type": "Vector3D",
+      "name": "walkAreaPos",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x264",
+      "type": "Vector",
+      "name": "effect_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x268",
+      "type": "Vector",
+      "name": "effectMagicAddList_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x26C",
+      "type": "int[]",
+      "name": "ef_cpos",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x270",
+      "type": "float",
+      "name": "rideMonsterJumpA",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x274",
+      "type": "float",
+      "name": "rideMonsterJumpHeight",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x278",
+      "type": "float[]",
+      "name": "AIRMOVE_HEIGHT",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x27C",
+      "type": "float",
+      "name": "AIRMOVE_VY",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x280",
+      "type": "float[]",
+      "name": "BALLOON_MOVE_HEIGHT",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x284",
+      "type": "float",
+      "name": "BALLOON_MOVE_VY",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x288",
+      "type": "float[]",
+      "name": "AIRSHIP_MOVE_HEIGHT",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x28C",
+      "type": "Vector<int[]>",
+      "name": "battle_selectList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x290",
+      "type": "bool",
+      "name": "chInMoveAreaFlag_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x294",
+      "type": "int[]",
+      "name": "work_monsterStartAddress",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x298",
+      "type": "int[]",
+      "name": "work_orderAddress",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x29C",
+      "type": "int[]",
+      "name": "work_updateOldAddress",
+      "display": "",
+      "hidden": true
+    }
+  ]
+}

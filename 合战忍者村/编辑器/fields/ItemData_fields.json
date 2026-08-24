@@ -1,0 +1,312 @@
+{
+  "fields": [
+    {
+      "offset": "0x14",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "type": "int",
+      "name": "category_",
+      "display": "类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "int",
+      "name": "icon_",
+      "display": "图标ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "image_",
+      "display": "图像",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "firstStock_",
+      "display": "初始库存",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "firstPrice_",
+      "display": "初始价格",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "labTimeMax_",
+      "display": "研究时间",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "labCost_",
+      "display": "研究费用",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int[][]",
+      "name": "labScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int[]",
+      "name": "purchaseData_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "purchaseRaise_",
+      "display": "购买涨价",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int[][]",
+      "name": "purchaseScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "productTime_",
+      "display": "生产时间",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int[]",
+      "name": "productFacility_",
+      "display": "生产设施",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int[][]",
+      "name": "productMaterial_",
+      "display": "生产材料",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int[]",
+      "name": "saleFacility_",
+      "display": "销售设施",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "armsType_",
+      "display": "武器类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "shot_",
+      "display": "弹药类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "attackCount_",
+      "display": "攻击次数",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "throwOffense_",
+      "display": "投掷攻击力",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "length_",
+      "display": "近战距离",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int[]",
+      "name": "strikeMotionRatio_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int",
+      "name": "targetSide_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "targetRange_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "targetReach_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x78",
+      "type": "int[]",
+      "name": "equipImages_",
+      "display": "装备图像",
+      "hidden": false
+    },
+    {
+      "offset": "0x7C",
+      "type": "int[]",
+      "name": "equipStatus_",
+      "display": "装备属性",
+      "hidden": false
+    },
+    {
+      "offset": "0x80",
+      "type": "int[]",
+      "name": "equipSpecial_",
+      "display": "特殊效果",
+      "hidden": false
+    },
+    {
+      "offset": "0x84",
+      "type": "int",
+      "name": "equipTerm_",
+      "display": "装备条件",
+      "hidden": false
+    },
+    {
+      "offset": "0x88",
+      "type": "int[][]",
+      "name": "data_",
+      "display": "数据",
+      "hidden": false
+    },
+    {
+      "offset": "0x8C",
+      "type": "int",
+      "name": "timing_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x90",
+      "type": "int[][]",
+      "name": "termsScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x94",
+      "type": "int[][]",
+      "name": "findsScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x98",
+      "type": "int[][]",
+      "name": "execsScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x9C",
+      "type": "string",
+      "name": "explain_",
+      "display": "描述",
+      "hidden": false
+    },
+    {
+      "offset": "0xA0",
+      "type": "int",
+      "name": "state_",
+      "display": "状态",
+      "hidden": false
+    },
+    {
+      "offset": "0xA4",
+      "type": "int",
+      "name": "saleNum_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xA8",
+      "type": "int",
+      "name": "buyNum_",
+      "display": "购买数量",
+      "hidden": false
+    },
+    {
+      "offset": "0xAC",
+      "type": "int",
+      "name": "price_",
+      "display": "价格",
+      "hidden": false
+    },
+    {
+      "offset": "0xB0",
+      "type": "int",
+      "name": "stock_",
+      "display": "持有数",
+      "hidden": false
+    },
+    {
+      "offset": "0xB4",
+      "type": "int",
+      "name": "goodsMakes_",
+      "display": "商品生产数",
+      "hidden": false
+    },
+    {
+      "offset": "0xB8",
+      "type": "int",
+      "name": "goodsSales_",
+      "display": "商品销售数",
+      "hidden": false
+    },
+    {
+      "offset": "0xBC",
+      "type": "bool",
+      "name": "new_",
+      "display": "新标记",
+      "hidden": false
+    },
+    {
+      "offset": "0xBD",
+      "type": "bool",
+      "name": "infinitySale_",
+      "display": "无限销售",
+      "hidden": false
+    }
+  ]
+}

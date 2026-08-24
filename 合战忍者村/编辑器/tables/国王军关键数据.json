@@ -1,0 +1,8 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": ["0x10B6278", "0x5C", "0x0", "0x130"],
+  "mode": "array",
+  "id_field": "level_",
+  "fields_file": "ImperialData_fields.json"
+}

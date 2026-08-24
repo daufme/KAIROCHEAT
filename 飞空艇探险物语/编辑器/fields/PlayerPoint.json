@@ -1,0 +1,25 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "Player",
+      "name": "player_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x0C",
+      "type": "XLong[]",
+      "name": "value_",
+      "display": "当前资源值",
+      "hidden": false
+    },
+    {
+      "offset": "0x10",
+      "type": "XLong[]",
+      "name": "valueMax_",
+      "display": "资源上限",
+      "hidden": false
+    }
+  ]
+}

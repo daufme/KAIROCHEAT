@@ -1,0 +1,395 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x10",
+      "type": "XInt",
+      "name": "num_",
+      "display": "数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "bool",
+      "name": "lineup_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x24",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "createCost_",
+      "display": "建造费用",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "firstNum_",
+      "display": "初始数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "pointType_",
+      "display": "点数类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int[]",
+      "name": "pointNum_",
+      "display": "点数数值",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int[]",
+      "name": "powerNum_",
+      "display": "能力数值",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "expBase_",
+      "display": "经验基础",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "expRatioUp_",
+      "display": "expRatioUp",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "expRatioDown_",
+      "display": "expRatioDown",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "maxLv_",
+      "display": "最大等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "bool",
+      "name": "baseAnime_",
+      "display": "baseAnime",
+      "hidden": true
+    },
+    {
+      "offset": "0x51",
+      "type": "bool",
+      "name": "baseNotLight_",
+      "display": "baseNotLight",
+      "hidden": true
+    },
+    {
+      "offset": "0x52",
+      "type": "bool",
+      "name": "baseNoWalk_",
+      "display": "baseNoWalk",
+      "hidden": true
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "baseImg_",
+      "display": "baseImg",
+      "hidden": true
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "stepImg_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "slopeSeb_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x60",
+      "type": "int[]",
+      "name": "seb_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x64",
+      "type": "bool",
+      "name": "isChipSet_",
+      "display": "isChipSet",
+      "hidden": true
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "fixFrame_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x6C",
+      "type": "int",
+      "name": "sizeW_",
+      "display": "宽度",
+      "hidden": true
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "sizeH_",
+      "display": "高度",
+      "hidden": true
+    },
+    {
+      "offset": "0x74",
+      "type": "bool[][]",
+      "name": "walk_",
+      "display": "walk",
+      "hidden": true
+    },
+    {
+      "offset": "0x78",
+      "type": "int[]",
+      "name": "moneyAddSec_",
+      "display": "moneyAddSec",
+      "hidden": false
+    },
+    {
+      "offset": "0x7C",
+      "type": "int[]",
+      "name": "populationAddSec_",
+      "display": "populationAddSec",
+      "hidden": false
+    },
+    {
+      "offset": "0x80",
+      "type": "int[]",
+      "name": "createSpeed_",
+      "display": "建造速度",
+      "hidden": false
+    },
+    {
+      "offset": "0x84",
+      "type": "int[]",
+      "name": "stockNum_",
+      "display": "库存数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x88",
+      "type": "int",
+      "name": "shopType_",
+      "display": "商店类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x8C",
+      "type": "int",
+      "name": "shopClerkJob_",
+      "display": "shopClerkJob",
+      "hidden": false
+    },
+    {
+      "offset": "0x90",
+      "type": "bool",
+      "name": "shopIn_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x94",
+      "type": "int",
+      "name": "shopStopPos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x98",
+      "type": "int",
+      "name": "harvestAnimal_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x9C",
+      "type": "int",
+      "name": "harvestJobId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xA0",
+      "type": "int",
+      "name": "harvestWeapon_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xA4",
+      "type": "int",
+      "name": "harvestAct_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xA8",
+      "type": "int[][]",
+      "name": "harvestGet_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xAC",
+      "type": "bool",
+      "name": "collectShowChange_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xAD",
+      "type": "bool",
+      "name": "collectOil_",
+      "display": "收集燃料",
+      "hidden": false
+    },
+    {
+      "offset": "0xAE",
+      "type": "bool",
+      "name": "collectFood_",
+      "display": "收集物资",
+      "hidden": false
+    },
+    {
+      "offset": "0xB0",
+      "type": "int",
+      "name": "collectMaterialType_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xB4",
+      "type": "int",
+      "name": "collectMaterialValue_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xB8",
+      "type": "int[][]",
+      "name": "collectUnique_",
+      "display": "collectUnique",
+      "hidden": false
+    },
+    {
+      "offset": "0xBC",
+      "type": "int[][]",
+      "name": "collectBan_",
+      "display": "collectBan",
+      "hidden": false
+    },
+    {
+      "offset": "0xC0",
+      "type": "int",
+      "name": "collectTouchSpeed_",
+      "display": "collectTouchSpeed",
+      "hidden": false
+    },
+    {
+      "offset": "0xC4",
+      "type": "int",
+      "name": "collectTouchStock_",
+      "display": "collectTouchStock",
+      "hidden": false
+    },
+    {
+      "offset": "0xC8",
+      "type": "int",
+      "name": "explainId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xCC",
+      "type": "int",
+      "name": "explainId2_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xD0",
+      "type": "string[]",
+      "name": "txt_",
+      "display": "文本",
+      "hidden": false
+    },
+    {
+      "offset": "0xD4",
+      "type": "int[]",
+      "name": "sizeTmp_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x8"
+      ],
+      "type": "XInt",
+      "name": "lv_",
+      "display": "等级",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xD8",
+        "0x18"
+      ],
+      "type": "XLong",
+      "name": "exp_",
+      "display": "经验",
+      "hidden": false
+    },
+    {
+      "offset": "0xDC",
+      "type": "XInt",
+      "name": "buildCount_",
+      "display": "建造计数",
+      "hidden": false
+    },
+    {
+      "offset": "0xEC",
+      "type": "bool",
+      "name": "lineup_",
+      "display": "是否排列",
+      "hidden": false
+    }
+  ]
+}

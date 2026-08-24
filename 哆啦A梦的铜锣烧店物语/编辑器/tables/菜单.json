@@ -1,0 +1,11 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [ "0x19E7FF4", "0x5C", "0x0", "0x44", "0x8"],
+  "mode": "array",
+  "category": {
+    "field": ""
+  },
+  "id_field": "_name_",
+  "fields_file": "Menu.json"
+}

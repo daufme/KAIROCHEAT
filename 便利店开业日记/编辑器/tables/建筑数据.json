@@ -1,0 +1,17 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [ "0x1588E98", "0x10", "0x5C", "0x0" ],
+  "mode": "array",
+  "category": {
+    "field": "category_",
+    "names": {
+      "0": "店内",
+      "1": "设备",
+      "2": "店外",
+      "4": "4"
+    }
+  },
+  "id_field": "_name_",
+  "fields_file": "ChipModel.json"
+}

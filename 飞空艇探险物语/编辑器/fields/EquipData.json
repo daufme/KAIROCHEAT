@@ -1,0 +1,242 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x10",
+      "type": "XInt",
+      "name": "num_",
+      "display": "数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "bool",
+      "name": "lineup_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x24",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "sortID_",
+      "display": "排序ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "class_",
+      "display": "类别（武/盾/头/身/饰）",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "type_",
+      "display": "装备类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "weight_",
+      "display": "重量",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "iconU_",
+      "display": "iconU",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "iconV_",
+      "display": "iconV",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "shieldCutMin_",
+      "display": "完全防御最小值",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "shieldCutMax_",
+      "display": "完全防御最大值",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "shieldEffectType_",
+      "display": "盾牌效果",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "shieldEffectMin_",
+      "display": "盾牌效果最小值",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "shieldEffectMax_",
+      "display": "盾牌效果最大值",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "dropRank_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "shopType_",
+      "display": "商店类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "bool",
+      "name": "shopFirst_",
+      "display": "是否新获得",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "shopLv_",
+      "display": "商店等级要求",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "citySkillTag_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "shopPrice_",
+      "display": "购买价格",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int",
+      "name": "shopSellPrice_",
+      "display": "出售价格",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "weaponImg_",
+      "display": "武器图像",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "smithCost_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x78",
+      "type": "int",
+      "name": "smithLvMax_",
+      "display": "最大等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x7C",
+      "type": "int",
+      "name": "smithExpRate_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x80",
+      "type": "int[][]",
+      "name": "param_",
+      "display": "装备属性（初/满）",
+      "hidden": false
+    },
+    {
+      "offset": "0x84",
+      "type": "int",
+      "name": "critical_",
+      "display": "暴击率",
+      "hidden": false
+    },
+    {
+      "offset": "0x88",
+      "type": "int",
+      "name": "explainId_",
+      "display": "explainId",
+      "hidden": true
+    },
+    {
+      "offset": "0x8C",
+      "type": "int[]",
+      "name": "eggColor_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x90",
+      "type": "int",
+      "name": "eggHatchingTime_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x94",
+      "type": "string",
+      "name": "txt_",
+      "display": "txt",
+      "hidden": true
+    },
+    {
+      "offset": "0x98",
+      "type": "int",
+      "name": "lv_",
+      "display": "当前等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x9C",
+      "type": "int",
+      "name": "workEquipNum_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xA0",
+      "type": "int",
+      "name": "getGunTypeTmp_",
+      "display": "",
+      "hidden": true
+    }
+  ]
+}

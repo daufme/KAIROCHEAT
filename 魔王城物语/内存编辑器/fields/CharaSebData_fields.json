@@ -1,0 +1,186 @@
+{
+  "fields": [
+    {
+      "offset": "0x1C",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "charaSebSetDataId_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "direct_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int[]",
+      "name": "sebId_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int[][][]",
+      "name": "offset_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int[]",
+      "name": "weapon_seb_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int[]",
+      "name": "weapon_sebF_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int[]",
+      "name": "weapon_degree_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int[]",
+      "name": "weapon_inversion_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int[]",
+      "name": "weaponEffect_act_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int[]",
+      "name": "weaponEffect_type_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int[]",
+      "name": "weaponEffect_sebF_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int[][]",
+      "name": "weaponEffect_offset_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int[]",
+      "name": "floatRing_type0_drawOreder_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int[][]",
+      "name": "floatRing_type0_offset_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int[]",
+      "name": "floatRing_type1_drawOreder_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "int[][]",
+      "name": "floatRing_type1_offset_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int[]",
+      "name": "floatRing_type2_drawOreder_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int[][]",
+      "name": "floatRing_type2_offset_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int[]",
+      "name": "floatRing_type3_drawOreder_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int[][]",
+      "name": "floatRing_type3_offset_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int[]",
+      "name": "floatRing_type4_drawOreder_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int[][]",
+      "name": "floatRing_type4_offset_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x78",
+      "type": "int[]",
+      "name": "food_drawOrder_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x7C",
+      "type": "int[][]",
+      "name": "food_offset_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x80",
+      "type": "int[]",
+      "name": "ballHaveInfo_",
+      "display": "",
+      "hidden": false
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"基址"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>GameAssembly.dll+145DE94</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"脚本"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>18</ID>
+          <Description>"全图鉴"</Description>
+          <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+
+alloc(MyThread, 1024)
+registersymbol(MyThread)
+
+MyThread:
+  push ebp
+  mov ebp, esp
+  push ebx
+  push esi
+  push edi
+  mov eax, [GameAssembly.dll+145DE94]
+  mov eax, [eax+5C]
+  mov eax, [eax]
+  mov eax, [eax+180]
+  mov ebx, [eax+0C]
+  lea esi, [eax+10]
+  xor edi, edi
+loop_start:
+  cmp edi, ebx
+  jge end_thread
+  mov eax, [esi+edi*4]
+  test eax, eax
+  jz next_item
+  push 00
+  push 01
+  push 01
+  push eax
+  call GameAssembly.dll+30E740
+  add esp, 10
+next_item:
+  inc edi
+  jmp loop_start
+
+end_thread:
+  pop edi
+  pop esi
+  pop ebx
+  pop ebp
+  ret
+
+createthread(MyThread)
+
+[DISABLE]
+unregistersymbol(MyThread)
+dealloc(MyThread)
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>25</ID>
+              <Description>"锁"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+
+alloc(MyThread, 1024)
+registersymbol(MyThread)
+
+MyThread:
+  push ebp
+  mov ebp, esp
+  push ebx
+  push esi
+  push edi
+  mov eax, [GameAssembly.dll+145DE94]
+  mov eax, [eax+5C]
+  mov eax, [eax]
+  mov eax, [eax+180]
+  mov ebx, [eax+0C]
+  lea esi, [eax+10]
+  xor edi, edi
+loop_start:
+  cmp edi, ebx
+  jge end_thread
+  mov eax, [esi+edi*4]
+  test eax, eax
+  jz next_item
+  push 0
+  push 1
+  push 0
+  push eax
+  call GameAssembly.dll+30E740
+  add esp, 10
+next_item:
+  inc edi
+  jmp loop_start
+
+end_thread:
+  pop edi
+  pop esi
+  pop ebx
+  pop ebp
+  ret
+
+createthread(MyThread)
+
+[DISABLE]
+unregistersymbol(MyThread)
+dealloc(MyThread)
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>28</ID>
+          <Description>"拉满道具"</Description>
+          <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+alloc(MyThread, 1024)
+registersymbol(MyThread)
+
+MyThread:
+  pushad
+  mov eax,[GameAssembly.dll+145DE94]
+  mov eax,[eax+5C]
+  mov eax,[eax+0]
+  mov eax,[eax+184]
+  mov edi,[eax+0C]
+loop:
+  mov ebx,[eax+10]
+  mov ebx,[ebx+98]
+  mov dword ptr [ebx+14],270F
+skip:
+  add eax,4
+  dec edi
+  jnz loop
+end_thread:
+  popad
+  ret
+
+createthread(MyThread)
+
+[DISABLE]
+unregistersymbol(MyThread)
+dealloc(MyThread)
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>29</ID>
+              <Description>"清空"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+alloc(MyThread, 1024)
+registersymbol(MyThread)
+
+MyThread:
+  pushad
+  mov eax,[GameAssembly.dll+145DE94]
+  mov eax,[eax+5C]
+  mov eax,[eax+0]
+  mov eax,[eax+184]
+  mov edi,[eax+0C]
+loop:
+  mov ebx,[eax+10]
+  mov ebx,[ebx+98]
+  mov dword ptr [ebx+14],0
+skip:
+  add eax,4
+  dec edi
+  jnz loop
+end_thread:
+  popad
+  ret
+
+createthread(MyThread)
+
+[DISABLE]
+unregistersymbol(MyThread)
+dealloc(MyThread)
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

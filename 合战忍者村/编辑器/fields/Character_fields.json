@@ -1,0 +1,340 @@
+{
+  "fields": [
+    {
+      "offset": "0x14",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "type": "string",
+      "name": "omit_",
+      "display": "省略名",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "job_",
+      "display": "村民职业",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "motion_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "gender_",
+      "display": "性别",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "shadow_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "firstFormation_",
+      "display": "初始阵型",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "defaultSoldierType_",
+      "display": "默认兵种",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "appearBase_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "appearRange_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int[][]",
+      "name": "affinities_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int[]",
+      "name": "drops_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "series_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "ratioValue_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "head_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int[]",
+      "name": "body_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "talk_",
+      "display": "对话",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "cost_",
+      "display": "花费",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "firstLevel_",
+      "display": "初始等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int[][]",
+      "name": "statusDefinition_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int[]",
+      "name": "skills_",
+      "display": "技能组",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int[]",
+      "name": "equipImages_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int[]",
+      "name": "firstEquip_",
+      "display": "初始装备",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "timing_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x78",
+      "type": "int[][]",
+      "name": "termsScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x7C",
+      "type": "int[][]",
+      "name": "execsScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x80",
+      "type": "int[][]",
+      "name": "comeScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x84",
+      "type": "int[][]",
+      "name": "employScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x88",
+      "type": "int",
+      "name": "specialExecTalkType_",
+      "display": "特殊执行对话类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x8C",
+      "type": "string[]",
+      "name": "specialExecTalkText_",
+      "display": "特殊执行对话文本",
+      "hidden": false
+    },
+    {
+      "offset": "0x90",
+      "type": "int",
+      "name": "specialComeTalkType_",
+      "display": "特殊到来对话类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x94",
+      "type": "string[]",
+      "name": "specialComeTalkText_",
+      "display": "特殊到来对话文本",
+      "hidden": false
+    },
+    {
+      "offset": "0x98",
+      "type": "int",
+      "name": "specialEmployTalkType_",
+      "display": "特殊雇佣对话类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x9C",
+      "type": "string[]",
+      "name": "specialEmployTalkText_",
+      "display": "特殊雇佣对话文本",
+      "hidden": false
+    },
+    {
+      "offset": "0xA0",
+      "type": "int",
+      "name": "state_",
+      "display": "状态",
+      "hidden": false
+    },
+    {
+      "offset": "0xA4",
+      "type": "bool",
+      "name": "new_",
+      "display": "新标记",
+      "hidden": false
+    },
+    {
+      "offset": "0xA8",
+      "type": "int[]",
+      "name": "status_",
+      "display": "属性",
+      "hidden": false
+    },
+    {
+      "offset": "0xAC",
+      "type": "int",
+      "name": "level_",
+      "display": "等级",
+      "hidden": false
+    },
+    {
+      "offset": "0xB0",
+      "type": "bool",
+      "name": "changeSkill_",
+      "display": "技能改变标记",
+      "hidden": false
+    },
+    {
+      "offset": "0xB4",
+      "type": "int",
+      "name": "skill_",
+      "display": "当前技能",
+      "hidden": false
+    },
+    {
+      "offset": "0xB8",
+      "type": "int[]",
+      "name": "equip_",
+      "display": "装备",
+      "hidden": false
+    },
+    {
+      "offset": "0xBC",
+      "type": "int[][]",
+      "name": "renderInfo_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xC0",
+      "type": "int[][]",
+      "name": "renderId_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xC4",
+      "type": "int",
+      "name": "appearTime_",
+      "display": "出现时间",
+      "hidden": false
+    },
+    {
+      "offset": "0xC8",
+      "type": "bool",
+      "name": "comeScriptFlag_",
+      "display": "到来脚本标记",
+      "hidden": false
+    },
+    {
+      "offset": "0xCC",
+      "type": "int",
+      "name": "formation_",
+      "display": "阵型",
+      "hidden": false
+    },
+    {
+      "offset": "0xD0",
+      "type": "bool",
+      "name": "join_",
+      "display": "加入标记",
+      "hidden": false
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "fields": [
+    {
+      "offset": "0x14",
+      "type": "string",
+      "name": "name_",
+      "display": "领地名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "type": "int",
+      "name": "ruler_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "int",
+      "name": "lord_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "cost_",
+      "display": "花费",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "timing_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int[][]",
+      "name": "termsScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int[][]",
+      "name": "findsScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int[][]",
+      "name": "execsScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "string",
+      "name": "explain_",
+      "display": "说明",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "Vector",
+      "name": "mapchips_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x3C",
+      "type": "Vector",
+      "name": "neighborMapchips_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "area_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int[][]",
+      "name": "outlines_",
+      "display": "轮廓数据",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "state_",
+      "display": "状态",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "bool",
+      "name": "new_",
+      "display": "是否新发现",
+      "hidden": false
+    },
+    {
+      "offset": "0x4D",
+      "type": "bool",
+      "name": "capture_",
+      "display": "是否可占领",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int[]",
+      "name": "center_",
+      "display": "中心",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int[]",
+      "name": "rect_",
+      "display": "",
+      "hidden": false
+    }
+  ]
+}

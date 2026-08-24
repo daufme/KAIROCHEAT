@@ -1,0 +1,60 @@
+{
+  "fields": [
+    {
+      "offset": "0x14",
+      "type": "string",
+      "name": "name_",
+      "display": "技能名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "type": "int",
+      "name": "type_",
+      "display": "技能类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "int",
+      "name": "icon_",
+      "display": "图标ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int[]",
+      "name": "data_",
+      "display": "技能数据",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "motion_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "string",
+      "name": "explain_",
+      "display": "技能说明",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "state_",
+      "display": "技能发现状态",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "bool",
+      "name": "new_",
+      "display": "是否为新获得",
+      "hidden": false
+    }
+  ]
+}

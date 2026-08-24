@@ -1,0 +1,772 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "_id_",
+      "display": "ID",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "_sort_",
+      "display": "sort",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10",
+      "type": "string",
+      "name": "_name_",
+      "display": "名称",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x18",
+      "type": "long",
+      "name": "_flag_",
+      "display": "标志位",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x20",
+      "type": "bool",
+      "name": "_new_",
+      "display": "新发现",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x21",
+      "type": "bool",
+      "name": "_read_",
+      "display": "read",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x28",
+      "type": "string",
+      "name": "subs_",
+      "display": "sub",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x30",
+      "type": "string",
+      "name": "typeName_",
+      "display": "类型名称",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "buildCategory_",
+      "display": "建造分类",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x38",
+      "type": "ChipModel.BuildAnims",
+      "name": "buildAnim_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "genre_",
+      "display": "类别",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "seb_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "frame_",
+      "display": "frame",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x48",
+      "type": "int[][]",
+      "name": "random_",
+      "display": "random",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "rank_",
+      "display": "级别",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "firstHaveNum_",
+      "display": "初始拥有",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "lightPointRadius_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "lightPointColor_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "lightEmissiveColor_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x60",
+      "type": "int[][]",
+      "name": "tableUse_",
+      "display": "tableuse",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x64",
+      "type": "string",
+      "name": "namingFormat_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "namingNumType_",
+      "display": "namingNumType",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x6C",
+      "type": "ChipRotation",
+      "name": "rotation_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "sizeWidth_",
+      "display": "宽度",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "sizeHeight_",
+      "display": "高度",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x78",
+      "type": "int",
+      "name": "buildPrice_",
+      "display": "建造价格",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x7C",
+      "type": "int",
+      "name": "buildAdditionalPrice_",
+      "display": "额外建造价格",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x80",
+      "type": "int",
+      "name": "upkeep_",
+      "display": "维护费",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x84",
+      "type": "int",
+      "name": "removal_",
+      "display": "拆除费用",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x88",
+      "type": "ChipModel.ChargeTypes",
+      "name": "chargeType_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x8C",
+      "type": "int",
+      "name": "charge_",
+      "display": "收费",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x90",
+      "type": "int",
+      "name": "chargeMax_",
+      "display": "最大收费",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x94",
+      "type": "string",
+      "name": "effectExplain_",
+      "display": "效果说明",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x98",
+      "type": "int",
+      "name": "appeal_",
+      "display": "吸引力",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x9C",
+      "type": "int",
+      "name": "repute_",
+      "display": "声望",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xA0",
+      "type": "int",
+      "name": "aroundEffectAppeal",
+      "display": "周围效果吸引力",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xA4",
+      "type": "int",
+      "name": "aroundEffectRange",
+      "display": "周围效果范围",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xA8",
+      "type": "int",
+      "name": "buildTime_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xAC",
+      "type": "int",
+      "name": "useTime_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xB0",
+      "type": "int",
+      "name": "payChargeFrame_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xB4",
+      "type": "int",
+      "name": "paySatisfactionFrame_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xB8",
+      "type": "int[]",
+      "name": "fuki_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xBC",
+      "type": "int",
+      "name": "animationInterval_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xC0",
+      "type": "int",
+      "name": "item_",
+      "display": "物品",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xC4",
+      "type": "string",
+      "name": "explain_",
+      "display": "说明",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xC8",
+      "type": "int[]",
+      "name": "moveGroups_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xCC",
+      "type": "int",
+      "name": "moveCostOK_",
+      "display": "moveCostOK",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xD0",
+      "type": "int",
+      "name": "moveCostNG_",
+      "display": "moveCostNG",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xD4",
+      "type": "int[]",
+      "name": "data_",
+      "display": "data",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xD8",
+      "type": "int",
+      "name": "goodsCategory_",
+      "display": "goodsCategory",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xDC",
+      "type": "ScriptData",
+      "name": "removalTermScript_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xE0",
+      "type": "int",
+      "name": "hall_",
+      "display": "hall",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xE4",
+      "type": "int",
+      "name": "ground_",
+      "display": "ground",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xE8",
+      "type": "int[]",
+      "name": "spaces_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xEC",
+      "type": "int",
+      "name": "chargeUp_",
+      "display": "收费提升",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xF0",
+      "type": "int",
+      "name": "appealUp_",
+      "display": "吸引力提升",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xF4",
+      "type": "int",
+      "name": "moodUp_",
+      "display": "情绪提升",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xF8",
+      "type": "int[]",
+      "name": "customerZoneAffinity_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xFC",
+      "type": "int",
+      "name": "useNum_",
+      "display": "使用次数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x100",
+      "type": "int[]",
+      "name": "efficacies_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x104",
+      "type": "int",
+      "name": "lastWeekProfit_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x108",
+      "type": "int",
+      "name": "thisWeekProfit_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10C",
+      "type": "int",
+      "name": "saleNum_",
+      "display": "销售数量",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x110",
+      "type": "int",
+      "name": "buyNum_",
+      "display": "购买数量",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x114",
+      "type": "int",
+      "name": "number_",
+      "display": "编号",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x118",
+      "type": "bool",
+      "name": "acquired_",
+      "display": "已获得",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x11C",
+      "type": "int",
+      "name": "outOfStock_",
+      "display": "outOfStock",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x120",
+      "type": "bool",
+      "name": "sales_",
+      "display": "sales",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x124",
+      "type": "int",
+      "name": "autoSaleWait_",
+      "display": "autoSaleWait",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x128",
+      "type": "bool",
+      "name": "saleNew_",
+      "display": "saleNew",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x12C",
+      "type": "int",
+      "name": "raiseUp_",
+      "display": "raiseUp",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x130",
+      "type": "bool",
+      "name": "isSeasonMood_",
+      "display": "季节",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x131",
+      "type": "bool",
+      "name": "builded_",
+      "display": "已建造",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x132",
+      "type": "bool",
+      "name": "everSelectedOnMain_",
+      "display": "everSelectedOnMain",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": [ "0x134", "0x8", "0x10", "0x14" ],
+      "type": "int",
+      "name": "itemUseNum_",
+      "display": "魅力增加使用数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x138",
+      "type": "bool",
+      "name": "buildFinished_",
+      "display": "buildFinished",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x13C",
+      "type": "Dictionary<int, Point[]>",
+      "name": "lampTable_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x140",
+      "type": "int",
+      "name": "state_",
+      "display": "状态",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": [
+        "0x144",
+        "0x10"
+      ],
+      "type": "string",
+      "name": "relativeItem",
+      "display": "相关物品",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": [
+        "0x148",
+        "0x8"
+      ],
+      "type": "string",
+      "name": "Name",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": [
+        "0x148",
+        "0xC"
+      ],
+      "type": "int",
+      "name": "Number",
+      "display": "库存数量",
+      "hidden": false,
+      "function": {
+        "offset": "0x7E3110",
+        "calling_convention": "__cdecl",
+        "parameters": [
+          "this",
+          "field:number_",
+          "0",
+          "0",
+          "addr:_name_",
+          0
+        ],
+        "description": "+1"
+      },
+      "index_labels": []
+    },
+    {
+      "offset": "0x14C",
+      "type": "List<GoodsData>",
+      "name": "equippedGoods_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    }
+  ]
+}

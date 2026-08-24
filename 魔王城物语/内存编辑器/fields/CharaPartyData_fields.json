@@ -1,0 +1,116 @@
+{
+  "fields": [
+    {
+      "offset": "0x1C",
+      "type": "string",
+      "name": "tag_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "spProcType_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "xlsEva_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "charaNum_",
+      "display": "角色数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int[][]",
+      "name": "memberData_",
+      "display": "成员数据",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int[]",
+      "name": "genderAry_",
+      "display": "性别",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int[]",
+      "name": "faceImgAry_",
+      "display": "头像图片ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "string[]",
+      "name": "nameAry_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "xls_setPattern_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "lvBonus_",
+      "display": "等级加成",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int[][]",
+      "name": "execsScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int[]",
+      "name": "exam_lvAry_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int[]",
+      "name": "exam_workAry_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int[][]",
+      "name": "exam_learnMagicAry_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int[]",
+      "name": "paramI_",
+      "display": "",
+      "hidden": false
+    }
+  ]
+}

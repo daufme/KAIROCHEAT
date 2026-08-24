@@ -1,0 +1,16 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [ "0xDC04A0", "0x5C", "0x0", "0x68" ],
+  "mode": "array",
+  "category": {
+    "field": "type_",
+    "names": {
+      "2": "商店",
+      "4": "办事处",
+      "9": "住宅"
+    }
+  },
+  "id_field": "name_",
+  "fields_file": "WharfChipModel.json"
+}

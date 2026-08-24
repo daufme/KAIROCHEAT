@@ -1,0 +1,8 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": ["0xDBB4EC", "0x5C", "0x0", "0x68", "0x8"],
+  "mode": "array",
+  "id_field": "name_",
+  "fields_file": "Human-Character.json"
+}

@@ -1,0 +1,165 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x10",
+      "type": "XInt",
+      "name": "num_",
+      "display": "数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "bool",
+      "name": "lineup_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x24",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "sortTag_",
+      "display": "sortTag",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "sortRatio_",
+      "display": "sortRatio",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "category_",
+      "display": "技能类别",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "firstGet_",
+      "display": "firstGet",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "shopType_",
+      "display": "商店类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "bool",
+      "name": "shopFirst_",
+      "display": "新发现",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "shopLv_",
+      "display": "商店等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "citySkillTag_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "shopPrice_",
+      "display": "购买价格",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "shopSellPrice_",
+      "display": "出售价格",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "iconU_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "iconV_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "cost_",
+      "display": "消耗值",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "value_",
+      "display": "效果数值",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "battleCost_",
+      "display": "消耗魔力",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "battleTime_",
+      "display": "持续时间",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int",
+      "name": "battleRatio_",
+      "display": "发动概率",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "explainId_",
+      "display": "explainId",
+      "hidden": true
+    },
+    {
+      "offset": "0x74",
+      "type": "string",
+      "name": "txt_",
+      "display": "文本",
+      "hidden": false
+    }
+  ]
+}

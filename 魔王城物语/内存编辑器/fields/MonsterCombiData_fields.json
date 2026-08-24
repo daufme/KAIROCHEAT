@@ -1,0 +1,39 @@
+{
+  "fields": [
+    {
+      "offset": "0x1C",
+      "type": "string",
+      "name": "tag_",
+      "display": "标签",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int[]",
+      "name": "unionMonsterDataIdAry_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "unionNewMonsterDataId_",
+      "display": "新怪物ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int[]",
+      "name": "paramI_",
+      "display": "",
+      "hidden": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": ["0x10B6278", "0x5C", "0x0", "0xF8"],
+  "mode": "array",
+  "category": {
+    "field": "category_",
+	"names": {
+	  "1": "武",
+	  "2": "头",
+	  "3": "体",
+	  "4": "特",
+	  "6": "材料",
+	  "7": "商品",
+	  "8": "建筑",
+	  "9": "其他"
+    }
+  },
+  "id_field": "name_",
+  "fields_file": "ItemData_fields.json"
+}

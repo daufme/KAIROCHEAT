@@ -1,0 +1,21 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": ["0xDC04A0", "0x5C", "0x0", "0xBC"],
+  "mode": "array",
+  "category": {
+    "field": "type_",
+    "names": {
+      "0": "经验食物",
+      "1": "应援道具",
+      "2": "装备强化",
+      "6": "小型艇强化",
+      "7": "出售道具",
+      "8": "知识碎片",
+      "9": "才能光灯",
+      "10": "改名之书"
+    }
+  },
+  "id_field": "name_",
+  "fields_file": "ItemData.json"
+}

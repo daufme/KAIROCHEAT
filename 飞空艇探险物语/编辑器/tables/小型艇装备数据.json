@@ -1,0 +1,15 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": ["0xDC04A0", "0x5C", "0x0", "0x9C"],
+  "mode": "array",
+    "category": {
+    "field": "class_",
+	"names": {
+	  "0": "武器",
+	  "1": "部件"
+    }
+  },
+  "id_field": "name_",
+  "fields_file": "SkyVehicleEquipData.json"
+}

@@ -1,0 +1,452 @@
+{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "id_",
+      "display": "ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "characterIndex_",
+      "display": "角色索引",
+      "hidden": false
+    },
+    {
+      "offset": "0x10",
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x14",
+      "type": "float",
+      "name": "x_",
+      "display": "X",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "type": "float",
+      "name": "y_",
+      "display": "Y",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "int",
+      "name": "h_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "float",
+      "name": "vx_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "float",
+      "name": "vy_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "dir_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "frame_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "flag_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "headDir_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "power_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "powerDecimal_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "searchHomeCount_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "factoryIdleCount_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "drawX_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "drawY_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int[]",
+      "name": "lastOnMapChip_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "Building",
+      "name": "workshop_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "Building",
+      "name": "visit_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "Building",
+      "name": "house_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "pickItemNum_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int[][]",
+      "name": "pickItem_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "bool",
+      "name": "draw_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int[]",
+      "name": "visitedChipCount_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "towardFacilityCount_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "state_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x78",
+      "type": "int",
+      "name": "fukidashiTime_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x7C",
+      "type": "int",
+      "name": "fukidashiTimeMax_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x80",
+      "type": "int",
+      "name": "fukidashiNo_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x84",
+      "type": "FastVector",
+      "name": "script_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x88",
+      "type": "int",
+      "name": "insertScriptIndex_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x8C",
+      "type": "int",
+      "name": "positionIndex_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x90",
+      "type": "int",
+      "name": "positionListNum_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x94",
+      "type": "float[][]",
+      "name": "positionList_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x98",
+      "type": "int",
+      "name": "queueModelId_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x9C",
+      "type": "int",
+      "name": "queueType_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xA0",
+      "type": "int",
+      "name": "queueXi_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xA4",
+      "type": "int",
+      "name": "queueYi_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xA8",
+      "type": "int",
+      "name": "queueDirection_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xAC",
+      "type": "int",
+      "name": "queueIndex_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xB0",
+      "type": "int[][]",
+      "name": "paintInfo_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xB4",
+      "type": "int",
+      "name": "paintNum_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xB8",
+      "type": "int",
+      "name": "paintCalcOffsetX_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xBC",
+      "type": "int",
+      "name": "paintCalcOffsetY_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xC0",
+      "type": "int",
+      "name": "headCenterX_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xC4",
+      "type": "int",
+      "name": "headTopY_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xC8",
+      "type": "float",
+      "name": "ONESTEP_MOVE_FRAMES",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xCC",
+      "type": "int",
+      "name": "exitGate_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xD0",
+      "type": "int",
+      "name": "hideCount_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xD4",
+      "type": "int",
+      "name": "buyItem_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xD8",
+      "type": "int",
+      "name": "buyNum_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xDC",
+      "type": "Vector<int[]>",
+      "name": "buyLog_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xE0",
+      "type": "int",
+      "name": "jobSearchWait_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xE4",
+      "type": "bool[][]",
+      "name": "getCamp_check",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xE8",
+      "type": "float",
+      "name": "odx_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xEC",
+      "type": "float",
+      "name": "ody_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xF0",
+      "type": "float",
+      "name": "ovx_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xF4",
+      "type": "float",
+      "name": "ovy_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xF8",
+      "type": "int[]",
+      "name": "moveStart_tmp",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xFC",
+      "type": "int",
+      "name": "deserializeVisit_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x100",
+      "type": "int",
+      "name": "deserializeWorkshop_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x104",
+      "type": "int",
+      "name": "deserializeHouse_",
+      "display": "",
+      "hidden": false
+    }
+  ]
+}

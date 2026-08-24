@@ -1,0 +1,319 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x10",
+      "type": "XInt",
+      "name": "num_",
+      "display": "数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "bool",
+      "name": "lineup_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x24",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "sortID_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "class_",
+      "display": "类别",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "type_",
+      "display": "武器类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "weight_",
+      "display": "重量",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "iconU_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "iconV_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "shieldCutMin_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "shieldCutMax_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "shieldEffectType_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "shieldEffectMin_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "shieldEffectMax_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "dropRank_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "shopType_",
+      "display": "商店类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "bool",
+      "name": "shopFirst_",
+      "display": "新发现",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "shopLv_",
+      "display": "商店等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "citySkillTag_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "shopPrice_",
+      "display": "购买价格",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int",
+      "name": "shopSellPrice_",
+      "display": "出售价格",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "weaponImgId_",
+      "display": "weaponImgId",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "weaponAttackQuarterSebId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x78",
+      "type": "int",
+      "name": "weaponAttackSideSebId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x7C",
+      "type": "int",
+      "name": "weaponEffectAttackQuarterSebId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x80",
+      "type": "int",
+      "name": "weaponEffectAttackSideSebId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x84",
+      "type": "int",
+      "name": "weaponEffectHitSebId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x88",
+      "type": "int[]",
+      "name": "drawQuarterUX_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x8C",
+      "type": "int[]",
+      "name": "drawQuarterUY_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x90",
+      "type": "int[]",
+      "name": "drawQuarterRX_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x94",
+      "type": "int[]",
+      "name": "drawQuarterRY_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x98",
+      "type": "int[]",
+      "name": "drawSideX_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x9C",
+      "type": "int[]",
+      "name": "drawSideY_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xA0",
+      "type": "int",
+      "name": "drawPriority_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xA4",
+      "type": "int",
+      "name": "smithCost_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xA8",
+      "type": "int",
+      "name": "smithLvMax_",
+      "display": "最大等级",
+      "hidden": false
+    },
+    {
+      "offset": "0xAC",
+      "type": "int",
+      "name": "smithExpRate_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xB0",
+      "type": "int[][]",
+      "name": "param_",
+      "display": "属性",
+      "hidden": false
+    },
+    {
+      "offset": "0xB4",
+      "type": "int",
+      "name": "critical_",
+      "display": "暴击率",
+      "hidden": true
+    },
+    {
+      "offset": "0xB8",
+      "type": "int",
+      "name": "explainId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xBC",
+      "type": "int[]",
+      "name": "eggColor_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xC0",
+      "type": "int",
+      "name": "eggHatchingTime_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xC4",
+      "type": "string",
+      "name": "txt_",
+      "display": "文本",
+      "hidden": false
+    },
+    {
+      "offset": "0xC8",
+      "type": "int",
+      "name": "lv_",
+      "display": "当前等级",
+      "hidden": false
+    },
+    {
+      "offset": "0xCC",
+      "type": "int[]",
+      "name": "getDrawPosTmp_",
+      "display": "",
+      "hidden": true
+    }
+  ]
+}

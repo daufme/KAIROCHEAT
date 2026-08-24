@@ -1,0 +1,354 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x8",
+      "name": "_id_",
+      "type": "int",
+      "display": "ID",
+      "hidden": false
+    },
+    {
+      "offset": "0xC",
+      "name": "_sort_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x10",
+      "name": "_name_",
+      "type": "string",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "name": "_flag_",
+      "type": "long",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x20",
+      "name": "_new_",
+      "type": "bool",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x21",
+      "name": "_read_",
+      "type": "bool",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x10",
+      "name": "name_",
+      "type": "string",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x14",
+      "name": "res_",
+      "type": "string",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x18",
+      "name": "setting_frame_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x1C",
+      "name": "charm_",
+      "type": "int[]",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x20",
+      "name": "quality_",
+      "type": "int[]",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x24",
+      "name": "stock_",
+      "type": "int[]",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x28",
+      "name": "income_",
+      "type": "int[]",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x2C",
+      "name": "purchase_",
+      "type": "int[]",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x30",
+      "name": "hitNaming_bonus_param_type_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x34",
+      "name": "hitNaming_bonus_value_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x38",
+      "name": "moneyChallenge_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x3C",
+      "name": "challenge_difficult_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x40",
+      "name": "rewardSoldRequire_",
+      "type": "int[]",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x44",
+      "name": "soldReward_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x48",
+      "name": "fukidashiSet_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x4C",
+      "name": "itemSet_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x50",
+      "name": "img_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x54",
+      "name": "resIcon_",
+      "type": "string",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x58",
+      "name": "seb_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x5C",
+      "name": "iconFrame_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x60",
+      "name": "type_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x64",
+      "name": "type_level_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x68",
+      "name": "subType_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x6C",
+      "name": "tab_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x70",
+      "name": "temperature_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x74",
+      "name": "requireRank_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x78",
+      "name": "umbrellaId_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x7C",
+      "name": "explain_",
+      "type": "string",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x80",
+      "name": "minigameGroup_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x84",
+      "name": "flag2_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x88",
+      "name": "monthly_sell_count_",
+      "type": "int[]",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x8C",
+      "name": "monthly_sales_",
+      "type": "int[]",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x90",
+      "name": "overall_sell_count_",
+      "type": "long",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x98",
+      "name": "season_sell_count_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x9C",
+      "name": "challengeNum_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xA0",
+      "name": "sell_name_",
+      "type": "string",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xA4",
+      "name": "subject_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xA8",
+      "name": "popularity_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xAC",
+      "name": "current_pr_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xB0",
+      "name": "itemBonusParam_",
+      "type": "int[]",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xB4",
+      "name": "prBonusParam_",
+      "type": "int[]",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xB8",
+      "name": "hitNamingBonusParam_",
+      "type": "int[]",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xBC",
+      "name": "lv_",
+      "type": "int",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xC0",
+      "name": "PARAM_SEB",
+      "type": "Dictionary<int, int>",
+      "display": "",
+      "hidden": true
+    }
+  ]
+}

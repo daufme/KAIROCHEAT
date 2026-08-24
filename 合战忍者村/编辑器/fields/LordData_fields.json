@@ -1,0 +1,284 @@
+{
+  "fields": [
+    {
+      "offset": "0x14",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "type": "string",
+      "name": "fname_",
+      "display": "姓氏",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "string",
+      "name": "gname_",
+      "display": "组名",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int[]",
+      "name": "firstPosition_",
+      "display": "初始位置",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int[]",
+      "name": "appear_",
+      "display": "出现位置",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "kamon_",
+      "display": "家纹",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "flagNo_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "icon_",
+      "display": "图标",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int[]",
+      "name": "neighbors_",
+      "display": "邻接势力",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int[]",
+      "name": "powerDefine_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int[][]",
+      "name": "winItems_",
+      "display": "胜利获得物品",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int[]",
+      "name": "lordlessChara_",
+      "display": "无主角色列表",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "customer_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "bonusMoney_",
+      "display": "奖励金钱",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "field_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int[]",
+      "name": "baseSoldiersRatio_",
+      "display": "基础兵力比例",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int[]",
+      "name": "soldiersChara_",
+      "display": "士兵角色列表",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "soldierMax_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int[][]",
+      "name": "joinCharacters_",
+      "display": "加入角色列表",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "timing_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int[][]",
+      "name": "termsScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int[][]",
+      "name": "findsScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int[][]",
+      "name": "execsScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int[][]",
+      "name": "winScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x78",
+      "type": "int[][]",
+      "name": "loseScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x7C",
+      "type": "int[]",
+      "name": "specialTalkChara_",
+      "display": "特殊对话角色",
+      "hidden": false
+    },
+    {
+      "offset": "0x80",
+      "type": "int[]",
+      "name": "specialTalkType_",
+      "display": "特殊对话类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x84",
+      "type": "string[][]",
+      "name": "specialTalkText_",
+      "display": "特殊对话文本",
+      "hidden": false
+    },
+    {
+      "offset": "0x88",
+      "type": "int",
+      "name": "state_",
+      "display": "状态",
+      "hidden": false
+    },
+    {
+      "offset": "0x8C",
+      "type": "bool",
+      "name": "new_",
+      "display": "是否新发现",
+      "hidden": false
+    },
+    {
+      "offset": "0x90",
+      "type": "int[]",
+      "name": "position_",
+      "display": "当前位置",
+      "hidden": false
+    },
+    {
+      "offset": "0x94",
+      "type": "int",
+      "name": "power_",
+      "display": "当前兵力",
+      "hidden": false
+    },
+    {
+      "offset": "0x98",
+      "type": "int[]",
+      "name": "soldiersRatio_",
+      "display": "当前兵力比例",
+      "hidden": false
+    },
+    {
+      "offset": "0x9C",
+      "type": "bool[]",
+      "name": "neighborTable_",
+      "display": "邻接关系表",
+      "hidden": false
+    },
+    {
+      "offset": "0xA0",
+      "type": "int[]",
+      "name": "soldierAddition_",
+      "display": "兵力加成",
+      "hidden": false
+    },
+    {
+      "offset": "0xA4",
+      "type": "int",
+      "name": "talker_",
+      "display": "对话者",
+      "hidden": false
+    },
+    {
+      "offset": "0xA8",
+      "type": "int",
+      "name": "findedConquest_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xAC",
+      "type": "int[]",
+      "name": "soldierUpCount_",
+      "display": "幕府兵力升级计数",
+      "hidden": false
+    },
+    {
+      "offset": "0xB0",
+      "type": "bool",
+      "name": "autoConnect_",
+      "display": "自动连接",
+      "hidden": false
+    }
+  ]
+}

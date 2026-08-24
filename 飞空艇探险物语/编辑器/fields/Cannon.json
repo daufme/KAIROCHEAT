@@ -1,0 +1,158 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x10",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "iconU_",
+      "display": "iconU",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "type": "int",
+      "name": "iconV_",
+      "display": "iconV",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "int",
+      "name": "iconBigU_",
+      "display": "iconBigU",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "iconBigV_",
+      "display": "iconBigV",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "deckLSeb_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "deckRSeb_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "battleLSeb_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "battleRSeb_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x34",
+      "type": "bool",
+      "name": "shopFirst_",
+      "display": "shopFirst",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "shopLv_",
+      "display": "商店等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "price_",
+      "display": "价格",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "effect_",
+      "display": "效果类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "bulletNum_",
+      "display": "子弹数量",
+      "hidden": true
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "hitRate_",
+      "display": "命中",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int[][]",
+      "name": "state_",
+      "display": "状态",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "bulletLayer_",
+      "display": "子弹层级",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "float",
+      "name": "bulletScale_",
+      "display": "子弹缩放",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "hitEffectSebId_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x5C",
+      "type": "string",
+      "name": "explain_",
+      "display": "说明",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int[]",
+      "name": "stateLv_",
+      "display": "状态等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "sbyte",
+      "name": "buy_",
+      "display": "已购买",
+      "hidden": false
+    }
+  ]
+}

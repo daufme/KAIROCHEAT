@@ -1,0 +1,382 @@
+{
+  "fields": [
+    {
+      "offset": "0x1C",
+      "type": "string",
+      "name": "tag_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "string",
+      "name": "xls_name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "string",
+      "name": "xls_friendMonsterShotName_",
+      "display": "简称",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "xlsEva_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "belongQuestDataId_",
+      "display": "所属地下城",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "belongQuestIndex_",
+      "display": "地下城编号",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "monsterRank_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "img_",
+      "display": "图片ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "size_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "auraSize_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "shadowFrame_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "faceIconSeb_",
+      "display": "脸部图标",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "spProcType_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "appearMapFlag_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int[]",
+      "name": "xls_paramRate_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int[]",
+      "name": "xls_bonusMulti_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "int[]",
+      "name": "xls_baseParam_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "xls_monsterExp_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "townPoint_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "xls_editBossLv_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int[]",
+      "name": "xls_bossParam_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int[][][]",
+      "name": "rideOffset_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "rideAddDepthFront_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x78",
+      "type": "int",
+      "name": "fukidashiAy_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x7C",
+      "type": "int[]",
+      "name": "monsterSize_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x80",
+      "type": "string",
+      "name": "explain_",
+      "display": "描述",
+      "hidden": false
+    },
+    {
+      "offset": "0x84",
+      "type": "int[][]",
+      "name": "execsScript_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x88",
+      "type": "int[][]",
+      "name": "attributeParam_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x8C",
+      "type": "int[][]",
+      "name": "monsterAttributeParam_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x90",
+      "type": "int[][]",
+      "name": "monsterSkillParam_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x94",
+      "type": "int",
+      "name": "skillDeffenceFlag_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x98",
+      "type": "int",
+      "name": "talkWindowAy_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x9C",
+      "type": "int",
+      "name": "talkWindowAy_down_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xA0",
+      "type": "int",
+      "name": "buildTenantDataId_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xA4",
+      "type": "int[][]",
+      "name": "presentBonusInfo_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xA8",
+      "type": "int",
+      "name": "evolutionMonsterDataId_",
+      "display": "进化目标怪物ID",
+      "hidden": false
+    },
+    {
+      "offset": "0xAC",
+      "type": "int",
+      "name": "bonusItemDataId_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xB0",
+      "type": "int",
+      "name": "xls_learnMagicFlag_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xB4",
+      "type": "int[]",
+      "name": "itemLikeDataIdAry_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xB8",
+      "type": "int[]",
+      "name": "itemDisLikeDataIdAry_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xBC",
+      "type": "int",
+      "name": "xls_glowRank_",
+      "display": "成长",
+      "hidden": false
+    },
+    {
+      "offset": "0xC0",
+      "type": "int[]",
+      "name": "paramI_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xC4",
+      "type": "string",
+      "name": "friendMonsterName_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xC8",
+      "type": "int[]",
+      "name": "itemCombiFlagAry_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xCC",
+      "type": "int",
+      "name": "dieNum_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xD0",
+      "type": "int",
+      "name": "charaNockOutNum_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xD4",
+      "type": "int",
+      "name": "value1_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xD8",
+      "type": "int",
+      "name": "value2_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xDC",
+      "type": "int[]",
+      "name": "workAry_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xE0",
+      "type": "int[]",
+      "name": "workAry2_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xE4",
+      "type": "Vector",
+      "name": "workList_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xE8",
+      "type": "bool",
+      "name": "isSet_cache_evolutionSourceMonsterData",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xEC",
+      "type": "MonsterData",
+      "name": "cache_evolutionSourceMonsterData",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xF0",
+      "type": "Vector<int[]>",
+      "name": "checkDataList",
+      "display": "",
+      "hidden": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [ "0x19E7AF8", "0x10", "0x5C", "0x0"],
+  "mode": "array",
+  "category": {
+    "field": "typeName_"
+  },
+  "id_field": "_name_",
+  "fields_file": "ChipModel.json"
+}

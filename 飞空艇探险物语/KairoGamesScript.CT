@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"一键拉满各种物品"</Description>
+      <Options moAlwaysHideChildren="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+alloc(code, 1024)
+alloc(offsetlist, 64)
+
+offsetlist:
+dd 18 1C 34 68 9C BC
+
+code:
+push ebp
+mov ebp, offsetlist
+outerloop:
+mov edx, [ebp]
+test edx, edx
+jz end
+add ebp, 4
+mov eax, [GameAssembly.dll+DC04A0]
+mov eax, [eax+5C]
+mov eax, [eax]
+mov eax, [eax+edx]
+mov edi, [eax+C]
+loopb:
+mov ebx, [eax+10]
+cmp ebx, 0
+je next
+lea ebx, [ebx+10]
+pushad
+push 0
+push #90
+push ebx
+call GameAssembly.dll+8A9820
+add esp, C
+popad
+next:
+add eax, 4
+dec edi
+jne loopb
+jmp outerloop
+end:
+pop ebp
+ret
+
+createthread(code)
+
+[DISABLE]
+dealloc(code)
+dealloc(offset_list)
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry Color="20000000">
+      <Description>Change of inc ecx</Description>
+      <AddressString>GameAssembly.dll+8AAFBA</AddressString>
+      <Before>
+        <Byte>42</Byte>
+        <Byte>5C</Byte>
+        <Byte>8B</Byte>
+        <Byte>48</Byte>
+        <Byte>04</Byte>
+      </Before>
+      <Actual>
+        <Byte>41</Byte>
+      </Actual>
+      <After>
+        <Byte>89</Byte>
+        <Byte>48</Byte>
+        <Byte>04</Byte>
+        <Byte>89</Byte>
+        <Byte>5E</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of xor ebx,[esi+10]</Description>
+      <AddressString>GameAssembly.dll+8AAF9E</AddressString>
+      <Before>
+        <Byte>C4</Byte>
+        <Byte>0C</Byte>
+        <Byte>8B</Byte>
+        <Byte>7E</Byte>
+        <Byte>04</Byte>
+      </Before>
+      <Actual>
+        <Byte>33</Byte>
+        <Byte>5E</Byte>
+        <Byte>10</Byte>
+      </Actual>
+      <After>
+        <Byte>33</Byte>
+        <Byte>7E</Byte>
+        <Byte>14</Byte>
+        <Byte>3B</Byte>
+        <Byte>5E</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of xor edi,[esi+14]</Description>
+      <AddressString>GameAssembly.dll+8AAFA1</AddressString>
+      <Before>
+        <Byte>7E</Byte>
+        <Byte>04</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </Before>
+      <Actual>
+        <Byte>33</Byte>
+        <Byte>7E</Byte>
+        <Byte>14</Byte>
+      </Actual>
+      <After>
+        <Byte>3B</Byte>
+        <Byte>5E</Byte>
+        <Byte>08</Byte>
+        <Byte>75</Byte>
+        <Byte>05</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>

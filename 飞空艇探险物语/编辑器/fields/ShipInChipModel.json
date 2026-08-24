@@ -1,0 +1,346 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x10",
+      "type": "XInt",
+      "name": "num_",
+      "display": "数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "bool",
+      "name": "lineup_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "nameId_",
+      "display": "名称ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "firstGet_",
+      "display": "新获得",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "buildCost_",
+      "display": "建造费用",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int[]",
+      "name": "seb_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "sizeW_",
+      "display": "宽度",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "sizeH_",
+      "display": "高度",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "bool",
+      "name": "autoAnime_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "crewBuildExType_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x48",
+      "type": "float",
+      "name": "carpetSpeed_",
+      "display": "地毯速度",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "crewRoomType_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "warehouseType_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x54",
+      "type": "bool",
+      "name": "warehouseLarge_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "warehouseValue_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "costType_",
+      "display": "消耗资源",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "costValue_",
+      "display": "消耗量",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "knowType_",
+      "display": "知识类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "knowValue_",
+      "display": "知识值",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int",
+      "name": "knowGetTime_",
+      "display": "知识获取时间",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "paramType_",
+      "display": "paramType",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "paramValue_",
+      "display": "paramValue",
+      "hidden": false
+    },
+    {
+      "offset": "0x78",
+      "type": "int[][]",
+      "name": "areaEffect_",
+      "display": "区域效果",
+      "hidden": false
+    },
+    {
+      "offset": "0x7C",
+      "type": "int[][]",
+      "name": "crewVisitMotion_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x80",
+      "type": "int",
+      "name": "usePow_",
+      "display": "劳动影响",
+      "hidden": false
+    },
+    {
+      "offset": "0x84",
+      "type": "int",
+      "name": "environmentArea_",
+      "display": "环境影响范围",
+      "hidden": false
+    },
+    {
+      "offset": "0x88",
+      "type": "int",
+      "name": "environmentValue_",
+      "display": "环境值",
+      "hidden": false
+    },
+    {
+      "offset": "0x8C",
+      "type": "bool",
+      "name": "harvestAnimal_",
+      "display": "收获动物",
+      "hidden": false
+    },
+    {
+      "offset": "0x90",
+      "type": "int",
+      "name": "harvestTime_",
+      "display": "收获时间",
+      "hidden": false
+    },
+    {
+      "offset": "0x94",
+      "type": "XInt[]",
+      "name": "harvestNum_",
+      "display": "收获数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x98",
+      "type": "int",
+      "name": "makeOilTime_",
+      "display": "收获燃料",
+      "hidden": false
+    },
+    {
+      "offset": "0x9C",
+      "type": "int",
+      "name": "explainId_",
+      "display": "说明ID",
+      "hidden": false
+    },
+    {
+      "offset": "0xA0",
+      "type": "string[]",
+      "name": "txt_",
+      "display": "文本",
+      "hidden": false
+    },
+    {
+      "offset": "0xA4",
+      "type": "int[]",
+      "name": "exEffect_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xA8",
+      "type": "List<int[]>",
+      "name": "guestRoomPos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xAC",
+      "type": "List<int[]>",
+      "name": "visitPoint_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xB0",
+      "type": "List<int[]>",
+      "name": "nodePoint_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xB4",
+      "type": "List<int[]>",
+      "name": "optPoint_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xB8",
+      "type": "bool",
+      "name": "lock_",
+      "display": "lock",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xBC",
+        "0x8"
+      ],
+      "type": "XInt",
+      "name": "lv_",
+      "display": "等级",
+      "hidden": false
+    },
+    {
+      "offset": [
+        "0xBC",
+        "0x18"
+      ],
+      "type": "XLong",
+      "name": "exp_",
+      "display": "经验",
+      "hidden": false
+    },
+    {
+      "offset": "0xC0",
+      "type": "XInt",
+      "name": "buildCount_",
+      "display": "建造计数",
+      "hidden": false
+    },
+    {
+      "offset": "0xD0",
+      "type": "bool",
+      "name": "lineup_",
+      "display": "编队",
+      "hidden": false
+    },
+    {
+      "offset": "0xD1",
+      "type": "sbyte",
+      "name": "rebuild_",
+      "display": "rebuild",
+      "hidden": true
+    },
+    {
+      "offset": "0xD4",
+      "type": "int",
+      "name": "shopType_",
+      "display": "商店类型",
+      "hidden": false
+    },
+    {
+      "offset": "0xD8",
+      "type": "sbyte",
+      "name": "workFlag_",
+      "display": "workFlag",
+      "hidden": true
+    },
+    {
+      "offset": "0xDC",
+      "type": "List<int[]>",
+      "name": "visitPointTmp",
+      "display": "",
+      "hidden": true
+    }
+  ]
+}

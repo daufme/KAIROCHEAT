@@ -1,0 +1,26 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [ "0x19E7EAC", "0x10", "0x60", "0x0", "0x5C", "0x0" ],
+  "mode": "array",
+  "category": {
+    "field": "type_",
+    "names": {
+      "0": "铜锣烧",
+      "1": "大福",
+      "2": "糯米甜品",
+      "4": "团子",
+      "5": "羊羹",
+      "6": "琼脂冻",
+      "7": "布丁",
+      "8": "鲷鱼烧",
+      "9": "馒头",
+      "10": "蛋糕",
+      "11": "冰淇淋",
+      "12": "最中饼",
+      "13": "刨冰"
+    } 
+  },
+  "id_field": "_name_",
+  "fields_file": "FoodData.json"
+}

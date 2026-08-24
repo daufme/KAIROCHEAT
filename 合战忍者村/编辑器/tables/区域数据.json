@@ -1,0 +1,8 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": ["0x10B6278", "0x5C", "0x0", "0xFC"],
+  "mode": "array",
+  "id_field": "name_",
+  "fields_file": "TerritoryData_fields.json"
+}

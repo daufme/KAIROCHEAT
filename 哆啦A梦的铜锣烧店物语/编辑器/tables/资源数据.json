@@ -1,0 +1,8 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [ "0x19EE298", "0x5C", "0x0", "0x38", "0x8" ],
+  "mode": "single",
+  "id_field": "",
+  "fields_file": "XProPerty.json"
+}

@@ -1,0 +1,214 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x10",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "sortID_",
+      "display": "sortID",
+      "hidden": true
+    },
+    {
+      "offset": "0x18",
+      "type": "int",
+      "name": "imgID_",
+      "display": "图片ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "int",
+      "name": "size_",
+      "display": "大小",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "attribute_",
+      "display": "属性",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "getExp_",
+      "display": "获得经验",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "float",
+      "name": "captureRatio_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x2C",
+      "type": "int[][]",
+      "name": "param_",
+      "display": "参数数组",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "bool",
+      "name": "isSky_",
+      "display": "浮空",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "string",
+      "name": "explain_",
+      "display": "主要栖息地",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int[]",
+      "name": "battleAbilityes_",
+      "display": "战斗技能",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int[]",
+      "name": "workAbilityes_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x40",
+      "type": "int[]",
+      "name": "commandIds_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "attackRange_",
+      "display": "攻击范围",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int[]",
+      "name": "abilityRange_",
+      "display": "技能范围",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int[]",
+      "name": "battleAbilityRatio_",
+      "display": "战斗技能比例",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "attackStumbleRatio_",
+      "display": "攻击晕厥比率",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "faceIconAdjustX_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "faceIconAdjustY_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x5C",
+      "type": "int[][]",
+      "name": "egg_",
+      "display": "egg",
+      "hidden": true
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "evolution_",
+      "display": "evolution",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "evoRank_",
+      "display": "evoRank",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int[]",
+      "name": "finalEvoParam_",
+      "display": "finalEvoParam",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "List<AbilityData>",
+      "name": "allAbilities_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x70",
+      "type": "bool",
+      "name": "campaignFlag_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "downNum_",
+      "display": "击倒数",
+      "hidden": false
+    },
+    {
+      "offset": "0x78",
+      "type": "sbyte",
+      "name": "newFind_",
+      "display": "新发现",
+      "hidden": false
+    },
+    {
+      "offset": "0x7C",
+      "type": "int[]",
+      "name": "finalEvoMonsters_",
+      "display": "finalEvoMonsters",
+      "hidden": true
+    },
+    {
+      "offset": "0x80",
+      "type": "List<MonsterModel>",
+      "name": "finalEvoMonsters_tmp",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x84",
+      "type": "int[]",
+      "name": "SIZE_OFF_HEIGHT",
+      "display": "",
+      "hidden": true
+    }
+  ]
+}

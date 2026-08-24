@@ -1,0 +1,17 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [ "0x19E7AAC", "0x10", "0x60", "0x0", "0x5C", "0x0" ],
+  "mode": "array",
+  "category": {
+    "field": "type_",
+    "names": {
+      "0": "顾客",
+      "1": "店员",
+      "2": "特殊",
+      "4": ""
+    }
+  },
+  "id_field": "_name_",
+  "fields_file": "Character.json"
+}
