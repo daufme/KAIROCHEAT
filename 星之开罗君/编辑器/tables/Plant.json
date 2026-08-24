@@ -1,0 +1,8 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": ["0x10ADD68", "0x5C", "0x4", "0x9C"],
+  "mode": "array",
+  "id_field": "name_",
+  "fields_file": "Plant_fields.json"
+}

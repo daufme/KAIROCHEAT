@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"基址"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>GameAssembly.dll+10ADD68</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>42</ID>
+          <Description>"p"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>GameAssembly.dll+10ADD68</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>4</Offset>
+            <Offset>5C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>57</ID>
+          <Description>"p星球"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>GameAssembly.dll+10ADD68</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>80</Offset>
+            <Offset>4</Offset>
+            <Offset>5C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>66</ID>
+          <Description>"玩家数据"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>GameAssembly.dll+10ADD68</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>D8</Offset>
+            <Offset>4</Offset>
+            <Offset>5C</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"脚本"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>39</ID>
+          <Description>"解锁全图鉴"</Description>
+          <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+alloc(MyThread, 1024)
+registersymbol(MyThread)
+
+MyThread:
+  pushad
+  mov eax,[GameAssembly.dll+10ADD68]
+  mov eax,[eax+5C]
+  mov eax,[eax+4]
+  mov eax,[eax+8C]
+  mov edi,[eax+0C]
+loop:
+  mov ebx,[eax+10]
+  mov byte ptr [ebx+71],0
+  mov byte ptr [ebx+72],0
+skip:
+  add eax,4
+  dec edi
+  jnz loop
+end_thread:
+  popad
+  ret
+
+createthread(MyThread)
+
+[DISABLE]
+unregistersymbol(MyThread)
+dealloc(MyThread)
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>41</ID>
+              <Description>"锁图鉴"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+alloc(MyThread, 1024)
+registersymbol(MyThread)
+
+MyThread:
+  pushad
+  mov eax,[GameAssembly.dll+10ADD68]
+  mov eax,[eax+5C]
+  mov eax,[eax+4]
+  mov eax,[eax+8C]
+  mov edi,[eax+0C]
+loop:
+  mov ebx,[eax+10]
+  mov byte ptr [ebx+71],1
+  mov byte ptr [ebx+72],1
+skip:
+  add eax,4
+  dec edi
+  jnz loop
+end_thread:
+  popad
+  ret
+
+createthread(MyThread)
+
+[DISABLE]
+unregistersymbol(MyThread)
+dealloc(MyThread)
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>45</ID>
+          <Description>"解锁所有特殊开罗"</Description>
+          <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+alloc(MyThread, 1024)
+registersymbol(MyThread)
+
+MyThread:
+  pushad
+  mov eax,[GameAssembly.dll+10ADD68]
+  mov eax,[eax+5C]
+  mov eax,[eax+4]
+  mov eax,[eax+AC]
+  mov edi,[eax+0C]
+loop:
+  mov ebx,[eax+10]
+  mov byte ptr [ebx+40],0
+  cmp dword ptr [ebx+44],0
+  jg skip
+  mov dword ptr [ebx+44],1
+skip:
+  add eax,4
+  dec edi
+  jnz loop
+end_thread:
+  popad
+  ret
+
+createthread(MyThread)
+
+[DISABLE]
+unregistersymbol(MyThread)
+dealloc(MyThread)
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>44</ID>
+              <Description>"锁"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+alloc(MyThread, 1024)
+registersymbol(MyThread)
+
+MyThread:
+  pushad
+  mov eax,[GameAssembly.dll+10ADD68]
+  mov eax,[eax+5C]
+  mov eax,[eax+4]
+  mov eax,[eax+AC]
+  mov edi,[eax+0C]
+loop:
+  mov ebx,[eax+10]
+  mov byte ptr [ebx+40],1
+  //mov dword ptr [ebx+44],0
+skip:
+  add eax,4
+  dec edi
+  jnz loop
+end_thread:
+  popad
+  ret
+
+createthread(MyThread)
+
+[DISABLE]
+unregistersymbol(MyThread)
+dealloc(MyThread)
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>51</ID>
+              <Description>"一键满级"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+alloc(MyThread, 1024)
+registersymbol(MyThread)
+
+MyThread:
+  pushad
+  mov eax,[GameAssembly.dll+10ADD68]
+  mov eax,[eax+5C]
+  mov eax,[eax+4]
+  mov eax,[eax+AC]
+  mov edi,[eax+0C]
+loop:
+  mov ebx,[eax+10]
+  pushad
+
+  push 00
+  push 10000
+  push ebx
+  xor eax,eax
+  call GameAssembly.dll+24FB80
+  add esp,0C
+
+  popad
+
+skip:
+  add eax,4
+  dec edi
+  jnz loop
+end_thread:
+  popad
+  ret
+
+createthread(MyThread)
+
+[DISABLE]
+unregistersymbol(MyThread)
+dealloc(MyThread)
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>53</ID>
+          <Description>"星球"</Description>
+          <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>54</ID>
+              <Description>"解锁星球"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+alloc(MyThread, 1024)
+registersymbol(MyThread)
+
+MyThread:
+  pushad
+  mov eax,[GameAssembly.dll+10ADD68]
+  mov eax,[eax+5C]
+  mov eax,[eax+4]
+  mov eax,[eax+80]
+  mov edi,[eax+0C]
+loop:
+  mov ebx,[eax+10]
+  mov byte ptr [ebx+B8],0
+skip:
+  add eax,4
+  dec edi
+  jnz loop
+end_thread:
+  popad
+  ret
+
+createthread(MyThread)
+
+[DISABLE]
+unregistersymbol(MyThread)
+dealloc(MyThread)
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>63</ID>
+              <Description>"copy"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+alloc(MyThread, 1024)
+registersymbol(MyThread)
+
+MyThread:
+  pushad
+  mov eax,[GameAssembly.dll+10ADD68]
+  mov eax,[eax+5C]
+  mov eax,[eax+4]
+  mov eax,[eax+80]
+  mov ebx,[eax+10+4*1]
+  mov edx,[eax+10+4*A]
+
+copy:
+  mov edi, dword ptr [ebx+C]  // type_
+  mov [edx+C], edi
+  mov edi, dword ptr [ebx+10]  // defUnlock_
+  mov [edx+10], edi
+  mov edi, 0  // imgID_
+  mov [edx+18], edi
+  mov edi, 0  // iconID_
+  mov [edx+1C], edi
+  mov edi, dword ptr [ebx+20]  // battleBg_
+  mov [edx+20], edi
+  mov edi, dword ptr [ebx+24]  // battleObj_
+  mov [edx+24], edi
+  mov edi, dword ptr [ebx+28]  // weather_
+  mov [edx+28], edi
+  mov edi, dword ptr [ebx+2C]  // dangerMax_
+  mov [edx+2C], edi
+  mov edi, dword ptr [ebx+30]  // enemyRatio_
+  mov [edx+30], edi
+  mov edi, dword ptr [ebx+34]  // firendMaxPoint_
+  mov [edx+34], edi
+  mov edi, dword ptr [ebx+38]  // income_
+  mov [edx+38], edi
+  mov edi, dword ptr [ebx+3C]  // actionMinNum_
+  mov [edx+3C], edi
+  mov edi, dword ptr [ebx+40]  // actionMaxNum_
+  mov [edx+40], edi
+  mov edi, dword ptr [ebx+44]  // minGuestNum_
+  mov [edx+44], edi
+  mov edi, dword ptr [ebx+48]  // interestMaxWeek_
+  mov [edx+48], edi
+  mov edi, dword ptr [ebx+4C]  // enemyGroup_
+  mov [edx+4C], edi
+  mov edi, dword ptr [ebx+50]  // cultureDefPoint_
+  mov [edx+50], edi
+  mov edi, dword ptr [ebx+54]  // cultureLv_
+  mov [edx+54], edi
+  mov edi, dword ptr [ebx+58]  // guestChar_
+  mov [edx+58], edi
+  mov edi, dword ptr [ebx+5C]  // lvUpEvent_
+  mov [edx+5C], edi
+  mov edi, dword ptr [ebx+60]  // rallyPeriod_
+  mov [edx+60], edi
+  mov edi, dword ptr [ebx+64]  // diffSatisfaction_
+  mov [edx+64], edi
+  mov edi, dword ptr [ebx+68]  // diffKnowledge_
+  mov [edx+68], edi
+  mov edi, dword ptr [ebx+6C]  // radiationLv_
+  mov [edx+6C], edi
+  mov edi, dword ptr [ebx+80]  // moveY_
+  mov [edx+80], edi
+  mov edi, dword ptr [ebx+84]  // count_
+  mov [edx+84], edi
+  mov edi, dword ptr [ebx+88]  // moveWait_
+  mov [edx+88], edi
+  mov edi, dword ptr [ebx+8C]  // animFrameSpeed_
+  mov [edx+8C], edi
+  mov edi, dword ptr [ebx+90]  // workLen_
+  mov [edx+90], edi
+  mov edi, dword ptr [ebx+94]  // animFrame_
+  mov [edx+94], edi
+  mov edi, dword ptr [ebx+98]  // friendPoint_
+  mov [edx+98], edi
+  mov edi, dword ptr [ebx+9C]  // interestNowWeek_
+  mov [edx+9C], edi
+  mov edi, dword ptr [ebx+A0]  // allGuestNum_
+  mov [edx+A0], edi
+  mov edi, dword ptr [ebx+A4]  // culturePoint_
+  mov [edx+A4], edi
+  mov edi, dword ptr [ebx+A8]  // visitWeek_
+  mov [edx+A8], edi
+  mov edi, dword ptr [ebx+AC]  // visitDay_
+  mov [edx+AC], edi
+  mov edi, dword ptr [ebx+B0]  // goOutKairoNum_
+  mov [edx+B0], edi
+  mov edi, dword ptr [ebx+B4]  // dangerNow_
+  mov [edx+B4], edi
+  mov edi, 0  // unlock_
+  mov [edx+B8], edi
+  mov edi, dword ptr [ebx+BC]  // population_
+  mov [edx+BC], edi
+  mov edi, dword ptr [ebx+C0]  // arrive_
+  mov [edx+C0], edi
+  mov edi, dword ptr [ebx+C4]  // releaseNum_
+  mov [edx+C4], edi
+  mov edi, dword ptr [ebx+C8]  // serchCourse_
+  mov [edx+C8], edi
+
+end_thread:
+  popad
+  ret
+
+createthread(MyThread)
+
+[DISABLE]
+unregistersymbol(MyThread)
+dealloc(MyThread)
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>40</ID>
+      <Description>"hook"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>1</ID>
+          <Description>"白嫖强化"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+GameAssembly.dll+2C17A3:
+jo GameAssembly.dll+2C1853
+
+"GameAssembly.dll"+302971:
+jo GameAssembly.dll+302083
+
+GameAssembly.dll+2C07B6:
+jo GameAssembly.dll+2C07F5
+
+[DISABLE]
+GameAssembly.dll+2C17A3:
+jng GameAssembly.dll+2C1853 //强化时显示没有的道具
+
+GameAssembly.dll+302971:
+jng GameAssembly.dll+302083 //白嫖强化道具
+
+GameAssembly.dll+2C07B6:
+jle GameAssembly.dll+2C07F5 //研究所道具显示
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2</ID>
+          <Description>"强化次数不加"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+GameAssembly.dll+302CFD:
+nop
+nop
+nop
+nop
+
+[DISABLE]
+GameAssembly.dll+302CFD:
+inc byte ptr [ecx+eax+10] //强化次数+1
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>70</ID>
+          <Description>"突破队列上限"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+GameAssembly.dll+2FA14F:
+
+mov eax,5 //列数
+mov ecx,[GameAssembly.dll+10ADD68]
+jmp GameAssembly.dll+2FA160
+
+[DISABLE]
+GameAssembly.dll+2FA14F:
+
+push 00
+push eax
+call GameAssembly.dll+29D760
+mov ecx,[GameAssembly.dll+10ADD68]
+add esp,08
+
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov eax,[eax+ecx]</Description>
+      <AddressString>GameAssembly.dll+2D8FE8</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>8B</Byte>
+        <Byte>45</Byte>
+        <Byte>08</Byte>
+      </Before>
+      <Actual>
+        <Byte>8B</Byte>
+        <Byte>04</Byte>
+        <Byte>08</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>0D</Byte>
+        <Byte>08</Byte>
+        <Byte>EE</Byte>
+        <Byte>3E</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [esi+70],eax</Description>
+      <AddressString>GameAssembly.dll+2520DA</AddressString>
+      <Before>
+        <Byte>46</Byte>
+        <Byte>6C</Byte>
+        <Byte>8B</Byte>
+        <Byte>47</Byte>
+        <Byte>70</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>46</Byte>
+        <Byte>70</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>47</Byte>
+        <Byte>74</Byte>
+        <Byte>89</Byte>
+        <Byte>46</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>

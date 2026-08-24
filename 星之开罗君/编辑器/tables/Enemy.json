@@ -1,0 +1,14 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": ["0x10ADD68", "0x5C", "0x4", "0x8C"],
+  "mode": "array",
+  "category": {
+    "field": "type_",
+    "names": {
+      "0": "怪物", "1": "动物"
+    }
+  },
+  "id_field": "ID_",
+  "fields_file": "Enemy_fields.json"
+}

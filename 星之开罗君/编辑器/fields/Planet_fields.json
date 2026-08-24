@@ -1,0 +1,347 @@
+{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "ID_",
+      "display": "ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x10",
+      "type": "sbyte",
+      "name": "defUnlock_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x14",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "type": "int",
+      "name": "imgID_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "int",
+      "name": "iconID_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "battleBg_",
+      "display": "战斗背景",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "battleObj_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "weather_",
+      "display": "天气",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "dangerMax_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int[]",
+      "name": "enemyRatio_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "firendMaxPoint_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "income_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "actionMinNum_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "actionMaxNum_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "minGuestNum_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "interestMaxWeek_",
+      "display": "兴趣最大时间",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int[][]",
+      "name": "enemyGroup_",
+      "display": "敌人组",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "cultureDefPoint_",
+      "display": "文化默认点数",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int[]",
+      "name": "cultureLv_",
+      "display": "文化等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int[][]",
+      "name": "guestChar_",
+      "display": "访客角色",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "int[]",
+      "name": "lvUpEvent_",
+      "display": "升级事件",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int[]",
+      "name": "rallyPeriod_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "diffSatisfaction_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "diffKnowledge_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int",
+      "name": "radiationLv_",
+      "display": "辐射等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "x_",
+      "display": "X坐标",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "y_",
+      "display": "Y坐标",
+      "hidden": false
+    },
+    {
+      "offset": "0x78",
+      "type": "int",
+      "name": "ax_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x7C",
+      "type": "int",
+      "name": "ay_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x80",
+      "type": "int",
+      "name": "moveY_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x84",
+      "type": "Counter",
+      "name": "count_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x88",
+      "type": "int",
+      "name": "moveWait_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x8C",
+      "type": "int",
+      "name": "animFrameSpeed_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x90",
+      "type": "int",
+      "name": "workLen_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x94",
+      "type": "int",
+      "name": "animFrame_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x98",
+      "type": "int",
+      "name": "friendPoint_",
+      "display": "友好点数",
+      "hidden": false
+    },
+    {
+      "offset": "0x9C",
+      "type": "int",
+      "name": "interestNowWeek_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xA0",
+      "type": "int",
+      "name": "allGuestNum_",
+      "display": "总访客数",
+      "hidden": false
+    },
+    {
+      "offset": "0xA4",
+      "type": "int",
+      "name": "culturePoint_",
+      "display": "文化点数",
+      "hidden": false
+    },
+    {
+      "offset": "0xA8",
+      "type": "int",
+      "name": "visitWeek_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xAC",
+      "type": "int",
+      "name": "visitDay_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xB0",
+      "type": "int",
+      "name": "goOutKairoNum_",
+      "display": "外出开罗数",
+      "hidden": false
+    },
+    {
+      "offset": "0xB4",
+      "type": "int",
+      "name": "dangerNow_",
+      "display": "当前危险度",
+      "hidden": false
+    },
+    {
+      "offset": "0xB8",
+      "type": "sbyte",
+      "name": "unlock_",
+      "display": "解锁状态",
+      "hidden": false
+    },
+    {
+      "offset": "0xBC",
+      "type": "int",
+      "name": "population_",
+      "display": "人口",
+      "hidden": false
+    },
+    {
+      "offset": "0xC0",
+      "type": "sbyte",
+      "name": "arrive_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0xC4",
+      "type": "int",
+      "name": "releaseNum_",
+      "display": "释放数",
+      "hidden": false
+    },
+    {
+      "offset": "0xC8",
+      "type": "SearchEvent[]",
+      "name": "serchCourse_",
+      "display": "",
+      "hidden": true
+    }
+  ]
+}

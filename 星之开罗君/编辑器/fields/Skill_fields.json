@@ -1,0 +1,242 @@
+{
+  "fields": [
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "errFunc_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x18",
+      "type": "int",
+      "name": "errLine_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x1C",
+      "type": "bool",
+      "name": "errMove_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x20",
+      "type": "string",
+      "name": "name_",
+      "display": "技能名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "type_",
+      "display": "技能类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "learnLv_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "power_",
+      "display": "威力",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "useFood_",
+      "display": "消耗知识点数",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "useHP_",
+      "display": "消耗HP",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "string",
+      "name": "explain_",
+      "display": "技能说明",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "motion_",
+      "display": "动作ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "sbyte",
+      "name": "first_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "criticalRate_",
+      "display": "暴击率",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "exp_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "lv_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "exeLine_",
+      "display": "执行目标线",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "effArea_",
+      "display": "效果范围",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "getknowPoint_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "sbyte",
+      "name": "findFlag_",
+      "display": "发现标志",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "playStep_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "wait_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "workInt_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x6C",
+      "type": "int",
+      "name": "jumpPow_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "workInt2_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "otherStep_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x78",
+      "type": "int",
+      "name": "addPowX_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x7C",
+      "type": "int",
+      "name": "addPowY_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x80",
+      "type": "int",
+      "name": "playerBaseX_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x84",
+      "type": "int",
+      "name": "playerBaseY_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x88",
+      "type": "int",
+      "name": "enemyBaseX_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x8C",
+      "type": "int",
+      "name": "enemyBaseY_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x90",
+      "type": "int",
+      "name": "comboWait_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x94",
+      "type": "bool",
+      "name": "critical_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x95",
+      "type": "bool",
+      "name": "auraFlag_",
+      "display": "",
+      "hidden": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": ["0x10ADD68", "0x5C", "0x4", "0xD8"],
+  "mode": "single",
+  "id_field": "name_",
+  "fields_file": "Player_fields.json"
+}

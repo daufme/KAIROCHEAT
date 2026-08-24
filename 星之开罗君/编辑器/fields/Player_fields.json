@@ -1,0 +1,452 @@
+{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "errFunc_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "errLine_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x10",
+      "type": "bool",
+      "name": "errMove_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x11",
+      "type": "sbyte",
+      "name": "ending_",
+      "display": "结局标志",
+      "hidden": false
+    },
+    {
+      "offset": "0x14",
+      "type": "string",
+      "name": "name_",
+      "display": "玩家名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "type": "AppData",
+      "name": "ap_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x20",
+      "type": "long",
+      "name": "money_",
+      "display": "金钱",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "foodPoint_",
+      "display": "知识点数",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "long[][][]",
+      "name": "moneyTable_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x30",
+      "type": "int[][]",
+      "name": "foodPointTable_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "kairoKnow_",
+      "display": "开罗君智力",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "kairoHP_",
+      "display": "开罗君体力",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "kairoAttk_",
+      "display": "开罗君攻击",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "kairoSpeed_",
+      "display": "开罗君速度",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "long[]",
+      "name": "kairoExp_",
+      "display": "开罗君各部位经验",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "kairoAuraStock_",
+      "display": "灵气",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "battleExeNum_",
+      "display": "战斗次数",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "battleLoseNum_",
+      "display": "全灭次数",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int[]",
+      "name": "patrolInfo_",
+      "display": "巡逻信息",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "kairoHungryStep_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "houseLv_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x60",
+      "type": "byte[]",
+      "name": "tollGateOpen_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "tollGateLv_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x68",
+      "type": "byte[]",
+      "name": "openBuildFlag_",
+      "display": "建筑解锁标志",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "byte[]",
+      "name": "openBuildNewFlag_",
+      "display": "建筑新解锁标志",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "shopSetNum_",
+      "display": "商店设置数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "shopSaleAllNum_",
+      "display": "商店总销售额",
+      "hidden": false
+    },
+    {
+      "offset": "0x78",
+      "type": "sbyte",
+      "name": "openRequest_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x79",
+      "type": "sbyte",
+      "name": "colonyMove_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x7C",
+      "type": "Vector2D",
+      "name": "curPos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x80",
+      "type": "Vector2D",
+      "name": "spaceCurPos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x84",
+      "type": "Vector2D",
+      "name": "colonyPos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x88",
+      "type": "int",
+      "name": "colonySpeed_",
+      "display": "飞船速度",
+      "hidden": false
+    },
+    {
+      "offset": "0x8C",
+      "type": "int",
+      "name": "colonyShieldLv_",
+      "display": "护盾等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x90",
+      "type": "int",
+      "name": "colonyState_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x94",
+      "type": "int",
+      "name": "colonyArriveIndex_",
+      "display": "目标星球",
+      "hidden": false
+    },
+    {
+      "offset": "0x98",
+      "type": "int",
+      "name": "colonyArriveOldIndex_",
+      "display": "上个目标星球",
+      "hidden": false
+    },
+    {
+      "offset": "0x9C",
+      "type": "Vector2D",
+      "name": "colonyArrivePos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xA0",
+      "type": "int",
+      "name": "colonyVerUpNum_",
+      "display": "升级次数",
+      "hidden": false
+    },
+    {
+      "offset": "0xA4",
+      "type": "Vector2D",
+      "name": "colonyScrollBG_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xA8",
+      "type": "Vector2D",
+      "name": "colonyMoveStartPos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xAC",
+      "type": "int",
+      "name": "colonyMoveTime_",
+      "display": "飞船移动时间",
+      "hidden": false
+    },
+    {
+      "offset": "0xB0",
+      "type": "int",
+      "name": "colonyAllCharm_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xB4",
+      "type": "int",
+      "name": "planetStayTime_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xB8",
+      "type": "int",
+      "name": "encountRatio_",
+      "display": "敌袭",
+      "hidden": false
+    },
+    {
+      "offset": "0xBC",
+      "type": "int[]",
+      "name": "state_",
+      "display": "时间",
+      "hidden": false
+    },
+    {
+      "offset": "0xC0",
+      "type": "Vector",
+      "name": "guestStack_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xC4",
+      "type": "Vector",
+      "name": "eventStock_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xC8",
+      "type": "int",
+      "name": "searchEventIndex_",
+      "display": "巡逻目的地索引",
+      "hidden": false
+    },
+    {
+      "offset": "0xD0",
+      "type": "long",
+      "name": "searchEventStockMoney_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xD8",
+      "type": "long",
+      "name": "searchEventExStockMoney_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xE0",
+      "type": "int",
+      "name": "spaceTrustPoint_",
+      "display": "宇宙信赖度",
+      "hidden": false
+    },
+    {
+      "offset": "0xE4",
+      "type": "int",
+      "name": "radiationHP_",
+      "display": "辐射护盾",
+      "hidden": false
+    },
+    {
+      "offset": "0xE8",
+      "type": "int",
+      "name": "releasePlanetNum_",
+      "display": "已解放星球数",
+      "hidden": false
+    },
+    {
+      "offset": "0xEC",
+      "type": "int",
+      "name": "deadLastBossWeek_",
+      "display": "最终Boss死亡周数",
+      "hidden": false
+    },
+    {
+      "offset": "0xF0",
+      "type": "int",
+      "name": "passageWeek_",
+      "display": "经过周数",
+      "hidden": false
+    },
+    {
+      "offset": "0xF4",
+      "type": "Vector",
+      "name": "getKnowEff_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xF8",
+      "type": "int",
+      "name": "yearGuestNum_",
+      "display": "年度访客数",
+      "hidden": false
+    },
+    {
+      "offset": "0xFC",
+      "type": "int",
+      "name": "monthGuestNum_",
+      "display": "月度访客数",
+      "hidden": false
+    },
+    {
+      "offset": "0x100",
+      "type": "int[]",
+      "name": "updataColonyNum_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x104",
+      "type": "Vector2D",
+      "name": "nearPlanetPos_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x108",
+      "type": "int",
+      "name": "colonyHeight_",
+      "display": "高度",
+      "hidden": false
+    },
+    {
+      "offset": "0x10C",
+      "type": "int",
+      "name": "colonyNowHeight_",
+      "display": "当前高度",
+      "hidden": false
+    },
+    {
+      "offset": "0x110",
+      "type": "Vector2D",
+      "name": "workPos_",
+      "display": "",
+      "hidden": true
+    }
+  ]
+}

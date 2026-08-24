@@ -1,0 +1,277 @@
+{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "ID_",
+      "display": "ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x0C",
+      "type": "string",
+      "name": "tag_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x10",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "imgID_",
+      "display": "图片ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "int",
+      "name": "motionID_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int[][]",
+      "name": "action_",
+      "display": "行动（类型+权重？）",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "HP_",
+      "display": "体力",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "attack_",
+      "display": "攻击",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "speed_",
+      "display": "速度",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "capture_",
+      "display": "捕获系数",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int[]",
+      "name": "getExp_",
+      "display": "各部位经验值",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "getMoney_",
+      "display": "获得金钱",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int[][]",
+      "name": "getItem_",
+      "display": "夺取道具（ID+？）",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "lookPrice_",
+      "display": "参观费",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "sellsPrice_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "satisfaction_",
+      "display": "娱乐",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "knowledge_",
+      "display": "底蕴",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int[]",
+      "name": "balloon_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "string",
+      "name": "explain_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "x_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "y_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "frame_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "motion_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "captureNum_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int",
+      "name": "overwriteMotion_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x70",
+      "type": "sbyte",
+      "name": "captureFlag_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x71",
+      "type": "sbyte",
+      "name": "getInfoFlag_",
+      "display": "图鉴标志",
+      "hidden": false
+    },
+    {
+      "offset": "0x72",
+      "type": "sbyte",
+      "name": "encountFlag_",
+      "display": "遭遇标志",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "deadNum_",
+      "display": "击倒次数",
+      "hidden": false
+    },
+    {
+      "offset": "0x78",
+      "type": "int",
+      "name": "alpha_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x7C",
+      "type": "int",
+      "name": "satisfactionNow_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x80",
+      "type": "bool",
+      "name": "dead_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x84",
+      "type": "int",
+      "name": "casketID_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x88",
+      "type": "bool",
+      "name": "casketOpen_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x8C",
+      "type": "int",
+      "name": "getKnowPoint_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x90",
+      "type": "int",
+      "name": "getKnowFrame_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x94",
+      "type": "int",
+      "name": "stealNum",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x98",
+      "type": "int",
+      "name": "oldMotion_",
+      "display": "",
+      "hidden": true
+    }
+  ]
+}

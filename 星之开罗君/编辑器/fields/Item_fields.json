@@ -1,0 +1,228 @@
+{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "ID_",
+      "display": "物品ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x0C",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x10",
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": true
+    },
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "typeID_",
+      "display": "本类型ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "type": "int",
+      "name": "iconImgType_",
+      "display": "图标图像类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "int[]",
+      "name": "iconUV_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x20",
+      "type": "int[][]",
+      "name": "itemBuildCombi_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "itemAddCost_",
+      "display": "维护费",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "itemlookPrice_",
+      "display": "参观费",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "itemAddKnow_",
+      "display": "底蕴",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "itemAddSatisfaction_",
+      "display": "娱乐",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int[]",
+      "name": "itemResearchChange_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "defSalePrice_",
+      "display": "默认售价",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "defQualityMin_",
+      "display": "初始品质",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "defQualityMax_",
+      "display": "品质上限",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "defStockNumMin_",
+      "display": "初始库存",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "defStockNumMax_",
+      "display": "库存上限",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "captureType_",
+      "display": "捕获类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "captureRatio_",
+      "display": "捕获比率",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "defHaveNum_",
+      "display": "默认拥有数量",
+      "hidden": true
+    },
+    {
+      "offset": "0x58",
+      "type": "sbyte",
+      "name": "shopFirst_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x5C",
+      "type": "string",
+      "name": "expStr_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "haveNum_",
+      "display": "拥有数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "type": "sbyte",
+      "name": "findFlag_",
+      "display": "发现标志",
+      "hidden": false
+    },
+    {
+      "offset": "0x65",
+      "type": "sbyte",
+      "name": "shopSetFlag_",
+      "display": "可出售标志",
+      "hidden": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "salePrice_",
+      "display": "售价",
+      "hidden": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int",
+      "name": "quality_",
+      "display": "品质",
+      "hidden": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "stockNum_",
+      "display": "库存数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "allSaleNum_",
+      "display": "总销售数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x78",
+      "type": "int",
+      "name": "researchNum_",
+      "display": "研究次数",
+      "hidden": false
+    },
+    {
+      "offset": "0x7C",
+      "type": "sbyte",
+      "name": "newFlag_",
+      "display": "新获得标志",
+      "hidden": false
+    },
+    {
+      "offset": "0x7D",
+      "type": "sbyte",
+      "name": "researchSelectFlag_",
+      "display": "",
+      "hidden": false
+    }
+  ]
+}

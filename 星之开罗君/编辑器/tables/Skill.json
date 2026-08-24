@@ -1,0 +1,9 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": ["0x10ADD68", "0x5C", "0x4", "0xA8"],
+  "mode": "array",
+  "id_field": "name_",
+  "fields_file": "Skill_fields.json",
+  "name_map_file": ""
+}

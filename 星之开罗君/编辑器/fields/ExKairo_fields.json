@@ -1,0 +1,284 @@
+{
+  "fields": [
+    {
+      "offset": "0x8",
+      "type": "int",
+      "name": "ID_",
+      "display": "ID",
+      "hidden": false
+    },
+    {
+      "offset": "0xC",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x10",
+      "type": "int",
+      "name": "imgID_",
+      "display": "图片ID",
+      "hidden": false
+    },
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "fuelDefTank_",
+      "display": "初始燃料",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "type": "int",
+      "name": "fuelDefMaxTank_",
+      "display": "燃料最大值",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "string",
+      "name": "explain_",
+      "display": "描述",
+      "hidden": true
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "action_",
+      "display": "技能",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "actDefMinNum_",
+      "display": "技能数值min",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "actDefMaxNum_",
+      "display": "技能数值max",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "lvMax_",
+      "display": "等级上限",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "effVerUpLv_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "type": "sbyte",
+      "name": "firstMoveFlag_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "callCost_",
+      "display": "召唤花费",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "lvupRate_",
+      "display": "",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "type": "sbyte",
+      "name": "findFlag_",
+      "display": "发现标志",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "num_",
+      "display": "数量",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "fuelMaxTank_",
+      "display": "燃料上限",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "exp_",
+      "display": "经验值",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "actNum_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x54",
+      "type": "sbyte",
+      "name": "newFlag_",
+      "display": "新获得标志",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "x_",
+      "display": "X坐标",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "y_",
+      "display": "Y坐标",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "seb_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "frame_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "nextTurn_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x6C",
+      "type": "int",
+      "name": "actFrame_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "fuelNowTank_",
+      "display": "当前燃料",
+      "hidden": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "chargeCount_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x78",
+      "type": "string",
+      "name": "telopStr_",
+      "display": "字幕",
+      "hidden": true
+    },
+    {
+      "offset": "0x7C",
+      "type": "int",
+      "name": "drawOffset_",
+      "display": "绘制偏移",
+      "hidden": true
+    },
+    {
+      "offset": "0x80",
+      "type": "Vector",
+      "name": "script_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x84",
+      "type": "int",
+      "name": "drillStep_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x88",
+      "type": "int",
+      "name": "drillAttackNum_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x8C",
+      "type": "int",
+      "name": "drillAttackLine_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x90",
+      "type": "int",
+      "name": "drillCombo_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x94",
+      "type": "int",
+      "name": "drillAllAttack_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x98",
+      "type": "int",
+      "name": "drillAttackWait_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0x9C",
+      "type": "int",
+      "name": "dAttStep_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xA0",
+      "type": "int",
+      "name": "dAttackNum_",
+      "display": "",
+      "hidden": true
+    },
+    {
+      "offset": "0xA4",
+      "type": "int[]",
+      "name": "dAttackCount_",
+      "display": "",
+      "hidden": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": ["0x10ADD68", "0x5C", "0x4", "0x94"],
+  "mode": "array",
+  "category": {
+    "field": "type_",
+    "names": {
+      "1": "农作物", "4": "销售品", "5": "捕获机器", "6": "道具"
+    }
+  },
+  "id_field": "ID_",
+  "fields_file": "Item_fields.json",
+  "name_map_file": "Item_names.json"
+}
