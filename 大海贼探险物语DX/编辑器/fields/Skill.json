@@ -1,0 +1,112 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "id_",
+      "display": "ID",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "flag_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10",
+      "type": "bool",
+      "name": "read_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x14",
+      "type": "string",
+      "name": "name_",
+      "display": "技能名称",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x18",
+      "type": "int",
+      "name": "type_",
+      "display": "技能类型",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x1C",
+      "type": "int",
+      "name": "useSP_",
+      "display": "消耗SP",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "cost_",
+      "display": "cost",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "moveRatio_",
+      "display": "发动比例",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "value_",
+      "display": "效果数值",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "iconU_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "iconV_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x34",
+      "type": "string",
+      "name": "explain_",
+      "display": "技能说明",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    }
+  ]
+}

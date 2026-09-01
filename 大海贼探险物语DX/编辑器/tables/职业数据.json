@@ -1,0 +1,18 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [ "0x1228B0C", "0x5C", "0x10", "0x100" ],
+  "mode": "array",
+  "category": {
+    "field": "rankGroup_",
+    "names": {
+      "0": "0",
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4"
+    }
+  },
+  "id_field": "name_",
+  "fields_file": "Job.json"
+}

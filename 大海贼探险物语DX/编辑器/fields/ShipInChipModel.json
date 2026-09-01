@@ -1,0 +1,409 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "id_",
+      "display": "ID",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "flag_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10",
+      "type": "bool",
+      "name": "read_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x14",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x18",
+      "type": "int",
+      "name": "sortID_",
+      "display": "排序ID",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x1C",
+      "type": "int",
+      "name": "menuPos_",
+      "display": "菜单位置",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x24",
+      "type": "sbyte",
+      "name": "visitNone_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x25",
+      "type": "sbyte",
+      "name": "selectNone_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x26",
+      "type": "sbyte",
+      "name": "buildNone_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "kairoPoint_",
+      "display": "开罗点数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "sizeW_",
+      "display": "W",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "sizeH_",
+      "display": "H",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "seb_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x38",
+      "type": "sbyte",
+      "name": "noAnime_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x3C",
+      "type": "int[][]",
+      "name": "visitMotion_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x40",
+      "type": "string",
+      "name": "explain_",
+      "display": "说明",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "firstGet_",
+      "display": "初始拥有数量",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "noNumLimit_",
+      "display": "有数量限制",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x4C",
+      "type": "ExInt",
+      "name": "buildCost_",
+      "display": "建造费用",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "buildTime_",
+      "display": "建造时间",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "paramType_",
+      "display": "属性类型",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "paramValue_",
+      "display": "属性值",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "costType_",
+      "display": "利用（物资/钱）",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "costValue_",
+      "display": "利用值",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x64",
+      "type": "int[][]",
+      "name": "areaEffect_",
+      "display": "周边效果",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x68",
+      "type": "int[]",
+      "name": "exEffect_",
+      "display": "额外效果",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x6C",
+      "type": "int",
+      "name": "getKnowTime_",
+      "display": "获得知识时间",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x70",
+      "type": "int[]",
+      "name": "getKnow_",
+      "display": "获得知识列表",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "harvestTime_",
+      "display": "收获时间",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x78",
+      "type": "int[]",
+      "name": "harvestNum_",
+      "display": "收获数量",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x7C",
+      "type": "int",
+      "name": "workPow_",
+      "display": "workPow",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x80",
+      "type": "sbyte",
+      "name": "healWorkPowFlag_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x84",
+      "type": "int",
+      "name": "bedRoomType_",
+      "display": "卧室类型",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x88",
+      "type": "int[][]",
+      "name": "visitPoint_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x8C",
+      "type": "int[][]",
+      "name": "nodePoint_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x90",
+      "type": "int[][]",
+      "name": "optPoint_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x94",
+      "type": "sbyte",
+      "name": "new_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x95",
+      "type": "sbyte",
+      "name": "find_",
+      "display": "未发现",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x98",
+      "type": "ExInt",
+      "name": "num_",
+      "display": "数量",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x9C",
+      "type": "ExInt",
+      "name": "lv_",
+      "display": "等级",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xA0",
+      "type": "ExInt",
+      "name": "exp_",
+      "display": "经验",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xA4",
+      "type": "sbyte",
+      "name": "rebuild_",
+      "display": "重建标志",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xA8",
+      "type": "int",
+      "name": "shopType_",
+      "display": "商店类型",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xAC",
+      "type": "sbyte",
+      "name": "workFlag_",
+      "display": "工作标志",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    }
+  ]
+}

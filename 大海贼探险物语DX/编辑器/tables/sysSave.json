@@ -1,0 +1,8 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [ "0x1228B0C", "0x5C", "0x10", "0xB8" ],
+  "mode": "single",
+  "id_field": "",
+  "fields_file": "syssaveProperty.json"
+}

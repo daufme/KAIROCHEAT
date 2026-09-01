@@ -1,0 +1,95 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x8",
+      "type": "byte[][]",
+      "name": "bins",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x0C",
+      "type": "Property[]",
+      "name": "pros",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10",
+      "type": "int[]",
+      "name": "ints",
+      "display": "整数",
+      "hidden": false,
+      "function": null,
+      "index_labels": [
+        "INIT",
+        "YEAR",
+        "MONTH",
+        "SEC",
+        "CURSOR_X",
+        "CURSOR_Y",
+        "画面设定",
+        "GAME_SPEED",
+        "ENDING",
+        "HUMAN_COUNT",
+        "存档版本",
+        "TIMEZONE_EFFECT",
+        "FIRSTNAME_SEED",
+        "LASTNAME_SEED",
+        "BUILD_ASSIST",
+        "",
+        "QUEST_EXP",
+        "游戏时间（秒）",
+        "LOGIN_FOLLOW",
+        "ADD_SAVE_DATA",
+        "",
+        "",
+        "",
+        "应援OFF",
+        "任务次数",
+        "JAVA_TO_UNITY",
+        "CHEER_ADD_LOAD",
+        "FREE_BATTLE_PREV_ID",
+        "FREE_BATTLE_LOSE_STREAK",
+        "奖牌商店A次数",
+        "奖牌商店A冷却",
+        "奖牌商店B次数",
+        "奖牌商店B冷却",
+        "奖牌商店C次数",
+        "奖牌商店C冷却",
+        "奖牌商店D次数",
+        "奖牌商店D冷却",
+        "奖牌商店E次数",
+        "奖牌商店E冷却"
+      ]
+    },
+    {
+      "offset": "0x14",
+      "type": "long[]",
+      "name": "lngs",
+      "display": "长整数",
+      "hidden": false,
+      "function": null,
+      "index_labels": [
+        "钱",
+        "FAILURE_TIME"
+      ]
+    },
+    {
+      "offset": "0x18",
+      "type": "string[]",
+      "name": "strs",
+      "display": "字符串",
+      "hidden": false,
+      "function": null,
+      "index_labels": [
+        "名称",
+        "NOTIFY_BONUS"
+      ]
+    }
+  ]
+}

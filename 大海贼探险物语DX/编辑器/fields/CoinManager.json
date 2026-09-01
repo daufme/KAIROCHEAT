@@ -1,0 +1,58 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "List<CoinSet>",
+      "name": "conList_",
+      "display": "奖牌",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x0C",
+      "type": "SecureInt",
+      "name": "COIN_MAX",
+      "display": "最大奖牌数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10",
+      "type": "SecureInt",
+      "name": "EXPIRE_DAYS",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x14",
+      "type": "SecureInt",
+      "name": "LOG_MAX",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x18",
+      "type": "List<PaymentDataRecord>",
+      "name": "paymentBuffer_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x1C",
+      "type": "List<CoinLogRecord>",
+      "name": "log_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    }
+  ]
+}

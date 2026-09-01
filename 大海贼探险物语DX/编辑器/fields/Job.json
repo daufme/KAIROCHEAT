@@ -1,0 +1,272 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "id_",
+      "display": "ID",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "flag_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10",
+      "type": "bool",
+      "name": "read_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x14",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x18",
+      "type": "int",
+      "name": "rankGroup_",
+      "display": "等级组",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x1C",
+      "type": "sbyte",
+      "name": "firstFind_",
+      "display": "firstFind",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x20",
+      "type": "int[][]",
+      "name": "imgList_",
+      "display": "图像列表",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "sampleWeapon_",
+      "display": "示例武器ID",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x28",
+      "type": "int[][]",
+      "name": "jobChange_",
+      "display": "转职条件",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "masterNum_",
+      "display": "需要精通数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "medalNum_",
+      "display": "需要奖牌数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "class_",
+      "display": "class",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "actSpeed_",
+      "display": "行动速度",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "getExp_",
+      "display": "获得经验值",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x40",
+      "type": "int[][]",
+      "name": "dropItem_",
+      "display": "掉落物品",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "workCountMax_",
+      "display": "workCountMax",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x48",
+      "type": "int[][]",
+      "name": "param_",
+      "display": "属性",
+      "hidden": false,
+      "function": null,
+      "index_labels": [
+        "HP",
+        "SP",
+        "攻",
+        "守",
+        "速",
+        "智"
+      ]
+    },
+    {
+      "offset": "0x4C",
+      "type": "sbyte[]",
+      "name": "weight_",
+      "display": "重量数组",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x50",
+      "type": "sbyte[]",
+      "name": "weaponAffinity_",
+      "display": "武器亲和度",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "skill_",
+      "display": "技能ID",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "masterLv_",
+      "display": "满级",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x5C",
+      "type": "int[]",
+      "name": "masterBonus_",
+      "display": "精通奖励属性",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x60",
+      "type": "string",
+      "name": "explain_",
+      "display": "说明",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "bedRoom_",
+      "display": "卧室ID",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x68",
+      "type": "sbyte[]",
+      "name": "exFlag_",
+      "display": "exFlag",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x6C",
+      "type": "int[]",
+      "name": "goodChips_",
+      "display": "goodChips",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x70",
+      "type": "sbyte",
+      "name": "find_",
+      "display": "未发现",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x71",
+      "type": "sbyte",
+      "name": "new_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x72",
+      "type": "sbyte",
+      "name": "newDelete_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+	"fields": [
+		{
+			"offset": "0x08",
+			"type": "int",
+			"name": "id_",
+			"display": "ID",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x0C",
+			"type": "int",
+			"name": "flag_",
+			"display": "",
+			"hidden": true,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x10",
+			"type": "bool",
+			"name": "read_",
+			"display": "",
+			"hidden": true,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x14",
+			"type": "sbyte",
+			"name": "find_",
+			"display": "未发现",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x15",
+			"type": "sbyte",
+			"name": "new_",
+			"display": "",
+			"hidden": true,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x18",
+			"type": "ExInt",
+			"name": "num_",
+			"display": "数量",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x1C",
+			"type": "sbyte",
+			"name": "newDelete_",
+			"display": "",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		}
+	]
+}

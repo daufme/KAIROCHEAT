@@ -1,0 +1,39 @@
+{
+	"fields": [
+		{
+			"offset": "0x08",
+			"name": "dicePow_",
+			"type": "int[]",
+			"display": "骰子点数数组",
+			"hidden": false
+		},
+		{
+			"offset": "0x0C",
+			"name": "sheet_",
+			"type": "Vector<object[]>",
+			"display": "格子数据",
+			"hidden": true
+		},
+		{
+			"offset": "0x10",
+			"name": "goal_",
+			"type": "object",
+			"display": "终点信息",
+			"hidden": true
+		},
+		{
+			"offset": "0x14",
+			"name": "level_",
+			"type": "int",
+			"display": "等级",
+			"hidden": false
+		},
+		{
+			"offset": "0x18",
+			"name": "pos_",
+			"type": "int",
+			"display": "当前位置",
+			"hidden": false
+		}
+	]
+}

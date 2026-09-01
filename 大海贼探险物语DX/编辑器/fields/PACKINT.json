@@ -1,0 +1,10 @@
+{
+  "fields": [
+    {
+      "offset": "0x10",
+      "type": "int",
+      "name": "id",
+      "display": "id"
+    }
+  ]
+}

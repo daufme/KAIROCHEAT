@@ -1,0 +1,957 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int[]",
+      "name": "lotteryList_",
+      "display": "神签列表",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "lotteryStep_",
+      "display": "抽奖中",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10",
+      "type": "int",
+      "name": "lotteryIndex_",
+      "display": "抽奖索引",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x14",
+      "type": "Vector<Cheer>",
+      "name": "cheerCommand_",
+      "display": "应援指令",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x18",
+      "type": "Vector<Character>",
+      "name": "takeCrews_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x1C",
+      "type": "NetBattleManager",
+      "name": "netManager_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x20",
+      "type": "ExLong",
+      "name": "serverUnixTime_",
+      "display": "服务器Unix时间",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x24",
+      "type": "ExLong",
+      "name": "appliUnixTime_",
+      "display": "应用Unix时间",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x28",
+      "type": "ExLong",
+      "name": "refreshUnixTime_",
+      "display": "刷新Unix时间",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x2C",
+      "type": "string",
+      "name": "saveName_",
+      "display": "存档名称",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x30",
+      "type": "string",
+      "name": "humanName_",
+      "display": "玩家名称",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x34",
+      "type": "Vector<DelayEvent>",
+      "name": "delayEventStock_",
+      "display": "延迟事件库存",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x38",
+      "type": "ExLong",
+      "name": "money_",
+      "display": "钱",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x3C",
+      "type": "ExLong[]",
+      "name": "stamina_",
+      "display": "等级数据",
+      "hidden": false,
+      "function": null,
+      "index_labels": [
+        "等级",
+        "经验",
+        "当前体力",
+        "恢复倒计时",
+        "额外体力上限"
+      ]
+    },
+    {
+      "offset": "0x40",
+      "type": "long[][][]",
+      "name": "moneyTable_",
+      "display": "moneyTable",
+      "hidden": true,
+      "function": null,
+      "index_labels": [
+        "GUEST",
+        "RUNNING",
+        "OTHER"
+      ]
+    },
+    {
+      "offset": "0x44",
+      "type": "ExInt[]",
+      "name": "researchPoint_",
+      "display": "资源",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x48",
+      "type": "ExInt",
+      "name": "medalBank_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x4C",
+      "type": "Vector<long[]>",
+      "name": "medalHistory_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x50",
+      "type": "ExByte[]",
+      "name": "eventFlag_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x54",
+      "type": "ExInt",
+      "name": "battleForceLineNum_",
+      "display": "战斗列数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "playTime_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "destroyTeam_",
+      "display": "destroyTeam",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x60",
+      "type": "WorldVehicle",
+      "name": "currentShip_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x64",
+      "type": "int",
+      "name": "cursorX_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "cursorY_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x6C",
+      "type": "int",
+      "name": "shipStorey_",
+      "display": "船层",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x70",
+      "type": "Vector<Ship>",
+      "name": "ships_",
+      "display": "船只列表",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x74",
+      "type": "Vector",
+      "name": "force_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x78",
+      "type": "int",
+      "name": "crewState_",
+      "display": "船员状态",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x7C",
+      "type": "Vector<BattleGroup>[]",
+      "name": "battleGroup_",
+      "display": "战斗组",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x80",
+      "type": "Vector<Bullet>",
+      "name": "bullet_",
+      "display": "子弹列表",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x84",
+      "type": "Vector",
+      "name": "effect_",
+      "display": "效果列表",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x88",
+      "type": "Vector<DropItem>",
+      "name": "dropItems_",
+      "display": "掉落物品列表",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x8C",
+      "type": "int",
+      "name": "countryIndex_",
+      "display": "国家索引",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x90",
+      "type": "Wharf",
+      "name": "wharf_",
+      "display": "wharf",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x94",
+      "type": "Vector<int[]>",
+      "name": "searchForceIndex_",
+      "display": "探险部队",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x98",
+      "type": "int",
+      "name": "searchAreaIndex_",
+      "display": "探索区域索引",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x9C",
+      "type": "int",
+      "name": "searchState_",
+      "display": "搜索状态",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xA0",
+      "type": "SearchCourse",
+      "name": "searchCourse_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xA4",
+      "type": "Vector<object[]>",
+      "name": "reserveCasket_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xA8",
+      "type": "LandMap",
+      "name": "landMap_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xAC",
+      "type": "ExInt",
+      "name": "upperEnemyCountNow_",
+      "display": "当前上层敌人数量",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xB0",
+      "type": "ExInt",
+      "name": "upperEnemyCountMax_",
+      "display": "最大上层敌人数量",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xB4",
+      "type": "ExLong",
+      "name": "upperEnemyTime_",
+      "display": "上层敌人时间",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xB8",
+      "type": "Vector",
+      "name": "upperEnemys_",
+      "display": "上层敌人列表",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xBC",
+      "type": "ExInt",
+      "name": "warehouseMax_",
+      "display": "仓库最大容量",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xC0",
+      "type": "ExInt",
+      "name": "prizonCrewMax_",
+      "display": "监狱船员最大数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xC4",
+      "type": "Vector",
+      "name": "analyzeTelop_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xC8",
+      "type": "int",
+      "name": "analyzeTelopCount_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xCC",
+      "type": "Vector",
+      "name": "logAnalyzeResult_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xD0",
+      "type": "Vector",
+      "name": "logBattleInfo_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xD4",
+      "type": "int",
+      "name": "enemyDownAllNum_",
+      "display": "总击倒敌人数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xD8",
+      "type": "ExInt",
+      "name": "shipAddSpeed_",
+      "display": "额外船速",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xDC",
+      "type": "ExInt[]",
+      "name": "paramAdd_",
+      "display": "属性加成",
+      "hidden": false,
+      "function": null,
+      "index_labels": [
+        "HP",
+        "SP",
+        "攻",
+        "守",
+        "速",
+        "智"
+      ]
+    },
+    {
+      "offset": "0xE0",
+      "type": "ExInt",
+      "name": "resourcesAdd_",
+      "display": "额外物资上限",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xE4",
+      "type": "ExInt",
+      "name": "shipExtensionNum_",
+      "display": "船扩展数",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xE8",
+      "type": "ExInt",
+      "name": "shipExtensionReserveNum_",
+      "display": "船剩余扩展数",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xEC",
+      "type": "ExLong",
+      "name": "loginTime_",
+      "display": "登录时间",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xF0",
+      "type": "ExInt",
+      "name": "loginDays_",
+      "display": "登录天数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xF4",
+      "type": "sbyte",
+      "name": "loginAddBonus_",
+      "display": "登录额外奖励",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xF8",
+      "type": "ExInt",
+      "name": "highSpeedTime_",
+      "display": "高速时间",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0xFC",
+      "type": "ExByte",
+      "name": "highSpeedEnable_",
+      "display": "关闭高速",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x100",
+      "type": "ExInt",
+      "name": "whistleTime_",
+      "display": "魔笛时间",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x104",
+      "type": "ExByte",
+      "name": "whistleEnable_",
+      "display": "关闭魔笛",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x108",
+      "type": "ExInt",
+      "name": "itemMaxAddNum_",
+      "display": "额外物品数上限",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10C",
+      "type": "float",
+      "name": "sailingMoveLengthNow_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x110",
+      "type": "float",
+      "name": "sailingMoveLengthMax_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x114",
+      "type": "int",
+      "name": "sailingWindowState_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x118",
+      "type": "int",
+      "name": "sailingWindowFrame_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x11C",
+      "type": "int",
+      "name": "sailingWindowWidth_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x120",
+      "type": "int[]",
+      "name": "wharfShopLv_",
+      "display": "wharfShopLv",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x124",
+      "type": "ExInt",
+      "name": "worldPow_",
+      "display": "势力（+）",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x128",
+      "type": "ExInt",
+      "name": "baseSizeUpReserveNum_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x12C",
+      "type": "sbyte",
+      "name": "allWorkEnable_",
+      "display": "全员行动号令",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x130",
+      "type": "int",
+      "name": "allWorkFlag_",
+      "display": "全员行动标志",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x134",
+      "type": "Vector<object[]>",
+      "name": "eventStack_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x138",
+      "type": "Dice",
+      "name": "dice_",
+      "display": "骰子",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x13C",
+      "type": "ExInt",
+      "name": "sugorokuPlayNum_",
+      "display": "双六游玩次数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x140",
+      "type": "ExInt",
+      "name": "sugorokuSetNum_",
+      "display": "双六设置数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x144",
+      "type": "ExLong",
+      "name": "sugorokuLastTime_",
+      "display": "双六最后时间",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x148",
+      "type": "ExInt",
+      "name": "kairoPoint_",
+      "display": "开罗点数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x14C",
+      "type": "Vector<Monster[]>",
+      "name": "farmMonsters_",
+      "display": "宠物牧场怪物列表",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x150",
+      "type": "ExInt",
+      "name": "farmMaxSize_",
+      "display": "宠物牧场容量",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x154",
+      "type": "ExInt",
+      "name": "smithCountExp_",
+      "display": "锻造计数经验",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x158",
+      "type": "SurveyCourse",
+      "name": "surveyCourse_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x15C",
+      "type": "int[]",
+      "name": "corsorTmp_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x160",
+      "type": "int[]",
+      "name": "mapIndexOf_tmp",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x164",
+      "type": "bool",
+      "name": "vitalityDown_",
+      "display": "活力",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x168",
+      "type": "Vector",
+      "name": "paramUpEffect_",
+      "display": "参数上升效果",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x16C",
+      "type": "ResourceManager",
+      "name": "resSail_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x170",
+      "type": "int",
+      "name": "oldRatio_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x174",
+      "type": "bool",
+      "name": "getServerTime_",
+      "display": "获取服务器时间",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x175",
+      "type": "bool",
+      "name": "isRefresh_",
+      "display": "刷新",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x178",
+      "type": "int",
+      "name": "getActiveCampaignOldDay_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x17C",
+      "type": "Vector<Campaign>",
+      "name": "getActiveCampaignTmp_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x180",
+      "type": "bool",
+      "name": "suspend_",
+      "display": "暂停",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x184",
+      "type": "int",
+      "name": "coinCheckTime_",
+      "display": "coinCheckTime",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x188",
+      "type": "long",
+      "name": "realTime_",
+      "display": "realTime",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x190",
+      "type": "Vector<WeeklyBonus>",
+      "name": "weeklyBonusList_",
+      "display": "每周奖励列表",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x194",
+      "type": "int",
+      "name": "weeklyBonusOldDay_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x198",
+      "type": "object",
+      "name": "UpdateRealTimeData_lock",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x19C",
+      "type": "Vector",
+      "name": "loadFinalCrew_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x1A0",
+      "type": "SubForm",
+      "name": "eventDialog_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x1A4",
+      "type": "DeckFighter",
+      "name": "deckFighterTmp_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    }
+  ]
+}

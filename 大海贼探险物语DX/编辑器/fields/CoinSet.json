@@ -1,0 +1,11 @@
+{
+  "fields": [
+    {
+      "offset": "0x10",
+      "name": "Num",
+      "type": "SecureInt",
+      "display": "数量",
+      "hidden": false
+    }
+  ]
+}

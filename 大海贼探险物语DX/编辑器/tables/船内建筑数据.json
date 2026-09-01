@@ -1,0 +1,16 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [ "0x1228B0C", "0x5C", "0x10", "0xE8" ],
+  "mode": "array",
+  "category": {
+    "field": "menuPos_",
+    "names": {
+      "0": "设备",
+      "1": "建筑",
+      "2": "环境"
+    }
+  },
+  "id_field": "name_",
+  "fields_file": "ShipInChipModel.json"
+}

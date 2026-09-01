@@ -1,0 +1,8 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [ "0x1228B0C", "0x5C", "0x10", "0xF4" ],
+  "mode": "array",
+  "id_field": "name_",
+  "fields_file": "EnemyModel.json"
+}

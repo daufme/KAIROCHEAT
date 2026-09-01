@@ -1,0 +1,171 @@
+{
+	"fields": [
+		{
+			"offset": "0x08",
+			"type": "int",
+			"name": "type_",
+			"display": "类型",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x0C",
+			"type": "int",
+			"name": "modelID_",
+			"display": "模型ID",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x10",
+			"type": "string",
+			"name": "name_",
+			"display": "名字",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x14",
+			"type": "int",
+			"name": "lv_",
+			"display": "等级",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x18",
+			"type": "int",
+			"name": "exp_",
+			"display": "经验",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x1C",
+			"type": "int[]",
+			"name": "addParam_",
+			"display": "额外属性",
+			"hidden": false,
+			"function": null,
+			"index_labels": [
+				"HP",
+				"SP",
+				"攻",
+				"守",
+				"速",
+				"智"
+			]
+		},
+		{
+			"offset": "0x20",
+			"type": "int",
+			"name": "battleHP_",
+			"display": "战斗HP",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x24",
+			"type": "int",
+			"name": "battleSP_",
+			"display": "战斗SP",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x28",
+			"type": "int",
+			"name": "battleAura_",
+			"display": "光环",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x2C",
+			"type": "int",
+			"name": "workPow_",
+			"display": "工作力",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x34",
+			"type": "int",
+			"name": "racialLv_",
+			"display": "才能",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x40",
+			"type": "int[]",
+			"name": "netBattleAddParam_",
+			"display": "",
+			"hidden": true,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x44",
+			"type": "int[][]",
+			"name": "param_",
+			"display": "属性",
+			"hidden": false,
+			"function": null,
+			"index_labels": [
+				"HP",
+				"SP",
+				"攻",
+				"守",
+				"速",
+				"智"
+			]
+		},
+		{
+			"offset": "0x48",
+			"type": "int",
+			"name": "evolutionCount_",
+			"display": "进化次数",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x4C",
+			"type": "sbyte",
+			"name": "finalEvoFlag_",
+			"display": "未觉醒",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x4D",
+			"type": "sbyte",
+			"name": "nightmareFlag_",
+			"display": "非噩梦",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x50",
+			"type": "Skill[]",
+			"name": "GetSkillListTmp_",
+			"display": "",
+			"hidden": true,
+			"function": null,
+			"index_labels": []
+		}
+	]
+}

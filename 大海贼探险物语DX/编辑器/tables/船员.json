@@ -1,0 +1,15 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [ "0x1228B0C", "0x5C", "0x10", "0x18C", "0x10", "0x8", "0x8" ],
+  "mode": "array",
+  "category": {
+    "field": "type_",
+    "names": {
+      "0": "船员",
+      "1": "怪物（别在这里改）"
+    }
+  },
+  "id_field": "name_",
+  "fields_file": "Human-Character.json"
+}

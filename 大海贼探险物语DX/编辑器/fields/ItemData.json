@@ -1,0 +1,263 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "id_",
+      "display": "ID",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "flag_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10",
+      "type": "bool",
+      "name": "read_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x14",
+      "type": "sbyte",
+      "name": "find_",
+      "display": "未发现",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x15",
+      "type": "sbyte",
+      "name": "new_",
+      "display": "新获得",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x18",
+      "type": "ExInt",
+      "name": "num_",
+      "display": "数量",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x1C",
+      "type": "sbyte",
+      "name": "newDelete_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x20",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "firstGet_",
+      "display": "初始数量",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "sortID_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "iconU_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "iconV_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "smithType_",
+      "display": "锻造类型",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "smithValue_",
+      "display": "锻造值",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "type_",
+      "display": "物品类型",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "birthJobID_",
+      "display": "职业ID",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "allType_",
+      "display": "全体效果类型",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "allValue_",
+      "display": "全体效果值",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "shopLv_",
+      "display": "商店等级需求",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x50",
+      "type": "ExInt",
+      "name": "shopPrice_",
+      "display": "商店价格",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "effectLimit_",
+      "display": "效果限制",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x58",
+      "type": "int[]",
+      "name": "addExp_",
+      "display": "增加经验值",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x5C",
+      "type": "int[][]",
+      "name": "addParam_",
+      "display": "增加参数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x60",
+      "type": "string",
+      "name": "explain_",
+      "display": "说明",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x64",
+      "type": "int[]",
+      "name": "eggColor_",
+      "display": "蛋颜色",
+      "hidden": false,
+      "function": null,
+      "index_labels": [
+        "绿",
+        "红",
+        "蓝",
+        "紫",
+        "黄",
+        "黑"
+      ]
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "eggHatchingTime_",
+      "display": "蛋孵化时间",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x6C",
+      "type": "int[][]",
+      "name": "changeScript_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x70",
+      "type": "int",
+      "name": "difficulty_",
+      "display": "difficulty",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    }
+  ]
+}

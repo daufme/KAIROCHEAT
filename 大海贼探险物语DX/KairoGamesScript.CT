@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="52">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>29</ID>
+      <Description>"No description"</Description>
+      <LastState Value="9460301" RealAddress="66530000"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>GameAssembly.dll</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"脚本"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>28</ID>
+          <Description>"解锁全图鉴"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+alloc(code,1024)
+code:
+mov eax,[GameAssembly.dll+1228B0C]
+mov eax,[eax+5C]
+mov eax,[eax+10]
+mov eax,[eax+F4]
+mov edi,[eax+0C]
+loop:
+mov ebx,[eax+10]
+
+mov byte ptr [ebx+58],1
+
+add eax,4
+dec edi
+jne loop
+ret
+
+createthread(code)
+
+[DISABLE]
+dealloc(code)
+
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

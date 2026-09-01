@@ -1,0 +1,151 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x14",
+      "name": "firstEquip_",
+      "type": "sbyte",
+      "display": "初始装备",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "name": "name_",
+      "type": "string",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x1C",
+      "name": "effectName_",
+      "type": "string",
+      "display": "效果名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "name": "nameColor_",
+      "type": "int",
+      "display": "名称颜色",
+      "hidden": false
+    },
+    {
+      "offset": "0x24",
+      "name": "type_",
+      "type": "int",
+      "display": "类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x28",
+      "name": "explain_",
+      "type": "string",
+      "display": "说明",
+      "hidden": false
+    },
+    {
+      "offset": "0x2C",
+      "name": "lvUpTypes_",
+      "type": "int",
+      "display": "升级类型",
+      "hidden": false
+    },
+    {
+      "offset": "0x30",
+      "name": "costDef_",
+      "type": "int",
+      "display": "消耗默认值",
+      "hidden": false
+    },
+    {
+      "offset": "0x34",
+      "name": "costMax_",
+      "type": "int",
+      "display": "消耗最大值",
+      "hidden": false
+    },
+    {
+      "offset": "0x38",
+      "name": "costMul_",
+      "type": "int",
+      "display": "消耗倍数",
+      "hidden": false
+    },
+    {
+      "offset": "0x3C",
+      "name": "speedDef_",
+      "type": "int",
+      "display": "速度默认值",
+      "hidden": false
+    },
+    {
+      "offset": "0x40",
+      "name": "speedMax_",
+      "type": "int",
+      "display": "速度最大值",
+      "hidden": false
+    },
+    {
+      "offset": "0x44",
+      "name": "speedMul_",
+      "type": "int",
+      "display": "速度倍数",
+      "hidden": false
+    },
+    {
+      "offset": "0x48",
+      "name": "effectDef_",
+      "type": "int",
+      "display": "效果默认值",
+      "hidden": false
+    },
+    {
+      "offset": "0x4C",
+      "name": "effectMax_",
+      "type": "int",
+      "display": "效果最大值",
+      "hidden": false
+    },
+    {
+      "offset": "0x50",
+      "name": "effectMul_",
+      "type": "int",
+      "display": "效果倍数",
+      "hidden": false
+    },
+    {
+      "offset": "0x54",
+      "name": "costLv_",
+      "type": "int",
+      "display": "消耗等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x58",
+      "name": "speedLv_",
+      "type": "int",
+      "display": "速度等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x5C",
+      "name": "effectLv_",
+      "type": "int",
+      "display": "效果等级",
+      "hidden": false
+    },
+    {
+      "offset": "0x60",
+      "name": "lvUpItems_",
+      "type": "int[][]",
+      "display": "升级物品列表",
+      "hidden": false
+    },
+    {
+      "offset": "0x64",
+      "name": "new_",
+      "type": "sbyte",
+      "display": "",
+      "hidden": true
+    }
+  ]
+}

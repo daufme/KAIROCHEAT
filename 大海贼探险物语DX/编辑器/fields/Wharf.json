@@ -1,0 +1,25 @@
+{
+	"fields": [
+		{
+			"offset": "0x7C",
+			"name": "wharfMap_",
+			"type": "WharfMap",
+			"display": "wharfMap",
+			"hidden": true
+		},
+		{
+			"offset": "0x80",
+			"name": "cityIndex_",
+			"type": "int",
+			"display": "城市索引",
+			"hidden": false
+		},
+		{
+			"offset": "0x84",
+			"name": "fullDraw_",
+			"type": "bool",
+			"display": "fullDraw",
+			"hidden": true
+		}
+	]
+}

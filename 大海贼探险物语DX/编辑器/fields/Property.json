@@ -1,0 +1,49 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x0C",
+      "type": "byte[][]",
+      "name": "bins",
+      "display": "",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x0C",
+      "type": "Property[]",
+      "name": "pros",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10",
+      "type": "int[]",
+      "name": "ints",
+      "display": "整数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x14",
+      "type": "long[]",
+      "name": "lngs",
+      "display": "长整数",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x18",
+      "type": "string[]",
+      "name": "strs",
+      "display": "字符串",
+      "hidden": false,
+      "function": null,
+      "index_labels": []
+    }
+  ]
+}

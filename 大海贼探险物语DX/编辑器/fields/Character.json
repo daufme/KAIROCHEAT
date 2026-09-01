@@ -1,0 +1,286 @@
+{
+	"fields": [
+		{
+			"offset": "0x08",
+			"type": "int",
+			"name": "type_",
+			"display": "类型",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x0C",
+			"type": "int",
+			"name": "modelID_",
+			"display": "modelID",
+			"hidden": true,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x10",
+			"type": "string",
+			"name": "name_",
+			"display": "名字",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x14",
+			"type": "int",
+			"name": "lv_",
+			"display": "等级",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x18",
+			"type": "int",
+			"name": "exp_",
+			"display": "经验",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x1C",
+			"type": "int[]",
+			"name": "addParam_",
+			"display": "额外属性",
+			"hidden": false,
+			"function": null,
+			"index_labels": [
+				"HP",
+				"SP",
+				"攻",
+				"守",
+				"速",
+				"智"
+			]
+		},
+		{
+			"offset": "0x20",
+			"type": "int",
+			"name": "battleHP_",
+			"display": "战斗HP",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x24",
+			"type": "int",
+			"name": "battleSP_",
+			"display": "战斗SP",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x28",
+			"type": "int",
+			"name": "battleAura_",
+			"display": "战斗光环",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x2C",
+			"type": "int",
+			"name": "workPow_",
+			"display": "workPow",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x30",
+			"type": "Human",
+			"name": "human_",
+			"display": "",
+			"hidden": true,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x34",
+			"type": "int",
+			"name": "racialLv_",
+			"display": "才能",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x38",
+			"type": "int[]",
+			"name": "knowExp_",
+			"display": "知识经验",
+			"hidden": false,
+			"function": null,
+			"index_labels": [
+				"近",
+				"远",
+				"海",
+				"探",
+				"工",
+				"勇",
+				"秘"
+			]
+		},
+		{
+			"offset": "0x3C",
+			"type": "int[]",
+			"name": "knowLv_",
+			"display": "知识等级",
+			"hidden": false,
+			"function": null,
+			"index_labels": [
+				"近",
+				"远",
+				"海",
+				"探",
+				"工",
+				"勇",
+				"秘"
+			]
+		},
+		{
+			"offset": "0x40",
+			"type": "int[]",
+			"name": "netBattleAddParam_",
+			"display": "",
+			"hidden": true,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x44",
+			"type": "int",
+			"name": "jobID_",
+			"display": "职业ID",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x48",
+			"type": "int",
+			"name": "birthJobID_",
+			"display": "初始职业ID",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x4C",
+			"type": "int",
+			"name": "gender_",
+			"display": "性别",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x50",
+			"type": "Vector<PACKINT>",
+			"name": "skill_",
+			"display": "技能列表",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x54",
+			"type": "int[]",
+			"name": "equip_",
+			"display": "装备列表",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x58",
+			"type": "int[]",
+			"name": "param_",
+			"display": "属性",
+			"hidden": false,
+			"function": null,
+			"index_labels": [
+				"HP",
+				"SP",
+				"攻",
+				"守",
+				"速",
+				"智"
+			]
+		},
+		{
+			"offset": "0x5C",
+			"type": "Vector<PACKINT>",
+			"name": "learnSkill_",
+			"display": "学习技能",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x60",
+			"type": "Vector<PACKINT>",
+			"name": "masterJob_",
+			"display": "精通职业",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x64",
+			"type": "int",
+			"name": "assistSkillID_",
+			"display": "辅助技能ID",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x68",
+			"type": "int[][]",
+			"name": "netEquip_",
+			"display": "",
+			"hidden": true,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x6C",
+			"type": "string",
+			"name": "netBattleTeamName_",
+			"display": "",
+			"hidden": true,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x70",
+			"type": "sbyte",
+			"name": "isNetBattler_",
+			"display": "",
+			"hidden": true,
+			"function": null,
+			"index_labels": []
+		},
+		{
+			"offset": "0x74",
+			"type": "int",
+			"name": "jobMasterAllCount_",
+			"display": "全职业精通计数",
+			"hidden": false,
+			"function": null,
+			"index_labels": []
+		}
+	]
+}
