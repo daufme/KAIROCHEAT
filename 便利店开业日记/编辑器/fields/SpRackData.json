@@ -1,0 +1,84 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x8",
+      "type": "int",
+      "name": "id_",
+      "display": "ID",
+      "hidden": false,
+      "function": null,
+      "index_labels": [],
+      "bit_edit": false
+    },
+    {
+      "offset": "0x10",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false,
+      "function": null,
+      "index_labels": [],
+      "bit_edit": false
+    },
+    {
+      "offset": "0x14",
+      "type": "int[]",
+      "name": "productId_",
+      "display": "商品ID",
+      "hidden": false,
+      "function": null,
+      "index_labels": [],
+      "bit_edit": false
+    },
+    {
+      "offset": "0x18",
+      "type": "int[]",
+      "name": "typeId_",
+      "display": "类型ID",
+      "hidden": false,
+      "function": null,
+      "index_labels": [],
+      "bit_edit": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "int[]",
+      "name": "subTypeId_",
+      "display": "子类型ID",
+      "hidden": false,
+      "function": null,
+      "index_labels": [],
+      "bit_edit": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "quality_",
+      "display": "品质",
+      "hidden": false,
+      "function": null,
+      "index_labels": [],
+      "bit_edit": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "charm_",
+      "display": "魅力",
+      "hidden": true,
+      "function": null,
+      "index_labels": [],
+      "bit_edit": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "income_",
+      "display": "售价",
+      "hidden": false,
+      "function": null,
+      "index_labels": [],
+      "bit_edit": false
+    }
+  ]
+}

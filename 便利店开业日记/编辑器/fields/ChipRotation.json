@@ -1,0 +1,18 @@
+{
+  "fields": [
+    {
+      "offset": "0x8",
+      "type": "int[]",
+      "name": "_Frames_",
+      "display": "旋转帧序列",
+      "hidden": false
+    },
+    {
+      "offset": "0xC",
+      "type": "int",
+      "name": "_Priority_",
+      "display": "旋转优先级",
+      "hidden": false
+    }
+  ]
+}

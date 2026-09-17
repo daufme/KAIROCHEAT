@@ -1,0 +1,99 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x0C",
+      "type": "XProperty[]",
+      "name": "pros",
+      "display": "子属性",
+      "hidden": true,
+      "function": null,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10",
+      "type": "XInt[]",
+      "name": "ints",
+      "display": "整数属性",
+      "hidden": false,
+      "function": null,
+      "index_labels": [
+        "Rank",
+        "年",
+        "月",
+        "周",
+        "日",
+        "时间",
+        "CursorX",
+        "CursorY",
+        "Flag",
+        "对话角色",
+        "存档版本",
+        "人流累计",
+        "ParamHealth",
+        "ParamFulness",
+        "ParamGorgeous",
+        "ParamFolower",
+        "SelectShopCount",
+        "SelectCapitalCount",
+        "SelectTripCount",
+        "SelectSleepCount",
+        "EvFlag",
+        "StFlag",
+        "小时",
+        "目的地",
+        "当前地图ID",
+        "停止记录最高分",
+        "商品开发中",
+        "ProductDevelopSuccess 商品开发成功",
+        "HitnamingSuccess",
+        "废弃率下降",
+        "春季废弃数",
+        "夏季废弃数",
+        "秋季废弃数",
+        "冬季废弃数",
+        "最佳季排名",
+        "自动补货追加数",
+        "当前进货模式",
+        "需求提升计数",
+        "周目",
+        "比赛胜场",
+        "FrameToRankUp",
+        "CleanMiniGameRemainingNum",
+        "清洁小游戏已解锁",
+        "累计清洁度",
+        "清洁记录次数"
+      ]
+    },
+    {
+      "offset": "0x14",
+      "type": "XLong[]",
+      "name": "lngs",
+      "display": "长整数属性",
+      "hidden": false,
+      "function": null,
+      "index_labels": [
+        "BuildingUid",
+        "钱",
+        "灯泡",
+        "奖牌",
+        "Knowledge",
+        "分数",
+        "Medal",
+        "Incomes",
+        "Expenses",
+        "游戏内经过时间"
+      ]
+    },
+    {
+      "offset": "0x18",
+      "type": "XString[]",
+      "name": "strs",
+      "display": "字符串属性",
+      "hidden": false,
+      "function": null,
+      "index_labels": [
+        "存档名"
+      ]
+    }
+  ]
+}

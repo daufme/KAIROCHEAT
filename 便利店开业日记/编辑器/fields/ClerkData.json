@@ -1,0 +1,529 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "id_",
+      "display": "店员ID",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "flag_",
+      "display": "标志位",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "已初始化",
+        "签约中",
+        "夜班",
+        "早班",
+        "中班",
+        "晚班"
+      ],
+      "key_labels": {},
+      "bit_edit": true
+    },
+    {
+      "offset": "0x10",
+      "type": "int",
+      "name": "lv_",
+      "display": "等级",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "cl_exp_",
+      "display": "当前经验",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x18",
+      "type": "int",
+      "name": "cl_totalExp_",
+      "display": "累计经验",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "int",
+      "name": "bonusPoint_",
+      "display": "奖励点数",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int[]",
+      "name": "task_priority_ary_",
+      "display": "任务优先度",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "第1",
+        "第2",
+        "第3",
+        "第4",
+        "第5",
+        "第6",
+        "第7",
+        "第8",
+        "第9",
+        "第10"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "routineAddlv_",
+      "display": "例行加成-等级",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "routineAddExp_",
+      "display": "例行加成-经验",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int[]",
+      "name": "preLvUpAddParam_",
+      "display": "升级前待加参数",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "体力",
+        "干劲",
+        "开发力)",
+        "工资"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x30",
+      "type": "string",
+      "name": "nickName_",
+      "display": "昵称",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "cl_stamina_",
+      "display": "体力",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "cl_will_",
+      "display": "干劲",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "cl_develop_",
+      "display": "开发力",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "cl_salary_",
+      "display": "工资",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "flag2_",
+      "display": "标志位2",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "参加竞赛",
+        "签约中",
+        "已初始化等级参数",
+        "正在解雇",
+        "竞赛获胜",
+        "已改名"
+      ],
+      "key_labels": {},
+      "bit_edit": true
+    },
+    {
+      "offset": "0x48",
+      "type": "int[]",
+      "name": "bonusParam_",
+      "display": "加成参数",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "体力",
+        "干劲",
+        "开发力",
+        "工资"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "string",
+      "name": "name_",
+      "display": "姓名",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int",
+      "name": "goodWeather_",
+      "display": "得意天气",
+      "hidden": false,
+      "function": null,
+      "enum": {
+        "0": "晴 (WEATHER_SUNNY)",
+        "1": "阴 (WEATHER_CLOUD)",
+        "2": "雨 (WEATHER_RAIN)",
+        "3": "雪 (WEATHER_SNOW)",
+        "4": "无/全部 (代码无此常量)"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x84",
+      "type": "int",
+      "name": "contract_",
+      "display": "契约金",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x50",
+      "type": "string",
+      "name": "resHead_",
+      "display": "头像资源名",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "imgHead_",
+      "display": "头像编号",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x58",
+      "type": "string",
+      "name": "resBody_",
+      "display": "身体资源名",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "imgBody_",
+      "display": "身体编号",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "type_",
+      "display": "店员类型ID (ClerkTypeData 0-3)",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int[]",
+      "name": "aptitude_",
+      "display": "资质 [3 槽]",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "资质1",
+        "资质2",
+        "资质3"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int[]",
+      "name": "initLevelUpParameter_",
+      "display": "初始升级参数 [3 项]",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int[]",
+      "name": "stamina_",
+      "display": "体力成长表 [初始/上限]",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "初始",
+        "上限"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int[]",
+      "name": "will_",
+      "display": "干劲成长表 [初始/上限]",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "初始",
+        "上限"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x78",
+      "type": "int[]",
+      "name": "develop_",
+      "display": "开发力成长表 [初始/上限]",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "初始",
+        "上限"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x7C",
+      "type": "int[]",
+      "name": "aura_",
+      "display": "光环参数 [2 项]",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x80",
+      "type": "int[]",
+      "name": "salary_",
+      "display": "工资成长表 [初始/上限]",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "初始",
+        "上限"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x88",
+      "type": "int",
+      "name": "require_exp_base_",
+      "display": "升级所需经验-基数",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x8C",
+      "type": "int",
+      "name": "require_exp_add_",
+      "display": "升级所需经验-增量",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x90",
+      "type": "int[]",
+      "name": "lvUpCost_",
+      "display": "升级费用 [2 项]",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x94",
+      "type": "int",
+      "name": "bonus_param_",
+      "display": "加成参数类型",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x98",
+      "type": "int",
+      "name": "appear_lv_",
+      "display": "出现等级 (-1=?)",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x9C",
+      "type": "int",
+      "name": "company_",
+      "display": "公司 (-1=未用)",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0xA0",
+      "type": "int",
+      "name": "hire_task_",
+      "display": "招聘任务 (-1=未用)",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    }
+  ]
+}

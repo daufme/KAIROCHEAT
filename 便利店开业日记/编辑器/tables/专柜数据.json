@@ -1,0 +1,8 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [ "0x157F950", "0x5C", "0x0", "0xA4" ],
+  "mode": "array",
+  "id_field": "name_",
+  "fields_file": "SpRackData.json"
+}

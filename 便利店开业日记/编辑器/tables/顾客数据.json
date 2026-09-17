@@ -1,0 +1,20 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [ "0x157F950", "0x5C", "0x0", "0x68" ],
+  "mode": "array",
+  "category": {
+    "field": "area_",
+    "names": {
+      "0": "祥和的村庄",
+      "1": "静谧湖畔的小镇",
+      "2": "邻接国道的小镇",
+      "3": "安稳的住宅街",
+      "4": "繁华街",
+      "5": "有办公楼的街道",
+      "6": "华丽的旅游街"
+    }
+  },
+  "id_field": "name_",
+  "fields_file": "CustomerData.json"
+}

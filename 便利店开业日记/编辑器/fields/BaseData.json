@@ -1,0 +1,46 @@
+{
+  "fields": [
+    {
+      "offset": "0x8",
+      "name": "_id_",
+      "type": "int",
+      "display": "ID",
+      "hidden": false
+    },
+    {
+      "offset": "0xC",
+      "name": "_sort_",
+      "type": "int",
+      "display": "排序",
+      "hidden": false
+    },
+    {
+      "offset": "0x10",
+      "name": "_name_",
+      "type": "string",
+      "display": "名称",
+      "hidden": false
+    },
+    {
+      "offset": "0x18",
+      "name": "_flag_",
+      "type": "long",
+      "display": "标志",
+      "hidden": false
+    },
+    {
+      "offset": "0x20",
+      "name": "_new_",
+      "type": "bool",
+      "display": "新标记",
+      "hidden": false
+    },
+    {
+      "offset": "0x21",
+      "name": "_read_",
+      "type": "bool",
+      "display": "已读标记",
+      "hidden": false
+    }
+  ]
+}
