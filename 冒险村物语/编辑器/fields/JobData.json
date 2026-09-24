@@ -1,0 +1,368 @@
+﻿{
+  "_说明": {
+    "类": "data.JobData : BaseData（IL2CPP dump 见 class/dump.cs）",
+    "来源": "字段偏移/类型取自 dump.cs 的非 static 非 const 实例字段（含基类 BaseData）；display 依据字段名与类内常量，enum/index_labels 取自类内常量与游戏自带的名称表，并结合运行时真实数据核对。",
+    "AppData字段": "AppData+0x114"
+  },
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "id_",
+      "display": "ID",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "flag_",
+      "display": "标志位",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "初始化",
+        "魔法系",
+        "冒险系",
+        "商人",
+        "厨师",
+        "战士",
+        "弓手",
+        "魔法师",
+        "国王"
+      ],
+      "key_labels": {},
+      "bit_edit": true
+    },
+    {
+      "offset": "0x10",
+      "type": "int",
+      "name": "state_",
+      "display": "状态",
+      "hidden": false,
+      "function": null,
+      "enum": {
+        "0": "未发现",
+        "1": "已发现"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "stateCnt_",
+      "display": "状态计数",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x18",
+      "type": "bool",
+      "name": "new_",
+      "display": "新发现",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "string",
+      "name": "name_",
+      "display": "职业名",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "older_",
+      "display": "排序",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int[]",
+      "name": "imgId_",
+      "display": "图像ID",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "男",
+        "女"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "genderType_",
+      "display": "性别限制",
+      "hidden": false,
+      "function": null,
+      "enum": {
+        "-1": "不限",
+        "0": "男",
+        "1": "女"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "battleType_",
+      "display": "战斗类型",
+      "hidden": false,
+      "function": null,
+      "enum": {
+        "0": "剑士",
+        "1": "魔法师",
+        "2": "武僧",
+        "3": "弓手",
+        "4": "国王"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "presentType_",
+      "display": "赠礼适性",
+      "hidden": false,
+      "function": null,
+      "enum": {
+        "0": "战士系",
+        "1": "魔法系",
+        "2": "弓系",
+        "3": "商人艺人系",
+        "4": "王族系",
+        "5": "通用"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "jobBonusType_",
+      "display": "职业加成类型",
+      "hidden": false,
+      "function": null,
+      "enum": {
+        "0": "商人",
+        "1": "厨师",
+        "2": "战士",
+        "3": "弓手",
+        "4": "魔法师",
+        "5": "国王",
+        "6": "小丑",
+        "7": "其他(泛用)",
+        "8": "农民",
+        "9": "木匠"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int[]",
+      "name": "bp_xlsMax_",
+      "display": "满级加成",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "体力",
+        "力量",
+        "灵巧",
+        "耐力",
+        "魔力",
+        "幸运"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int[]",
+      "name": "bp_xlsRate_",
+      "display": "能力成长率（%）",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "体力",
+        "力量",
+        "灵巧",
+        "耐力",
+        "魔力",
+        "幸运"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int[]",
+      "name": "salary_",
+      "display": "工资",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "下限",
+        "上限"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int[]",
+      "name": "tenantUseDifficult_",
+      "display": "设施使用难度",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "下限",
+        "上限"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "jobChangeCost_",
+      "display": "转职费用",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "jobChangeMedalNum_",
+      "display": "转职勋章数",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int[]",
+      "name": "presentItemType_",
+      "display": "上架商品配置",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "masterBonusType_",
+      "display": "大师加成类型",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int",
+      "name": "masterBonusValue_",
+      "display": "大师加成值",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "int",
+      "name": "lvUpDifficult_",
+      "display": "升级难度",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int",
+      "name": "lvUpBPRoot_",
+      "display": "主成长能力",
+      "hidden": false,
+      "function": null,
+      "enum": {
+        "0": "体力",
+        "1": "力量",
+        "2": "灵巧",
+        "3": "耐力",
+        "4": "魔力",
+        "5": "幸运"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x64",
+      "type": "string",
+      "name": "jobBonusExplain_",
+      "display": "加成说明",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    }
+  ]
+}

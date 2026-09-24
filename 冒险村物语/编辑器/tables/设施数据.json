@@ -1,0 +1,35 @@
+﻿{
+  "_说明": {
+    "类": "data.TenantData : BaseData",
+    "字段文件": "TenantData.json（相对 编辑器/fields/）",
+    "指针链": "AppData 类元数据(模块+0x10F1FFC) → 静态字段区 +0x5C → instance_ +0x0 → AppData+0x108 的 TenantData[]",
+    "mode": "array = 末级地址是 IL2CPP 数组（长度在 +0x0C，元素指针从 +0x10 起）"
+  },
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [
+    "0x10F1FFC",
+    "0x5C",
+    "0x0",
+    "0x108"
+  ],
+  "mode": "array",
+  "fields_file": "TenantData.json",
+  "category": {
+    "field": "role_",
+    "names": {
+      "0": "物件",
+      "1": "一般设施",
+      "2": "旅馆",
+      "3": "回家",
+      "4": "城外",
+      "5": "迷宫",
+      "6": "机关",
+      "7": "道具收集场",
+      "8": "堡垒",
+      "9": "自家",
+      "10": "居民"
+    }
+  },
+  "id_field": "name_"
+}

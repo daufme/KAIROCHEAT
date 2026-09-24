@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable UsesMono="1" CheatEngineTableVersion="52">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>GameAssembly.dll</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"提高目标帧率（加速）"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//   游戏逻辑按帧推进（没有游戏代码用 deltaTime），实际帧率涨多少，游戏就快多少。
+//   20  = 原速，30 = 1.5 倍
+define(RENDER_FPS,600)
+
+"GameAssembly.dll"+2ADD15:
+  dd RENDER_FPS
+
+[DISABLE]
+"GameAssembly.dll"+2ADD15:
+  dd 20
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

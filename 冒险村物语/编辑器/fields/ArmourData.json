@@ -1,0 +1,199 @@
+﻿{
+  "_说明": {
+    "类": "data.ArmourData : BaseData（IL2CPP dump 见 class/dump.cs）",
+    "来源": "字段偏移/类型取自 dump.cs 的非 static 非 const 实例字段（含基类 BaseData）；display 依据字段名与类内常量，enum/index_labels 取自类内常量与游戏自带的名称表，并结合运行时真实数据核对。",
+    "AppData字段": "AppData+0x128"
+  },
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "id_",
+      "display": "ID",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "flag_",
+      "display": "标志位",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "初始化",
+        "任务获得"
+      ],
+      "key_labels": {},
+      "bit_edit": true
+    },
+    {
+      "offset": "0x10",
+      "type": "int",
+      "name": "state_",
+      "display": "状态",
+      "hidden": false,
+      "function": null,
+      "enum": {
+        "0": "未发现",
+        "1": "已发现"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "stateCnt_",
+      "display": "状态计数",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x18",
+      "type": "bool",
+      "name": "new_",
+      "display": "新发现",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "type_",
+      "display": "部位",
+      "hidden": false,
+      "function": null,
+      "enum": {
+        "0": "头盔",
+        "1": "盾",
+        "2": "铠甲"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "icon_",
+      "display": "图标",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "rankQuest_",
+      "display": "装备档次",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "price_",
+      "display": "价格",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int[]",
+      "name": "eq_param_",
+      "display": "装备参数",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "HP",
+        "攻击",
+        "防御",
+        "魔法"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "presentType_",
+      "display": "赠礼适性",
+      "hidden": false,
+      "function": null,
+      "enum": {
+        "0": "战士系",
+        "1": "魔法系",
+        "2": "弓系",
+        "3": "商人艺人系",
+        "4": "王族系",
+        "5": "通用"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int",
+      "name": "older_",
+      "display": "排序",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int",
+      "name": "haveNum_",
+      "display": "持有数",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+﻿{
+  "_说明": {
+    "类": "data.PopularBonus : BaseData",
+    "字段文件": "PopularBonus.json（相对 编辑器/fields/）",
+    "指针链": "AppData 类元数据(模块+0x10F1FFC) → 静态字段区 +0x5C → instance_ +0x0 → AppData+0x134 的 PopularBonus[]",
+    "mode": "array = 末级地址是 IL2CPP 数组（长度在 +0x0C，元素指针从 +0x10 起）",
+    "id_field": "列表里显示 termValue_（所需人气值），比 id 直观"
+  },
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [
+    "0x10F1FFC",
+    "0x5C",
+    "0x0",
+    "0x134"
+  ],
+  "mode": "array",
+  "fields_file": "PopularBonus.json",
+  "id_field": "termValue_"
+}

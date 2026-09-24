@@ -1,0 +1,146 @@
+﻿{
+  "_说明": {
+    "类": "data.MagicPotRecipe : BaseData（IL2CPP dump 见 class/dump.cs）",
+    "来源": "字段偏移/类型取自 dump.cs 的非 static 非 const 实例字段（含基类 BaseData）；display 依据字段名与类内常量，enum/index_labels 取自类内常量与游戏自带的名称表，并结合运行时真实数据核对。",
+    "AppData字段": "AppData+0x13C"
+  },
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "id_",
+      "display": "ID",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "flag_",
+      "display": "标志位",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "初始化",
+        "已获得配方"
+      ],
+      "key_labels": {},
+      "bit_edit": true
+    },
+    {
+      "offset": "0x10",
+      "type": "int",
+      "name": "state_",
+      "display": "状态",
+      "hidden": false,
+      "function": null,
+      "enum": {
+        "0": "未发现",
+        "1": "已发现"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "stateCnt_",
+      "display": "状态计数",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x18",
+      "type": "bool",
+      "name": "new_",
+      "display": "新发现",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "string",
+      "name": "name_",
+      "display": "名称",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "objType_",
+      "display": "产出类型",
+      "hidden": false,
+      "function": null,
+      "enum": {
+        "0": "道具",
+        "1": "武器",
+        "2": "防具",
+        "3": "饰品",
+        "4": "设施"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "objDataId_",
+      "display": "产出对象ID",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int[]",
+      "name": "mpotParam_",
+      "display": "配方所需魔力",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "火",
+        "冰",
+        "雷",
+        "回复"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "mpotKnowLedge_",
+      "display": "所需知识点数",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "_说明": {
+    "类": "game.UserData（当前存档的运行时状态：人气/城镇点数/等级/月份/事件标志…）",
+    "字段文件": "UserData.json（相对 编辑器/fields/）",
+    "指针链": "UserData 类元数据(模块+0x10E7104) → 静态字段区 +0x5C → instance +0x4",
+    "等价链": "AppData 静态字段 udat_：模块+0x10F1FFC → +0x5C → +0x8（实测同一个对象）",
+    "mode": "single = 末级地址就是对象本身（不是数组）",
+    "实测": "人气(townPopuarPoint_)=75500、城镇点数=999、城镇等级=5、奖牌=252、经过月份=1234、设施 33 家、进行中任务 8 个"
+  },
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [
+    "0x10E7104",
+    "0x5C",
+    "0x4"
+  ],
+  "mode": "single",
+  "fields_file": "UserData.json"
+}

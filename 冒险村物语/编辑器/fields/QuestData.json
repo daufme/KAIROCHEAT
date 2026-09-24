@@ -1,0 +1,321 @@
+﻿{
+  "_说明": {
+    "类": "data.QuestData : BaseData（IL2CPP dump 见 class/dump.cs）",
+    "来源": "字段偏移/类型取自 dump.cs 的非 static 非 const 实例字段（含基类 BaseData）；display 依据字段名与类内常量，enum/index_labels 取自类内常量与游戏自带的名称表，并结合运行时真实数据核对。",
+    "AppData字段": "AppData+0x138",
+    "脚本枚举": "脚本字段的每行是 [指令号, 参数...]。指令号那一格由字段的 ui 规则 {\"at\": [\"*\", 0], \"enum\": {...}} 提供下拉；参数格不受影响，仍是可输入的输入框。termsScript_ 每行是 [取反, 条件类型, 下限, 上限]，规则配在下标 1。下拉里没列出的值会显示成 <数字>。"
+  },
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "id_",
+      "display": "ID",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "flag_",
+      "display": "标志位",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "初始化",
+        "BOSS任务",
+        "大量怪物",
+        "稀有迷宫"
+      ],
+      "key_labels": {},
+      "bit_edit": true
+    },
+    {
+      "offset": "0x10",
+      "type": "int",
+      "name": "state_",
+      "display": "状态",
+      "hidden": false,
+      "function": null,
+      "enum": {
+        "0": "未发现",
+        "1": "已发现"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "stateCnt_",
+      "display": "状态计数",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x18",
+      "type": "bool",
+      "name": "new_",
+      "display": "新发现",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "string",
+      "name": "name_",
+      "display": "任务名",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x20",
+      "type": "string",
+      "name": "nameDiscover_",
+      "display": "发现后名称",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": false,
+      "function": null,
+      "enum": {
+        "0": "迷宫探索",
+        "1": "怪物讨伐"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int",
+      "name": "dungeonSearchBack_",
+      "display": "迷宫背景",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "appearRank_",
+      "display": "出现所需城镇等级",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "cost_",
+      "display": "费用",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int[]",
+      "name": "dungeon_tenantData_",
+      "display": "迷宫设施ID列表",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int[]",
+      "name": "dungeon_treasureNum_",
+      "display": "宝箱等级范围",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "下限",
+        "上限"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int[]",
+      "name": "monster_zakoData_",
+      "display": "杂兵怪物ID列表",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int",
+      "name": "monster_bossData_",
+      "display": "BOSS怪物ID",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int",
+      "name": "monster_num_",
+      "display": "怪物数量",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int[][]",
+      "name": "execsScript_",
+      "display": "执行脚本",
+      "hidden": false,
+      "ui": [
+        {
+          "at": [
+            "*",
+            0
+          ],
+          "enum": {
+            "0": "加钱",
+            "1": "调事件",
+            "2": "对话",
+            "3": "角色对话",
+            "4": "新闻",
+            "5": "事件消息",
+            "6": "延时",
+            "7": "停顿",
+            "8": "置位标志",
+            "9": "清位标志",
+            "10": "迷宫选择",
+            "11": "BOSS出现",
+            "12": "主角登场",
+            "13": "首战演出",
+            "14": "首迷宫",
+            "15": "勋章仪式",
+            "16": "城镇升级",
+            "17": "活动通用",
+            "18": "全员满意",
+            "19": "广告",
+            "20": "获得设施",
+            "21": "角色登场",
+            "22": "结算人气",
+            "23": "增加人气",
+            "24": "谢礼-设施",
+            "25": "谢礼-武器",
+            "26": "谢礼-防具",
+            "27": "谢礼-饰品",
+            "28": "谢礼-道具",
+            "29": "勋章+1",
+            "30": "奖励-移设",
+            "31": "奖励-职业",
+            "32": "奖励-勋章",
+            "33": "奖励-活动",
+            "34": "奖励-设施",
+            "35": "解锁城镇点",
+            "36": "商店开店",
+            "37": "收税",
+            "38": "奖励-金钱",
+            "39": "奖励-人气",
+            "40": "设施强化"
+          }
+        }
+      ],
+      "function": null,
+      "index_labels": [
+        "第1条",
+        "第2条",
+        "第3条",
+        "第4条",
+        "第5条",
+        "第6条"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "int",
+      "name": "upTownPopular_",
+      "display": "提升人气",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "evaQuest_",
+      "display": "推荐战力",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "clearNum_",
+      "display": "通关次数",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    }
+  ]
+}

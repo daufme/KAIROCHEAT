@@ -1,0 +1,783 @@
+﻿{
+  "_说明": {
+    "类": "data.CharacterData : BaseData（IL2CPP dump 见 class/dump.cs）",
+    "来源": "字段偏移/类型取自 dump.cs 的非 static 非 const 实例字段（含基类 BaseData）；display 依据字段名与类内常量，enum/index_labels 取自类内常量与游戏自带的名称表，并结合运行时真实数据核对。",
+    "AppData字段": "AppData+0x118",
+    "脚本枚举": "脚本字段的每行是 [指令号, 参数...]。指令号那一格由字段的 ui 规则 {\"at\": [\"*\", 0], \"enum\": {...}} 提供下拉；参数格不受影响，仍是可输入的输入框。termsScript_ 每行是 [取反, 条件类型, 下限, 上限]，规则配在下标 1。下拉里没列出的值会显示成 <数字>。"
+  },
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "id_",
+      "display": "ID",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "flag_",
+      "display": "标志位",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "初始化",
+        "参加任务",
+        "首次希望自家",
+        "首位角色"
+      ],
+      "key_labels": {},
+      "bit_edit": true
+    },
+    {
+      "offset": "0x10",
+      "type": "int",
+      "name": "state_",
+      "display": "状态",
+      "hidden": false,
+      "function": null,
+      "enum": {
+        "0": "未发现",
+        "1": "已发现"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "stateCnt_",
+      "display": "状态计数",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x18",
+      "type": "bool",
+      "name": "new_",
+      "display": "新发现",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "string",
+      "name": "name_",
+      "display": "姓名",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "gender_",
+      "display": "性别",
+      "hidden": false,
+      "function": null,
+      "enum": {
+        "0": "男",
+        "1": "女"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int",
+      "name": "init_jobId_",
+      "display": "初始职业ID",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int[][]",
+      "name": "initLv_",
+      "display": "初始数据",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x2C",
+      "type": "int",
+      "name": "init_putUp_",
+      "display": "初始满意度",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x30",
+      "type": "int",
+      "name": "needMyHomeHeart_",
+      "display": "需要自家心数",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x34",
+      "type": "int",
+      "name": "needMyHomeCost_",
+      "display": "需要自家费用",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x38",
+      "type": "int[][]",
+      "name": "execsScript_",
+      "display": "执行脚本",
+      "hidden": false,
+      "ui": [
+        {
+          "at": [
+            "*",
+            0
+          ],
+          "enum": {
+            "0": "加钱",
+            "1": "调事件",
+            "2": "对话",
+            "3": "角色对话",
+            "4": "新闻",
+            "5": "事件消息",
+            "6": "延时",
+            "7": "停顿",
+            "8": "置位标志",
+            "9": "清位标志",
+            "10": "迷宫选择",
+            "11": "BOSS出现",
+            "12": "主角登场",
+            "13": "首战演出",
+            "14": "首迷宫",
+            "15": "勋章仪式",
+            "16": "城镇升级",
+            "17": "活动通用",
+            "18": "全员满意",
+            "19": "广告",
+            "20": "获得设施",
+            "21": "角色登场",
+            "22": "结算人气",
+            "23": "增加人气",
+            "24": "谢礼-设施",
+            "25": "谢礼-武器",
+            "26": "谢礼-防具",
+            "27": "谢礼-饰品",
+            "28": "谢礼-道具",
+            "29": "勋章+1",
+            "30": "奖励-移设",
+            "31": "奖励-职业",
+            "32": "奖励-勋章",
+            "33": "奖励-活动",
+            "34": "奖励-设施",
+            "35": "解锁城镇点",
+            "36": "商店开店",
+            "37": "收税",
+            "38": "奖励-金钱",
+            "39": "奖励-人气",
+            "40": "设施强化"
+          }
+        }
+      ],
+      "function": null,
+      "index_labels": [
+        "第1条",
+        "第2条",
+        "第3条",
+        "第4条",
+        "第5条",
+        "第6条"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x3C",
+      "type": "int[][]",
+      "name": "execsScriptHope_",
+      "display": "愿望脚本",
+      "hidden": false,
+      "ui": [
+        {
+          "at": [
+            "*",
+            0
+          ],
+          "enum": {
+            "0": "加钱",
+            "1": "调事件",
+            "2": "对话",
+            "3": "角色对话",
+            "4": "新闻",
+            "5": "事件消息",
+            "6": "延时",
+            "7": "停顿",
+            "8": "置位标志",
+            "9": "清位标志",
+            "10": "迷宫选择",
+            "11": "BOSS出现",
+            "12": "主角登场",
+            "13": "首战演出",
+            "14": "首迷宫",
+            "15": "勋章仪式",
+            "16": "城镇升级",
+            "17": "活动通用",
+            "18": "全员满意",
+            "19": "广告",
+            "20": "获得设施",
+            "21": "角色登场",
+            "22": "结算人气",
+            "23": "增加人气",
+            "24": "谢礼-设施",
+            "25": "谢礼-武器",
+            "26": "谢礼-防具",
+            "27": "谢礼-饰品",
+            "28": "谢礼-道具",
+            "29": "勋章+1",
+            "30": "奖励-移设",
+            "31": "奖励-职业",
+            "32": "奖励-勋章",
+            "33": "奖励-活动",
+            "34": "奖励-设施",
+            "35": "解锁城镇点",
+            "36": "商店开店",
+            "37": "收税",
+            "38": "奖励-金钱",
+            "39": "奖励-人气",
+            "40": "设施强化"
+          }
+        }
+      ],
+      "function": null,
+      "index_labels": [
+        "第1条",
+        "第2条",
+        "第3条",
+        "第4条",
+        "第5条",
+        "第6条"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x40",
+      "type": "int[]",
+      "name": "init_equipDataId_",
+      "display": "初始装备ID",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "武器",
+        "防具1",
+        "防具2",
+        "饰品"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x44",
+      "type": "int[]",
+      "name": "init_baseParam_",
+      "display": "初始基础能力",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "体力",
+        "力量",
+        "灵巧",
+        "耐力",
+        "魔力",
+        "幸运"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x48",
+      "type": "int",
+      "name": "comeBackMonth_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x4C",
+      "type": "bool[]",
+      "name": "magicLearn_",
+      "display": "学习魔法",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "火魔法",
+        "冰魔法",
+        "雷魔法",
+        "回复魔法"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x50",
+      "type": "int",
+      "name": "jobId_",
+      "display": "当前职业ID",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x54",
+      "type": "int",
+      "name": "putUp_",
+      "display": "满意度",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x58",
+      "type": "int[]",
+      "name": "equipDataId_",
+      "display": "装备ID",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "武器",
+        "防具1",
+        "防具2",
+        "饰品"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x5C",
+      "type": "int[]",
+      "name": "equipParam_",
+      "display": "装备参数（派生值）",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "HP",
+        "攻击",
+        "防御",
+        "魔法"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x60",
+      "type": "int[]",
+      "name": "baseParam_",
+      "display": "基础能力（派生值）",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "体力",
+        "力量",
+        "灵巧",
+        "耐力",
+        "魔力",
+        "幸运"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x64",
+      "type": "int[]",
+      "name": "jobAddParam_",
+      "display": "职业加成（派生值）",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "体力",
+        "力量",
+        "灵巧",
+        "耐力",
+        "魔力",
+        "幸运"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x68",
+      "type": "int[]",
+      "name": "tenantAddParam_",
+      "display": "道具加成",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "体力",
+        "力量",
+        "灵巧",
+        "耐力",
+        "魔力",
+        "幸运"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x6C",
+      "type": "int[]",
+      "name": "equipDataIdMonth_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "武器",
+        "防具1",
+        "防具2",
+        "饰品"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x70",
+      "type": "int[]",
+      "name": "year_record_",
+      "display": "年度记录",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "击倒数",
+        "城镇点数",
+        "金钱"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x74",
+      "type": "int",
+      "name": "niconicoValue_",
+      "display": "满意度",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x78",
+      "type": "int[]",
+      "name": "myHouse_",
+      "display": "自家",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "X",
+        "Y",
+        "状态",
+        "房屋等级"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x7C",
+      "type": "int",
+      "name": "medalNum_",
+      "display": "勋章数",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x80",
+      "type": "int",
+      "name": "monsterMoney_",
+      "display": "怪物掉落金钱",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x84",
+      "type": "int",
+      "name": "taxMoney_",
+      "display": "税金",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x88",
+      "type": "int",
+      "name": "quest_nockOutNum_",
+      "display": "任务击倒数",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x8C",
+      "type": "int",
+      "name": "quest_downNum_",
+      "display": "任务失败数",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x90",
+      "type": "int",
+      "name": "monsterDieExp_",
+      "display": "怪物击杀经验",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x94",
+      "type": "int",
+      "name": "monsterDieNum_",
+      "display": "怪物击杀数",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x98",
+      "type": "int",
+      "name": "exp_",
+      "display": "经验",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x9C",
+      "type": "int[]",
+      "name": "lv_",
+      "display": "各职业等级",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0xA0",
+      "type": "int",
+      "name": "stockExp_",
+      "display": "储存经验",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0xA4",
+      "type": "int",
+      "name": "stockExpCnt_",
+      "display": "储存经验计数",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0xA8",
+      "type": "bool",
+      "name": "stockExpLvUp_",
+      "display": "储存经验升级中",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0xAC",
+      "type": "bool[]",
+      "name": "magic_",
+      "display": "已掌握魔法",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "火魔法",
+        "冰魔法",
+        "雷魔法",
+        "回复魔法"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0xB0",
+      "type": "int[]",
+      "name": "jobChangeNum_",
+      "display": "各职业转职次数",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0xB4",
+      "type": "int",
+      "name": "contribute_",
+      "display": "贡献",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0xB8",
+      "type": "int",
+      "name": "questJoinCost_",
+      "display": "任务参加费",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0xBC",
+      "type": "int",
+      "name": "asEventOldParam_",
+      "display": "活动前参数",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0xC0",
+      "type": "int[][]",
+      "name": "jobAddEParam",
+      "display": "升级提升预览",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [
+        "HP",
+        "攻击",
+        "防御",
+        "魔法"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0xC4",
+      "type": "int",
+      "name": "townOutMonth_",
+      "display": "",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    }
+  ]
+}

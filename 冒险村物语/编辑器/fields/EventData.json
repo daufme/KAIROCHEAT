@@ -1,0 +1,197 @@
+﻿{
+  "_说明": {
+    "类": "data.EventData : BaseData（IL2CPP dump 见 class/dump.cs）",
+    "来源": "字段偏移/类型取自 dump.cs 的非 static 非 const 实例字段（含基类 BaseData）；display 依据字段名与类内常量，enum/index_labels 取自类内常量与游戏自带的名称表，并结合运行时真实数据核对。",
+    "AppData字段": "AppData+0x0A8",
+    "脚本枚举": "脚本字段的每行是 [指令号, 参数...]。指令号那一格由字段的 ui 规则 {\"at\": [\"*\", 0], \"enum\": {...}} 提供下拉；参数格不受影响，仍是可输入的输入框。termsScript_ 每行是 [取反, 条件类型, 下限, 上限]，规则配在下标 1。下拉里没列出的值会显示成 <数字>。"
+  },
+  "fields": [
+    {
+      "offset": "0x08",
+      "type": "int",
+      "name": "id_",
+      "display": "ID",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x0C",
+      "type": "int",
+      "name": "flag_",
+      "display": "标志位",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x10",
+      "type": "int",
+      "name": "state_",
+      "display": "状态",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x14",
+      "type": "int",
+      "name": "stateCnt_",
+      "display": "状态计数",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x18",
+      "type": "bool",
+      "name": "new_",
+      "display": "新",
+      "hidden": true,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x1C",
+      "type": "string",
+      "name": "name_",
+      "display": "事件名",
+      "hidden": false,
+      "function": null,
+      "enum": {},
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x20",
+      "type": "int",
+      "name": "type_",
+      "display": "类型",
+      "hidden": true,
+      "function": null,
+      "enum": {
+        "0": "系统事件"
+      },
+      "index_labels": [],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x24",
+      "type": "int[][]",
+      "name": "termsScript_",
+      "display": "触发条件脚本",
+      "hidden": false,
+      "ui": [
+        {
+          "at": [
+            "*",
+            1
+          ],
+          "enum": {
+            "0": "0:不触发",
+            "1": "1:金钱",
+            "2": "2:事件已发生",
+            "3": "3:年份",
+            "4": "4:月份",
+            "5": "5:周"
+          }
+        }
+      ],
+      "function": null,
+      "index_labels": [
+        "第1行",
+        "第2行",
+        "第3行",
+        "第4行"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    },
+    {
+      "offset": "0x28",
+      "type": "int[][]",
+      "name": "execsScript_",
+      "display": "执行脚本",
+      "hidden": false,
+      "ui": [
+        {
+          "at": [
+            "*",
+            0
+          ],
+          "enum": {
+            "0": "加钱",
+            "1": "调事件",
+            "2": "对话",
+            "3": "角色对话",
+            "4": "新闻",
+            "5": "事件消息",
+            "6": "延时",
+            "7": "停顿",
+            "8": "置位标志",
+            "9": "清位标志",
+            "10": "迷宫选择",
+            "11": "BOSS出现",
+            "12": "主角登场",
+            "13": "首战演出",
+            "14": "首迷宫",
+            "15": "勋章仪式",
+            "16": "城镇升级",
+            "17": "活动通用",
+            "18": "全员满意",
+            "19": "广告",
+            "20": "获得设施",
+            "21": "角色登场",
+            "22": "结算人气",
+            "23": "增加人气",
+            "24": "谢礼-设施",
+            "25": "谢礼-武器",
+            "26": "谢礼-防具",
+            "27": "谢礼-饰品",
+            "28": "谢礼-道具",
+            "29": "勋章+1",
+            "30": "奖励-移设",
+            "31": "奖励-职业",
+            "32": "奖励-勋章",
+            "33": "奖励-活动",
+            "34": "奖励-设施",
+            "35": "解锁城镇点",
+            "36": "商店开店",
+            "37": "收税",
+            "38": "奖励-金钱",
+            "39": "奖励-人气",
+            "40": "设施强化"
+          }
+        }
+      ],
+      "function": null,
+      "index_labels": [
+        "第1条",
+        "第2条",
+        "第3条",
+        "第4条",
+        "第5条",
+        "第6条"
+      ],
+      "key_labels": {},
+      "bit_edit": false
+    }
+  ]
+}

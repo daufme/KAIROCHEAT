@@ -1,0 +1,7 @@
+{
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [ "0x10F1FFC", "0x5C", "0x0", "0x44" ],
+  "mode": "single",
+  "fields_file": "saveProperty.json"
+}

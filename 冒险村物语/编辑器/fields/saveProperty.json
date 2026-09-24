@@ -1,0 +1,86 @@
+﻿{
+  "fields": [
+    {
+      "offset": "0x0C",
+      "type": "Property[]",
+      "name": "pros",
+      "display": "",
+      "hidden": true,
+      "index_labels": []
+    },
+    {
+      "offset": "0x10",
+      "type": "int[]",
+      "name": "ints",
+      "display": "整数",
+      "hidden": false,
+      "index_labels": [
+        "SAVEVER",
+        "YEAR",
+        "MONTH",
+        "WEEK",
+        "TIME",
+        "TIME_OLD",
+        "GAMESEC",
+        "CUSTOMER_INSTORE",
+        "FLAG",
+        "RIDE_TALK_CHARA",
+        "MAIN_BGM_GRADE",
+        "REPORT",
+        "QUALITY",
+        "GAME_SPEED",
+        "ENDING",
+        "SAVEDATA_VERSION"
+      ],
+      "ui": [
+        {
+          "at": [
+            8
+          ],
+          "bit_edit": true,
+          "bit_count": 16,
+          "index_labels": [
+            "位0",
+            "位1",
+            "位2",
+            "位3",
+            "位4",
+            "位5",
+            "位6",
+            "位7",
+            "位8",
+            "位9",
+            "位10",
+            "位11",
+            "位12",
+            "位13",
+            "位14",
+            "位15"
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x14",
+      "type": "long[]",
+      "name": "lngs",
+      "display": "长整数",
+      "hidden": false,
+      "index_labels": [
+        "MONEY",
+        "PR",
+        "VTR"
+      ]
+    },
+    {
+      "offset": "0x18",
+      "type": "string[]",
+      "name": "strs",
+      "display": "字符串",
+      "hidden": false,
+      "index_labels": [
+        "NAME"
+      ]
+    }
+  ]
+}

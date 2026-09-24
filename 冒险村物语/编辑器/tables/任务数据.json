@@ -1,0 +1,26 @@
+﻿{
+  "_说明": {
+    "类": "data.QuestData : BaseData",
+    "字段文件": "QuestData.json（相对 编辑器/fields/）",
+    "指针链": "AppData 类元数据(模块+0x10F1FFC) → 静态字段区 +0x5C → instance_ +0x0 → AppData+0x138 的 QuestData[]",
+    "mode": "array = 末级地址是 IL2CPP 数组（长度在 +0x0C，元素指针从 +0x10 起）"
+  },
+  "process": "KairoGames.exe",
+  "module": "GameAssembly.dll",
+  "pointer_chain": [
+    "0x10F1FFC",
+    "0x5C",
+    "0x0",
+    "0x138"
+  ],
+  "mode": "array",
+  "fields_file": "QuestData.json",
+  "category": {
+    "field": "type_",
+    "names": {
+      "0": "迷宫探索",
+      "1": "怪物讨伐"
+    }
+  },
+  "id_field": "name_"
+}
